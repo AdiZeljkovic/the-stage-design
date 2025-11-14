@@ -9,6 +9,13 @@ import Galerija from "./pages/Galerija";
 import ONama from "./pages/ONama";
 import Kontakt from "./pages/Kontakt";
 import NotFound from "./pages/NotFound";
+import Rodjendani from "./pages/services/Rodjendani";
+import Djevojacke from "./pages/services/Djevojacke";
+import BabyShower from "./pages/services/BabyShower";
+import ItalianNight from "./pages/services/ItalianNight";
+import SipPaint from "./pages/services/SipPaint";
+import Sminkanje from "./pages/services/Sminkanje";
+import Najam from "./pages/services/Najam";
 
 const queryClient = new QueryClient();
 
@@ -21,6 +28,13 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/usluge" element={<Usluge />} />
+          <Route path="/usluge/rodjendani" element={<Rodjendani />} />
+          <Route path="/usluge/djevojacke" element={<Djevojacke />} />
+          <Route path="/usluge/baby-shower" element={<BabyShower />} />
+          <Route path="/usluge/italian-night" element={<ItalianNight />} />
+          <Route path="/usluge/sip-paint" element={<SipPaint />} />
+          <Route path="/usluge/sminkanje" element={<Sminkanje />} />
+          <Route path="/usluge/najam" element={<Najam />} />
           <Route path="/galerija" element={<Galerija />} />
           <Route path="/o-nama" element={<ONama />} />
           <Route path="/kontakt" element={<Kontakt />} />

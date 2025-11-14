@@ -15,10 +15,12 @@ const Navbar = () => {
     <nav className="fixed top-0 w-full bg-warm-white shadow-soft z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo */}
-          <Link to="/" className="text-2xl font-serif font-bold text-dark-grey hover:text-gold transition-colors">
-            The Stage
+          {/* Logo - Centered */}
+          <div className="flex-1"></div>
+          <Link to="/" className="text-2xl font-serif font-bold text-dark-grey hover:text-gold transition-colors absolute left-1/2 -translate-x-1/2">
+            THE STAGE
           </Link>
+          <div className="flex-1 flex justify-end"></div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
@@ -55,17 +57,17 @@ const Navbar = () => {
                       <h3 className="font-serif text-lg font-semibold text-dark-grey mb-3">Proslave</h3>
                       <ul className="space-y-2">
                         <li>
-                          <Link to="/usluge#rodjendani" className="text-soft-grey hover:text-gold transition-colors text-sm">
+                          <Link to="/usluge/rodjendani" className="text-soft-grey hover:text-gold transition-colors text-sm">
                             Rođendani
                           </Link>
                         </li>
                         <li>
-                          <Link to="/usluge#djevojacke" className="text-soft-grey hover:text-gold transition-colors text-sm">
+                          <Link to="/usluge/djevojacke" className="text-soft-grey hover:text-gold transition-colors text-sm">
                             Djevojačke Večeri
                           </Link>
                         </li>
                         <li>
-                          <Link to="/usluge#baby-shower" className="text-soft-grey hover:text-gold transition-colors text-sm">
+                          <Link to="/usluge/baby-shower" className="text-soft-grey hover:text-gold transition-colors text-sm">
                             Baby Shower
                           </Link>
                         </li>
@@ -76,17 +78,17 @@ const Navbar = () => {
                       <h3 className="font-serif text-lg font-semibold text-dark-grey mb-3">Iskustva & Edukacija</h3>
                       <ul className="space-y-2">
                         <li>
-                          <Link to="/usluge#italian-night" className="text-soft-grey hover:text-gold transition-colors text-sm">
+                          <Link to="/usluge/italian-night" className="text-soft-grey hover:text-gold transition-colors text-sm">
                             Italian Night
                           </Link>
                         </li>
                         <li>
-                          <Link to="/usluge#sip-paint" className="text-soft-grey hover:text-gold transition-colors text-sm">
+                          <Link to="/usluge/sip-paint" className="text-soft-grey hover:text-gold transition-colors text-sm">
                             Sip and Paint
                           </Link>
                         </li>
                         <li>
-                          <Link to="/usluge#sminkanje" className="text-soft-grey hover:text-gold transition-colors text-sm">
+                          <Link to="/usluge/sminkanje" className="text-soft-grey hover:text-gold transition-colors text-sm">
                             Profesionalno Šminkanje
                           </Link>
                         </li>
@@ -97,18 +99,8 @@ const Navbar = () => {
                       <h3 className="font-serif text-lg font-semibold text-dark-grey mb-3">Biznis & Najam</h3>
                       <ul className="space-y-2">
                         <li>
-                          <Link to="/usluge#najam" className="text-soft-grey hover:text-gold transition-colors text-sm">
+                          <Link to="/usluge/najam" className="text-soft-grey hover:text-gold transition-colors text-sm">
                             Najam Prostora
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="/usluge#podcast" className="text-soft-grey hover:text-gold transition-colors text-sm">
-                            Podcast Studio
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="/usluge#foto" className="text-soft-grey hover:text-gold transition-colors text-sm">
-                            Foto Studio
                           </Link>
                         </li>
                       </ul>
