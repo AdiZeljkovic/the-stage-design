@@ -15,15 +15,15 @@ const Navbar = () => {
     <nav className="fixed top-0 w-full bg-warm-white shadow-soft z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo - Centered */}
-          <div className="flex-1"></div>
-          <Link to="/" className="text-2xl font-serif font-bold text-dark-grey hover:text-gold transition-colors absolute left-1/2 -translate-x-1/2">
-            THE STAGE
-          </Link>
-          <div className="flex-1 flex justify-end"></div>
+          {/* Left: Logo */}
+          <div className="flex-1">
+            <Link to="/" className="text-2xl font-serif font-bold text-dark-grey hover:text-gold transition-colors">
+              THE STAGE
+            </Link>
+          </div>
 
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          {/* Center: Desktop Navigation */}
+          <div className="hidden md:flex items-center space-x-8 flex-1 justify-center">
             <Link
               to="/"
               className={cn(
@@ -49,63 +49,30 @@ const Navbar = () => {
                 Usluge <ChevronDown className="w-4 h-4" />
               </button>
 
-              {/* Mega Menu */}
+              {/* Dropdown Menu */}
               {showServicesMenu && (
-                <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[600px] bg-warm-white shadow-elegant rounded-lg p-8 animate-fade-in">
-                  <div className="grid grid-cols-3 gap-8">
-                    <div>
-                      <h3 className="font-serif text-lg font-semibold text-dark-grey mb-3">Proslave</h3>
-                      <ul className="space-y-2">
-                        <li>
-                          <Link to="/usluge/rodjendani" className="text-soft-grey hover:text-gold transition-colors text-sm">
-                            Rođendani
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="/usluge/djevojacke" className="text-soft-grey hover:text-gold transition-colors text-sm">
-                            Djevojačke Večeri
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="/usluge/baby-shower" className="text-soft-grey hover:text-gold transition-colors text-sm">
-                            Baby Shower
-                          </Link>
-                        </li>
-                      </ul>
-                    </div>
-
-                    <div>
-                      <h3 className="font-serif text-lg font-semibold text-dark-grey mb-3">Iskustva & Edukacija</h3>
-                      <ul className="space-y-2">
-                        <li>
-                          <Link to="/usluge/italian-night" className="text-soft-grey hover:text-gold transition-colors text-sm">
-                            Italian Night
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="/usluge/sip-paint" className="text-soft-grey hover:text-gold transition-colors text-sm">
-                            Sip and Paint
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="/usluge/sminkanje" className="text-soft-grey hover:text-gold transition-colors text-sm">
-                            Profesionalno Šminkanje
-                          </Link>
-                        </li>
-                      </ul>
-                    </div>
-
-                    <div>
-                      <h3 className="font-serif text-lg font-semibold text-dark-grey mb-3">Biznis & Najam</h3>
-                      <ul className="space-y-2">
-                        <li>
-                          <Link to="/usluge/najam" className="text-soft-grey hover:text-gold transition-colors text-sm">
-                            Najam Prostora
-                          </Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
+                <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[280px] bg-white shadow-elegant rounded-lg py-2 animate-fade-in z-50">
+                  <Link to="/usluge/rodjendani" className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm">
+                    Rođendani
+                  </Link>
+                  <Link to="/usluge/djevojacke" className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm">
+                    Djevojačke Večeri
+                  </Link>
+                  <Link to="/usluge/baby-shower" className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm">
+                    Baby Shower
+                  </Link>
+                  <Link to="/usluge/italian-night" className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm">
+                    Italian Night
+                  </Link>
+                  <Link to="/usluge/sip-paint" className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm">
+                    Sip and Paint
+                  </Link>
+                  <Link to="/usluge/sminkanje" className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm">
+                    Profesionalno Šminkanje
+                  </Link>
+                  <Link to="/usluge/najam" className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm">
+                    Najam Prostora
+                  </Link>
                 </div>
               )}
             </div>
@@ -139,7 +106,10 @@ const Navbar = () => {
             >
               Kontakt
             </Link>
+          </div>
 
+          {/* Right: CTA Button */}
+          <div className="flex-1 flex justify-end">
             <Button asChild className="bg-gold hover:bg-gold/90 text-warm-white">
               <Link to="/kontakt">Rezervišite Termin</Link>
             </Button>
