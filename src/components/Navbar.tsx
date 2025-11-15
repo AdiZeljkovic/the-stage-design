@@ -23,11 +23,11 @@ const Navbar = () => {
           </div>
 
           {/* Center: Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8 flex-1 justify-center">
+          <div className="hidden md:flex items-center gap-6 lg:gap-8 flex-1 justify-center">
             <Link
               to="/"
               className={cn(
-                "text-dark-grey hover:text-gold transition-colors font-medium",
+                "text-dark-grey hover:text-gold transition-colors font-medium whitespace-nowrap",
                 isActive("/") && "text-gold"
               )}
             >
@@ -36,13 +36,14 @@ const Navbar = () => {
 
             {/* Services Dropdown */}
             <div
-              className="relative"
+              className="relative group"
               onMouseEnter={() => setShowServicesMenu(true)}
               onMouseLeave={() => setShowServicesMenu(false)}
             >
               <button
+                onClick={() => setShowServicesMenu(!showServicesMenu)}
                 className={cn(
-                  "flex items-center gap-1 text-dark-grey hover:text-gold transition-colors font-medium",
+                  "flex items-center gap-1 text-dark-grey hover:text-gold transition-colors font-medium whitespace-nowrap",
                   (isActive("/usluge") || location.pathname.startsWith("/usluge")) && "text-gold"
                 )}
               >
@@ -51,26 +52,58 @@ const Navbar = () => {
 
               {/* Dropdown Menu */}
               {showServicesMenu && (
-                <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[280px] bg-white shadow-elegant rounded-lg py-2 animate-fade-in z-50">
-                  <Link to="/usluge/rodjendani" className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm">
+                <div 
+                  className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[280px] bg-white shadow-elegant rounded-lg py-2 animate-fade-in z-[100]"
+                  onMouseEnter={() => setShowServicesMenu(true)}
+                  onMouseLeave={() => setShowServicesMenu(false)}
+                >
+                  <Link 
+                    to="/usluge/rodjendani" 
+                    className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm"
+                    onClick={() => setShowServicesMenu(false)}
+                  >
                     Rođendani
                   </Link>
-                  <Link to="/usluge/djevojacke" className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm">
+                  <Link 
+                    to="/usluge/djevojacke" 
+                    className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm"
+                    onClick={() => setShowServicesMenu(false)}
+                  >
                     Djevojačke Večeri
                   </Link>
-                  <Link to="/usluge/baby-shower" className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm">
+                  <Link 
+                    to="/usluge/baby-shower" 
+                    className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm"
+                    onClick={() => setShowServicesMenu(false)}
+                  >
                     Baby Shower
                   </Link>
-                  <Link to="/usluge/italian-night" className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm">
+                  <Link 
+                    to="/usluge/italian-night" 
+                    className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm"
+                    onClick={() => setShowServicesMenu(false)}
+                  >
                     Italian Night
                   </Link>
-                  <Link to="/usluge/sip-paint" className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm">
+                  <Link 
+                    to="/usluge/sip-paint" 
+                    className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm"
+                    onClick={() => setShowServicesMenu(false)}
+                  >
                     Sip and Paint
                   </Link>
-                  <Link to="/usluge/sminkanje" className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm">
+                  <Link 
+                    to="/usluge/sminkanje" 
+                    className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm"
+                    onClick={() => setShowServicesMenu(false)}
+                  >
                     Profesionalno Šminkanje
                   </Link>
-                  <Link to="/usluge/najam" className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm">
+                  <Link 
+                    to="/usluge/najam" 
+                    className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm"
+                    onClick={() => setShowServicesMenu(false)}
+                  >
                     Najam Prostora
                   </Link>
                 </div>
@@ -80,7 +113,7 @@ const Navbar = () => {
             <Link
               to="/galerija"
               className={cn(
-                "text-dark-grey hover:text-gold transition-colors font-medium",
+                "text-dark-grey hover:text-gold transition-colors font-medium whitespace-nowrap",
                 isActive("/galerija") && "text-gold"
               )}
             >
@@ -90,7 +123,7 @@ const Navbar = () => {
             <Link
               to="/o-nama"
               className={cn(
-                "text-dark-grey hover:text-gold transition-colors font-medium",
+                "text-dark-grey hover:text-gold transition-colors font-medium whitespace-nowrap",
                 isActive("/o-nama") && "text-gold"
               )}
             >
@@ -100,7 +133,7 @@ const Navbar = () => {
             <Link
               to="/kontakt"
               className={cn(
-                "text-dark-grey hover:text-gold transition-colors font-medium",
+                "text-dark-grey hover:text-gold transition-colors font-medium whitespace-nowrap",
                 isActive("/kontakt") && "text-gold"
               )}
             >
