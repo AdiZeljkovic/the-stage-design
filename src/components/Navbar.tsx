@@ -7,6 +7,7 @@ import { cn } from "@/lib/utils";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [showServicesMenu, setShowServicesMenu] = useState(false);
+  const [closeTimeout, setCloseTimeout] = useState<NodeJS.Timeout | null>(null);
   const location = useLocation();
 
   const isActive = (path: string) => location.pathname === path;
@@ -37,8 +38,14 @@ const Navbar = () => {
             {/* Services Dropdown */}
             <div
               className="relative group"
-              onMouseEnter={() => setShowServicesMenu(true)}
-              onMouseLeave={() => setShowServicesMenu(false)}
+              onMouseEnter={() => {
+                if (closeTimeout) clearTimeout(closeTimeout);
+                setShowServicesMenu(true);
+              }}
+              onMouseLeave={() => {
+                const timeout = setTimeout(() => setShowServicesMenu(false), 150);
+                setCloseTimeout(timeout);
+              }}
             >
               <button
                 onClick={() => setShowServicesMenu(!showServicesMenu)}
@@ -53,59 +60,88 @@ const Navbar = () => {
               {/* Dropdown Menu */}
               {showServicesMenu && (
                 <div 
-                  className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[280px] bg-white shadow-elegant rounded-lg py-2 animate-fade-in z-[100]"
-                  onMouseEnter={() => setShowServicesMenu(true)}
-                  onMouseLeave={() => setShowServicesMenu(false)}
+                  className="absolute top-full left-1/2 -translate-x-1/2 pt-1 z-[100]"
+                  onMouseEnter={() => {
+                    if (closeTimeout) clearTimeout(closeTimeout);
+                    setShowServicesMenu(true);
+                  }}
+                  onMouseLeave={() => {
+                    const timeout = setTimeout(() => setShowServicesMenu(false), 150);
+                    setCloseTimeout(timeout);
+                  }}
                 >
-                  <Link 
-                    to="/usluge/rodjendani" 
-                    className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm"
-                    onClick={() => setShowServicesMenu(false)}
-                  >
-                    Rođendani
-                  </Link>
-                  <Link 
-                    to="/usluge/djevojacke" 
-                    className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm"
-                    onClick={() => setShowServicesMenu(false)}
-                  >
-                    Djevojačke Večeri
-                  </Link>
-                  <Link 
-                    to="/usluge/baby-shower" 
-                    className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm"
-                    onClick={() => setShowServicesMenu(false)}
-                  >
-                    Baby Shower
-                  </Link>
-                  <Link 
-                    to="/usluge/italian-night" 
-                    className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm"
-                    onClick={() => setShowServicesMenu(false)}
-                  >
-                    Italian Night
-                  </Link>
-                  <Link 
-                    to="/usluge/sip-paint" 
-                    className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm"
-                    onClick={() => setShowServicesMenu(false)}
-                  >
-                    Sip and Paint
-                  </Link>
-                  <Link 
-                    to="/usluge/sminkanje" 
-                    className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm"
-                    onClick={() => setShowServicesMenu(false)}
-                  >
-                    Profesionalno Šminkanje
-                  </Link>
-                  <Link 
-                    to="/usluge/najam" 
-                    className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm"
-                    onClick={() => setShowServicesMenu(false)}
-                  >
-                    Najam Prostora
-                  </Link>
+                  <div className="w-[280px] bg-white shadow-elegant rounded-lg py-2 animate-fade-in">
+                    <Link 
+                      to="/usluge/rodjendani" 
+                      className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm"
+                      onClick={() => {
+                        if (closeTimeout) clearTimeout(closeTimeout);
+                        setShowServicesMenu(false);
+                      }}
+                    >
+                      Rođendani
+                    </Link>
+                    <Link 
+                      to="/usluge/djevojacke" 
+                      className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm"
+                      onClick={() => {
+                        if (closeTimeout) clearTimeout(closeTimeout);
+                        setShowServicesMenu(false);
+                      }}
+                    >
+                      Djevojačke Večeri
+                    </Link>
+                    <Link 
+                      to="/usluge/baby-shower" 
+                      className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm"
+                      onClick={() => {
+                        if (closeTimeout) clearTimeout(closeTimeout);
+                        setShowServicesMenu(false);
+                      }}
+                    >
+                      Baby Shower
+                    </Link>
+                    <Link 
+                      to="/usluge/italian-night" 
+                      className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm"
+                      onClick={() => {
+                        if (closeTimeout) clearTimeout(closeTimeout);
+                        setShowServicesMenu(false);
+                      }}
+                    >
+                      Italian Night
+                    </Link>
+                    <Link 
+                      to="/usluge/sip-paint" 
+                      className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm"
+                      onClick={() => {
+                        if (closeTimeout) clearTimeout(closeTimeout);
+                        setShowServicesMenu(false);
+                      }}
+                    >
+                      Sip and Paint
+                    </Link>
+                    <Link 
+                      to="/usluge/sminkanje" 
+                      className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm"
+                      onClick={() => {
+                        if (closeTimeout) clearTimeout(closeTimeout);
+                        setShowServicesMenu(false);
+                      }}
+                    >
+                      Profesionalno Šminkanje
+                    </Link>
+                    <Link 
+                      to="/usluge/najam" 
+                      className="block px-4 py-2 text-soft-grey hover:text-gold hover:bg-cream/30 transition-colors text-sm"
+                      onClick={() => {
+                        if (closeTimeout) clearTimeout(closeTimeout);
+                        setShowServicesMenu(false);
+                      }}
+                    >
+                      Najam Prostora
+                    </Link>
+                  </div>
                 </div>
               )}
             </div>
