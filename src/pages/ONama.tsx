@@ -22,11 +22,11 @@ const ONama = () => {
       </section>
 
       {/* Our Story */}
-      <section className="py-20 bg-warm-white">
+      <section className="py-12 sm:py-16 lg:py-20 bg-warm-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-4xl font-serif font-bold text-dark-grey mb-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center">
+            <div className="order-2 lg:order-1">
+              <h2 className="text-3xl sm:text-4xl font-serif font-bold text-dark-grey mb-4 sm:mb-6">
                 Više od Prostora. Mi smo Doživljaj.
               </h2>
               <div className="space-y-4 text-soft-grey leading-relaxed">
@@ -46,7 +46,7 @@ const ONama = () => {
               </div>
             </div>
 
-            <div className="h-96 bg-muted rounded-lg overflow-hidden shadow-elegant">
+            <div className="h-64 sm:h-80 lg:h-96 bg-muted rounded-lg overflow-hidden shadow-elegant order-1 lg:order-2">
               <div className="w-full h-full bg-gradient-to-br from-gold/20 to-gold/5 flex items-center justify-center">
                 <span className="text-soft-grey">Detalj prostora</span>
               </div>
@@ -56,9 +56,9 @@ const ONama = () => {
       </section>
 
       {/* Team Section */}
-      <section className="py-20 bg-cream">
+      <section className="py-12 sm:py-16 lg:py-20 bg-cream">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-serif font-bold text-center text-dark-grey mb-4">
+          <h2 className="text-3xl sm:text-4xl font-serif font-bold text-center text-dark-grey mb-4">
             Upoznajte Tim
           </h2>
           <p className="text-center text-soft-grey mb-16">
@@ -67,7 +67,7 @@ const ONama = () => {
 
           <div className="max-w-4xl mx-auto">
             <div className="bg-warm-white rounded-lg shadow-elegant overflow-hidden">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 p-6 sm:p-8">
                 <div className="aspect-square bg-muted rounded-lg overflow-hidden">
                   <div className="w-full h-full bg-gradient-to-br from-gold/30 to-gold/10 flex items-center justify-center">
                     <span className="text-soft-grey">Nermina Ibrulj</span>

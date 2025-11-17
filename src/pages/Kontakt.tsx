@@ -37,10 +37,10 @@ const Kontakt = () => {
 
       <div className="pt-24 pb-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 min-h-[80vh] bg-warm-white rounded-lg shadow-elegant overflow-hidden">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 bg-warm-white rounded-lg shadow-elegant overflow-hidden">
             {/* Left Side - Form */}
-            <div className="p-8 lg:p-12 flex flex-col justify-center">
-              <h1 className="text-4xl font-serif font-bold text-dark-grey mb-4">
+            <div className="p-6 sm:p-8 lg:p-12 flex flex-col justify-center">
+              <h1 className="text-3xl sm:text-4xl font-serif font-bold text-dark-grey mb-4">
                 Stupite na Scenu
               </h1>
               <p className="text-soft-grey mb-8">
@@ -141,7 +141,7 @@ const Kontakt = () => {
             </div>
 
             {/* Right Side - Map */}
-            <div className="relative min-h-[400px] lg:min-h-full bg-muted">
+            <div className="relative h-[300px] sm:h-[400px] lg:h-auto lg:min-h-full bg-muted order-first lg:order-last">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2876.4753388997635!2d18.413076315555877!3d43.856429879114334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758c8e8c36e0741%3A0x71f6f4f8c1f8e8c8!2sSarajevo!5e0!3m2!1sen!2sba!4v1234567890123!5m2!1sen!2sba"
                 width="100%"

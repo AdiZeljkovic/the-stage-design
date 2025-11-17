@@ -27,8 +27,8 @@ const Rodjendani = () => {
       {/* Main Content */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {/* Key Info Box */}
-        <div className="bg-white rounded-lg shadow-elegant p-8 mb-12 border border-gold/20">
-          <div className="grid md:grid-cols-3 gap-6 text-center">
+        <div className="bg-white rounded-lg shadow-elegant p-6 sm:p-8 mb-12 border border-gold/20">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
             <div className="flex flex-col items-center">
               <DollarSign className="w-8 h-8 text-gold mb-2" />
               <p className="text-2xl font-serif text-gold font-bold">400 KM</p>

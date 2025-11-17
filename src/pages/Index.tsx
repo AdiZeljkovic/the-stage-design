@@ -12,25 +12,29 @@ const Index = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="relative h-screen w-full">
+      <section className="relative h-screen w-full min-h-[600px]">
         <div 
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${heroBackground})` }}
+          style={{ 
+            backgroundImage: `url(${heroBackground})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center center'
+          }}
         />
         <div className="absolute inset-0 bg-dark-grey/20" />
         <div className="relative h-full flex items-center justify-center px-4 sm:px-6 lg:px-8">
           <div className="text-center animate-fadeIn max-w-3xl">
-            <h1 className="text-6xl md:text-7xl font-serif font-bold text-warm-white mb-6 drop-shadow-lg">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-warm-white mb-4 sm:mb-6 drop-shadow-lg">
               THE STAGE
             </h1>
-            <p className="text-2xl md:text-3xl text-warm-white mb-10 drop-shadow-md font-light">
+            <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-warm-white mb-8 sm:mb-10 drop-shadow-md font-light px-4">
               Vaša Scena za Nezaboravne Trenutke
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button asChild size="lg" className="bg-gold hover:bg-gold/90 text-warm-white shadow-lg">
+            <div className="flex flex-col gap-4 justify-center px-4">
+              <Button asChild size="lg" className="bg-gold hover:bg-gold/90 text-warm-white shadow-lg w-full sm:w-auto">
                 <Link to="/usluge">Pogledajte Usluge</Link>
               </Button>
-              <Button asChild size="lg" className="bg-warm-white/90 hover:bg-warm-white text-dark-grey shadow-lg">
+              <Button asChild size="lg" className="bg-warm-white/90 hover:bg-warm-white text-dark-grey shadow-lg w-full sm:w-auto">
                 <Link to="/galerija">Istražite Galeriju</Link>
               </Button>
             </div>
@@ -45,7 +49,7 @@ const Index = () => {
             Naša Ponuda
           </h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Card 1 */}
             <Card className="bg-warm-white shadow-elegant hover-scale cursor-pointer">
               <CardContent className="p-6">
