@@ -27,8 +27,8 @@ const BabyShower = () => {
       {/* Main Content */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {/* Key Info Box */}
-        <div className="bg-white rounded-lg shadow-elegant p-8 mb-12 border border-gold/20">
-          <div className="grid md:grid-cols-3 gap-6 text-center">
+        <div className="bg-white rounded-lg shadow-elegant p-6 sm:p-8 mb-12 border border-gold/20">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
             <div className="flex flex-col items-center">
               <DollarSign className="w-8 h-8 text-gold mb-2" />
               <p className="text-2xl font-serif text-gold font-bold">300 KM</p>
@@ -75,7 +75,7 @@ const BabyShower = () => {
             </ul>
           </div>
 
-          <div className="mt-12 grid md:grid-cols-2 gap-8">
+          <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
             <div className="p-6 bg-cream/50 rounded-lg">
               <h5 className="font-semibold text-dark-grey mb-3">Personalizacija</h5>
               <p className="text-soft-grey text-sm">

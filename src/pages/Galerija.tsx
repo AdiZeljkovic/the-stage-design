@@ -53,16 +53,17 @@ const Galerija = () => {
           </p>
 
           {/* Filters */}
-          <div className="flex flex-wrap justify-center gap-3 mb-12">
+          <div className="flex flex-wrap justify-center gap-2 sm:gap-3 mb-12">
             {categories.map((category) => (
               <Button
                 key={category}
                 onClick={() => setActiveFilter(category)}
                 variant={activeFilter === category ? "default" : "outline"}
+                size="sm"
                 className={
                   activeFilter === category
-                    ? "bg-gold text-warm-white hover:bg-gold/90"
-                    : "border-gold text-gold hover:bg-gold hover:text-warm-white"
+                    ? "bg-gold text-warm-white hover:bg-gold/90 text-xs sm:text-sm"
+                    : "border-gold text-gold hover:bg-gold hover:text-warm-white text-xs sm:text-sm"
                 }
               >
                 {category}
@@ -70,8 +71,8 @@ const Galerija = () => {
             ))}
           </div>
 
-          {/* Masonry Gallery */}
-          <div className="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-4">
+          {/* Masonry Gallery - Single column on mobile */}
+          <div className="columns-1 md:columns-2 lg:columns-3 xl:columns-4 gap-4">
             {filteredImages.map((image, index) => (
               <div
                 key={image.id}

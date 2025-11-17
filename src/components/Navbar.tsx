@@ -177,67 +177,139 @@ const Navbar = () => {
             </Link>
           </div>
 
-          {/* Right: CTA Button */}
-          <div className="flex-1 flex justify-end">
-            <Button asChild className="bg-gold hover:bg-gold/90 text-warm-white">
+          {/* Right: CTA and Mobile Toggle */}
+          <div className="flex items-center gap-4 flex-1 justify-end">
+            <Button asChild size="lg" className="hidden md:block bg-gold hover:bg-gold/90 text-warm-white">
               <Link to="/kontakt">Rezervišite Termin</Link>
             </Button>
+            
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="md:hidden text-dark-grey hover:text-gold transition-colors z-[60]"
+              aria-label="Toggle menu"
+            >
+              {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            </button>
           </div>
-
-          {/* Mobile menu button */}
-          <button
-            onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden text-dark-grey hover:text-gold transition-colors"
-          >
-            {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
         </div>
       </div>
 
-      {/* Mobile Navigation */}
+      {/* Mobile Navigation - Fullscreen Overlay */}
       {isOpen && (
-        <div className="md:hidden bg-warm-white border-t border-border animate-fade-in">
-          <div className="px-4 py-4 space-y-3">
-            <Link
-              to="/"
-              onClick={() => setIsOpen(false)}
-              className="block text-dark-grey hover:text-gold transition-colors font-medium"
-            >
-              Početna
-            </Link>
-            <Link
-              to="/usluge"
-              onClick={() => setIsOpen(false)}
-              className="block text-dark-grey hover:text-gold transition-colors font-medium"
-            >
-              Usluge
-            </Link>
-            <Link
-              to="/galerija"
-              onClick={() => setIsOpen(false)}
-              className="block text-dark-grey hover:text-gold transition-colors font-medium"
-            >
-              Galerija
-            </Link>
-            <Link
-              to="/o-nama"
-              onClick={() => setIsOpen(false)}
-              className="block text-dark-grey hover:text-gold transition-colors font-medium"
-            >
-              O nama
-            </Link>
-            <Link
-              to="/kontakt"
-              onClick={() => setIsOpen(false)}
-              className="block text-dark-grey hover:text-gold transition-colors font-medium"
-            >
-              Kontakt
-            </Link>
-            <Button asChild className="w-full bg-gold hover:bg-gold/90 text-warm-white">
-              <Link to="/kontakt" onClick={() => setIsOpen(false)}>
-                Rezervišite Termin
+        <div className="md:hidden fixed inset-0 top-16 bg-warm-white z-[55] animate-fade-in">
+          <div className="h-full flex flex-col">
+            {/* Navigation Links */}
+            <nav className="flex-1 px-6 py-8 space-y-2 overflow-y-auto">
+              <Link
+                to="/"
+                onClick={() => setIsOpen(false)}
+                className={cn(
+                  "block py-4 text-xl text-dark-grey hover:text-gold transition-colors font-medium border-b border-gold/10",
+                  isActive("/") && "text-gold"
+                )}
+              >
+                Početna
               </Link>
-            </Button>
+              
+              {/* Mobile Services Submenu */}
+              <div className="border-b border-gold/10">
+                <div className="py-4 text-xl text-dark-grey font-medium">Usluge</div>
+                <div className="pl-4 pb-2 space-y-1">
+                  <Link
+                    to="/usluge/rodjendani"
+                    onClick={() => setIsOpen(false)}
+                    className="block py-2 text-base text-soft-grey hover:text-gold transition-colors"
+                  >
+                    Rođendani
+                  </Link>
+                  <Link
+                    to="/usluge/djevojacke"
+                    onClick={() => setIsOpen(false)}
+                    className="block py-2 text-base text-soft-grey hover:text-gold transition-colors"
+                  >
+                    Djevojačke Večeri
+                  </Link>
+                  <Link
+                    to="/usluge/baby-shower"
+                    onClick={() => setIsOpen(false)}
+                    className="block py-2 text-base text-soft-grey hover:text-gold transition-colors"
+                  >
+                    Baby Shower
+                  </Link>
+                  <Link
+                    to="/usluge/italian-night"
+                    onClick={() => setIsOpen(false)}
+                    className="block py-2 text-base text-soft-grey hover:text-gold transition-colors"
+                  >
+                    Italian Night
+                  </Link>
+                  <Link
+                    to="/usluge/sip-paint"
+                    onClick={() => setIsOpen(false)}
+                    className="block py-2 text-base text-soft-grey hover:text-gold transition-colors"
+                  >
+                    Sip and Paint
+                  </Link>
+                  <Link
+                    to="/usluge/sminkanje"
+                    onClick={() => setIsOpen(false)}
+                    className="block py-2 text-base text-soft-grey hover:text-gold transition-colors"
+                  >
+                    Profesionalno Šminkanje
+                  </Link>
+                  <Link
+                    to="/usluge/najam"
+                    onClick={() => setIsOpen(false)}
+                    className="block py-2 text-base text-soft-grey hover:text-gold transition-colors"
+                  >
+                    Najam Prostora
+                  </Link>
+                </div>
+              </div>
+
+              <Link
+                to="/galerija"
+                onClick={() => setIsOpen(false)}
+                className={cn(
+                  "block py-4 text-xl text-dark-grey hover:text-gold transition-colors font-medium border-b border-gold/10",
+                  isActive("/galerija") && "text-gold"
+                )}
+              >
+                Galerija
+              </Link>
+              <Link
+                to="/o-nama"
+                onClick={() => setIsOpen(false)}
+                className={cn(
+                  "block py-4 text-xl text-dark-grey hover:text-gold transition-colors font-medium border-b border-gold/10",
+                  isActive("/o-nama") && "text-gold"
+                )}
+              >
+                O Nama
+              </Link>
+              <Link
+                to="/kontakt"
+                onClick={() => setIsOpen(false)}
+                className={cn(
+                  "block py-4 text-xl text-dark-grey hover:text-gold transition-colors font-medium border-b border-gold/10",
+                  isActive("/kontakt") && "text-gold"
+                )}
+              >
+                Kontakt
+              </Link>
+            </nav>
+
+            {/* CTA Button at Bottom */}
+            <div className="p-6 border-t border-gold/20 bg-cream/30">
+              <Button 
+                asChild 
+                size="lg" 
+                className="w-full bg-gold hover:bg-gold/90 text-warm-white text-lg py-6"
+                onClick={() => setIsOpen(false)}
+              >
+                <Link to="/kontakt">Rezervišite Termin</Link>
+              </Button>
+            </div>
           </div>
         </div>
       )}
