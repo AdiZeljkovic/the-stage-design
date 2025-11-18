@@ -44,7 +44,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="mt-6 pt-6 border-t border-border text-center">
-          <p className="text-soft-grey text-xs">© 2025 The Stage. Sva prava zadržana.</p>
+          <p className="text-soft-grey text-xs">Made with love by Luminor.solutions © All Rights Reserved 2025</p>
         </div>
       </div>
     </footer>
