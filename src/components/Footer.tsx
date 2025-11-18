@@ -44,7 +44,9 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="mt-6 pt-6 border-t border-border text-center">
-          <p className="text-soft-grey text-xs">Made with love by Luminor.solutions © All Rights Reserved 2025</p>
+          <p className="text-soft-grey text-xs">
+            Made with love by <a href="https://www.luminor.solutions" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors">Luminor.solutions</a> © All Rights Reserved 2025
+          </p>
         </div>
       </div>
     </footer>
