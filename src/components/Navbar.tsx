@@ -180,7 +180,7 @@ const Navbar = () => {
           {/* Right: CTA and Mobile Toggle */}
           <div className="flex items-center gap-4 flex-1 justify-end">
             <Button asChild size="lg" className="hidden md:flex items-center bg-gold hover:bg-gold/90 text-warm-white">
-              <Link to="/kontakt">Rezervišite Termin</Link>
+              <Link to="/kontakt">Rezervišite termin</Link>
             </Button>
             
             <button

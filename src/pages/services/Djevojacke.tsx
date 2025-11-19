@@ -101,7 +101,7 @@ const Djevojacke = () => {
         {/* CTA */}
         <div className="text-center">
           <Button asChild size="lg" className="bg-gold hover:bg-gold/90 text-warm-white">
-            <Link to="/kontakt">Rezervišite Termin</Link>
+            <Link to="/kontakt">Rezervišite termin</Link>
           </Button>
         </div>
       </section>
