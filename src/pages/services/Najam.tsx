@@ -63,7 +63,7 @@ const Najam = () => {
                 <Mic className="w-10 h-10 text-gold flex-shrink-0" />
                 <div>
                   <h3 className="text-2xl font-serif font-bold text-dark-grey mb-3">
-                    Najam za Snimanje Podcasta
+                    Najam za snimanje podcasta
                   </h3>
                   <p className="text-soft-grey leading-relaxed mb-4">
                     Profesionalno opremljen prostor za snimanje podcasta u srcu grada. Idealno za kreatore sadržaja, influencere i profesionalce.
@@ -84,7 +84,7 @@ const Najam = () => {
                 <Users className="w-10 h-10 text-gold flex-shrink-0" />
                 <div>
                   <h3 className="text-2xl font-serif font-bold text-dark-grey mb-3">
-                    Najam za Prezentacije i Evente
+                    Najam za prezentacije i evente
                   </h3>
                   <p className="text-soft-grey leading-relaxed mb-4">
                     75 kvadrata savršenog prostora za vaš idući influencerski event, lansiranje proizvoda, poslovnu prezentaciju ili edukativnu radionicu.
@@ -106,7 +106,7 @@ const Najam = () => {
                 <Camera className="w-10 h-10 text-gold flex-shrink-0" />
                 <div>
                   <h3 className="text-2xl font-serif font-bold text-dark-grey mb-3">
-                    Studio za Fotografiranje
+                    Studio za fotografiranje
                   </h3>
                   <p className="text-soft-grey leading-relaxed mb-4">
                     Za sve bitne datume koje želite uramiti – mature, vjenčanja, diplomiranja, rođendane ili profesionalne headshots.
@@ -128,7 +128,7 @@ const Najam = () => {
                 <BookOpen className="w-10 h-10 text-gold flex-shrink-0" />
                 <div>
                   <h3 className="text-2xl font-serif font-bold text-dark-grey mb-3">
-                    Edukativne Radionice
+                    Edukativne radionice
                   </h3>
                   <p className="text-soft-grey leading-relaxed mb-4">
                     Idealan prostor za vođenje edukativnih radionica, treninga, seminara i grupnih sesija.
@@ -146,7 +146,7 @@ const Najam = () => {
 
           <div className="p-6 bg-gold/10 rounded-lg border border-gold/20">
             <p className="text-dark-grey font-semibold mb-2">
-              Prilagodimo se Vašim Potrebama:
+              Prilagodimo se vašim potrebama:
             </p>
             <p className="text-soft-grey">
               Svaki event je jedinstven. Kontaktirajte nas kako bismo zajedno kreirali savršenu konfiguraciju prostora za vaš događaj ili projekt.

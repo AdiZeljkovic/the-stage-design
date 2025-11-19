@@ -58,7 +58,7 @@ const Sminkanje = () => {
               <div className="flex items-start gap-4 mb-4">
                 <Star className="w-8 h-8 text-gold flex-shrink-0" />
                 <div>
-                  <h4 className="font-serif text-2xl text-dark-grey mb-2">Premium Proizvodi</h4>
+                  <h4 className="font-serif text-2xl text-dark-grey mb-2">Premium proizvodi</h4>
                   <p className="text-soft-grey">
                     Koristimo isključivo high-end proizvode svjetski poznatih brendova:
                   </p>
@@ -96,21 +96,21 @@ const Sminkanje = () => {
             <div className="grid md:grid-cols-2 gap-6 mb-8">
               <div className="p-6 bg-cream/50 rounded-lg">
                 <Sparkles className="w-6 h-6 text-gold mb-3" />
-                <h5 className="font-semibold text-dark-grey mb-2">Posebne Prilike</h5>
+                <h5 className="font-semibold text-dark-grey mb-2">Posebne prilike</h5>
                 <p className="text-soft-grey text-sm">
                   Vjenčanja, mature, diplomiranja, svečane večeri i svi drugi važni trenutci u vašem životu.
                 </p>
               </div>
               <div className="p-6 bg-cream/50 rounded-lg">
                 <Sparkles className="w-6 h-6 text-gold mb-3" />
-                <h5 className="font-semibold text-dark-grey mb-2">Foto & Video Sesije</h5>
+                <h5 className="font-semibold text-dark-grey mb-2">Foto & video sesije</h5>
                 <p className="text-soft-grey text-sm">
                   Profesionalna šminka za fotografije, video produkcije, i društvene mreže.
                 </p>
               </div>
               <div className="p-6 bg-cream/50 rounded-lg">
                 <Sparkles className="w-6 h-6 text-gold mb-3" />
-                <h5 className="font-semibold text-dark-grey mb-2">Grupno Šminkanje</h5>
+                <h5 className="font-semibold text-dark-grey mb-2">Grupno šminkanje</h5>
                 <p className="text-soft-grey text-sm">
                   Idealno za djevojačke večeri, rođendane i druge grupne proslave.
                 </p>
@@ -126,7 +126,7 @@ const Sminkanje = () => {
 
             <div className="p-6 bg-gold/10 rounded-lg border border-gold/20">
               <p className="text-dark-grey font-semibold mb-2">
-                Personalizirani Pristup:
+                Personalizirani pristup:
               </p>
               <p className="text-soft-grey">
                 Svaka usluga se prilagođava vašim potrebama, tipu kože, željenom stilu i prilike. Kontaktirajte nas za konsultaciju i ponudu.

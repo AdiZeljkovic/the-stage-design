@@ -46,7 +46,7 @@ const Index = () => {
       <section className="py-20 bg-cream">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-serif font-bold text-center text-dark-grey mb-12 animate-fade-in">
-            Naša Ponuda
+            Naša ponuda
           </h2>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -119,7 +119,7 @@ const Index = () => {
 
             <div>
               <h2 className="text-4xl font-serif font-bold text-dark-grey mb-6">
-                Mjesto Gdje Se Stvaraju Uspomene
+                Mjesto gdje se stvaraju uspomene
               </h2>
               <p className="text-soft-grey mb-6 leading-relaxed">
                 Dobrodošli u The Stage, ekskluzivni prostor u srcu grada dizajniran za vaše najposebnije trenutke. 
@@ -142,7 +142,7 @@ const Index = () => {
       <section className="py-20 bg-cream">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-serif font-bold text-center text-dark-grey mb-4">
-            Trenuci Uhvaćeni na Sceni
+            Trenuci uhvaćeni na sceni
           </h2>
           <p className="text-center text-soft-grey mb-12">
             Pogledajte kako pretvaramo vizije u stvarnost

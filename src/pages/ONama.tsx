@@ -27,7 +27,7 @@ const ONama = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center">
             <div className="order-2 lg:order-1">
               <h2 className="text-3xl sm:text-4xl font-serif font-bold text-dark-grey mb-4 sm:mb-6">
-                Više od Prostora. Mi smo Doživljaj.
+                Više od prostora. Mi smo doživljaj.
               </h2>
               <div className="space-y-4 text-soft-grey leading-relaxed">
                 <p>
@@ -59,7 +59,7 @@ const ONama = () => {
       <section className="py-12 sm:py-16 lg:py-20 bg-cream">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-serif font-bold text-center text-dark-grey mb-4">
-            Upoznajte Tim
+            Upoznajte tim
           </h2>
           <p className="text-center text-soft-grey mb-16">
             Ljudi koji stvaraju magiju
@@ -125,7 +125,7 @@ const ONama = () => {
       <section className="py-20 bg-warm-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-serif font-bold text-center text-dark-grey mb-16">
-            Naše Vrijednosti
+            Naše vrijednosti
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

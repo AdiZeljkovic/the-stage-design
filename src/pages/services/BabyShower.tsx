@@ -83,7 +83,7 @@ const BabyShower = () => {
               </p>
             </div>
             <div className="p-6 bg-cream/50 rounded-lg">
-              <h5 className="font-semibold text-dark-grey mb-3">Dodatne Opcije</h5>
+              <h5 className="font-semibold text-dark-grey mb-3">Dodatne opcije</h5>
               <p className="text-soft-grey text-sm">
                 Možete dodati tortu, profesionalnog fotografa, ili bilo koju drugu uslugu koja će učiniti ovaj dan još posebnijim.
               </p>
