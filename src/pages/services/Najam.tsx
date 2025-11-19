@@ -157,7 +157,7 @@ const Najam = () => {
         {/* CTA */}
         <div className="text-center">
           <Button asChild size="lg" className="bg-gold hover:bg-gold/90 text-warm-white">
-            <Link to="/kontakt">Zatražite Ponudu</Link>
+            <Link to="/kontakt">Zatražite ponudu</Link>
           </Button>
         </div>
       </section>

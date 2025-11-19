@@ -32,10 +32,10 @@ const Index = () => {
             </p>
             <div className="flex flex-col gap-4 justify-center px-4">
               <Button asChild size="lg" className="bg-gold hover:bg-gold/90 text-warm-white shadow-lg w-full sm:w-auto">
-                <Link to="/usluge">Pogledajte Usluge</Link>
+                <Link to="/usluge">Pogledajte usluge</Link>
               </Button>
               <Button asChild size="lg" className="bg-warm-white/90 hover:bg-warm-white text-dark-grey shadow-lg w-full sm:w-auto">
-                <Link to="/galerija">Istražite Galeriju</Link>
+                <Link to="/galerija">Istražite galeriju</Link>
               </Button>
             </div>
           </div>
@@ -131,7 +131,7 @@ const Index = () => {
                 </p>
               </div>
               <Button asChild size="lg" className="bg-gold hover:bg-gold/90 text-warm-white">
-                <Link to="/o-nama">Saznajte Više</Link>
+                <Link to="/o-nama">Saznajte više</Link>
               </Button>
             </div>
           </div>
@@ -158,7 +158,7 @@ const Index = () => {
 
           <div className="text-center">
             <Button asChild size="lg" className="bg-gold hover:bg-gold/90 text-warm-white">
-              <Link to="/galerija">Pogledajte Cijelu Galeriju</Link>
+              <Link to="/galerija">Pogledajte cijelu galeriju</Link>
             </Button>
           </div>
         </div>

@@ -52,7 +52,7 @@ export const siteContent = {
       contact: "Kontakt",
     },
     ctaButton: {
-      text: "Rezervišite Termin",
+      text: "Rezervišite termin",
       link: "/kontakt",
     },
     servicesDropdown: [

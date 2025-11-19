@@ -111,7 +111,7 @@ const Kontakt = () => {
                 </div>
 
                 <Button type="submit" size="lg" className="w-full bg-gold hover:bg-gold/90 text-warm-white">
-                  Pošalji Upit
+                  Pošalji upit
                 </Button>
               </form>
 

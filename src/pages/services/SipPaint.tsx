@@ -112,7 +112,7 @@ const SipPaint = () => {
         {/* CTA */}
         <div className="text-center">
           <Button asChild size="lg" className="bg-gold hover:bg-gold/90 text-warm-white">
-            <Link to="/kontakt">Rezervišite Mjesto</Link>
+            <Link to="/kontakt">Rezervišite mjesto</Link>
           </Button>
         </div>
       </section>
