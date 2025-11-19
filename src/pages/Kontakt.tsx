@@ -41,7 +41,7 @@ const Kontakt = () => {
             {/* Left Side - Form */}
             <div className="p-6 sm:p-8 lg:p-12 flex flex-col justify-center">
               <h1 className="text-3xl sm:text-4xl font-serif font-bold text-dark-grey mb-4">
-                Stupite na Scenu
+                Stupite na scenu
               </h1>
               <p className="text-soft-grey mb-8">
                 Kontaktirajte nas za rezervacije, upite ili da zajedno isplaniramo vaš savršeni događaj.
@@ -51,7 +51,7 @@ const Kontakt = () => {
                 <div>
                   <Input
                     type="text"
-                    placeholder="Ime i Prezime"
+                    placeholder="Ime i prezime"
                     value={formData.name}
                     onChange={(e) => handleChange("name", e.target.value)}
                     required
@@ -62,7 +62,7 @@ const Kontakt = () => {
                 <div>
                   <Input
                     type="email"
-                    placeholder="Email Adresa"
+                    placeholder="Email adresa"
                     value={formData.email}
                     onChange={(e) => handleChange("email", e.target.value)}
                     required
@@ -73,7 +73,7 @@ const Kontakt = () => {
                 <div>
                   <Input
                     type="tel"
-                    placeholder="Broj Telefona"
+                    placeholder="Broj telefona"
                     value={formData.phone}
                     onChange={(e) => handleChange("phone", e.target.value)}
                     required
@@ -84,7 +84,7 @@ const Kontakt = () => {
                 <div>
                   <Select value={formData.service} onValueChange={(value) => handleChange("service", value)}>
                     <SelectTrigger className="border-b-2 border-t-0 border-x-0 rounded-none focus:ring-0 focus:border-gold transition-colors px-0">
-                      <SelectValue placeholder="Odaberite Uslugu" />
+                      <SelectValue placeholder="Odaberite uslugu" />
                     </SelectTrigger>
                     <SelectContent>
                       <SelectItem value="rodjendani">Rođendani</SelectItem>
@@ -101,7 +101,7 @@ const Kontakt = () => {
 
                 <div>
                   <Textarea
-                    placeholder="Vaša Poruka"
+                    placeholder="Vaša poruka"
                     value={formData.message}
                     onChange={(e) => handleChange("message", e.target.value)}
                     required

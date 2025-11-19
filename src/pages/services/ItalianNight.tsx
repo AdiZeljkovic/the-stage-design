@@ -57,14 +57,14 @@ const ItalianNight = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mb-8">
               <div className="p-6 bg-cream/50 rounded-lg">
                 <Utensils className="w-8 h-8 text-gold mb-4" />
-                <h4 className="font-semibold text-dark-grey mb-3">Pravljenje Paste</h4>
+                <h4 className="font-semibold text-dark-grey mb-3">Pravljenje paste</h4>
                 <p className="text-soft-grey text-sm">
                   Svako dobija svoju stanicu za rad pod vodstvom edukatora. Naučite tajne savršene paste uz smijeh, slikanje i talijanske hitove.
                 </p>
               </div>
               <div className="p-6 bg-cream/50 rounded-lg">
                 <Wine className="w-8 h-8 text-gold mb-4" />
-                <h4 className="font-semibold text-dark-grey mb-3">Talijanska Pića</h4>
+                <h4 className="font-semibold text-dark-grey mb-3">Talijanska pića</h4>
                 <p className="text-soft-grey text-sm">
                   Učimo praviti (i degustirati) klasična talijanska pića: Aperol Spritz, Limoncello i Fruit Prosecco.
                 </p>

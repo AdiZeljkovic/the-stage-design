@@ -15,7 +15,7 @@ const Usluge = () => {
       <div className="pt-24 pb-20 bg-cream min-h-screen">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl font-serif font-bold text-center text-dark-grey mb-4">
-            Naše Usluge
+            Naše usluge
           </h1>
           <p className="text-center text-soft-grey mb-12 text-lg">
             Cjenovnik i detalji svih dostupnih paketa
@@ -34,7 +34,7 @@ const Usluge = () => {
                 <div className="space-y-6">
                   <div>
                     <h4 className="font-semibold text-dark-grey mb-2">1. Make-up Birthday</h4>
-                    <p className="font-medium mb-2">Ekskluzivni Kurs Šminkanja</p>
+                    <p className="font-medium mb-2">Ekskluzivni kurs šminkanja</p>
                     <p className="mb-3">
                       Postanite zvijezda na svoj dan! U spektakularnom okruženju, osigurali smo fantastične uslove da naučite osnove šminkanja 
                       pod vodstvom jedne od najpoznatijih makeup artistica u BiH, Nermine Nerme Ibrulj.
@@ -53,7 +53,7 @@ const Usluge = () => {
 
                   <div>
                     <h4 className="font-semibold text-dark-grey mb-2">2. TikTok Izazov</h4>
-                    <p className="font-medium mb-2">Zaplešite do Zvijezda</p>
+                    <p className="font-medium mb-2">Zaplešite do zvijezda</p>
                     <p className="mb-3">
                       Zabavite se uz najnovije plesne izazove! Naš tim vas vodi kroz 10 trending TikTok izazova, 
                       savladavanje koreografije, snimanje i ocjenjivanje.
@@ -71,7 +71,7 @@ const Usluge = () => {
 
                   <div>
                     <h4 className="font-semibold text-dark-grey mb-2">3. Interaktivne Društvene Igre</h4>
-                    <p className="font-medium mb-2">Zabava, Smijeh i Takmičenje</p>
+                    <p className="font-medium mb-2">Zabava, smijeh i takmičenje</p>
                     <p className="mb-3">
                       Za nezaboravan provod, osigurali smo niz takmičarskih igara pogodnih za sve uzraste. 
                       Naše osoblje vas vodi kroz svijet smijeha i zabave koji garantovano izgleda sjajno uživo i na kameri.
@@ -198,7 +198,7 @@ const Usluge = () => {
               </AccordionTrigger>
               <AccordionContent className="text-soft-grey space-y-6 pt-4">
                 <div id="podcast">
-                  <h4 className="font-semibold text-dark-grey mb-2">1. Najam za Snimanje Podcasta</h4>
+                  <h4 className="font-semibold text-dark-grey mb-2">1. Najam za snimanje podcasta</h4>
                   <p>
                     Idealna i prepoznatljiva lokacija u centru grada s parking opcijama. Zahvaljujući multipraktičnosti, 
                     prostor se lako transformiše iz krajnje ozbiljnog u moderan i zabavan set-up.
@@ -206,7 +206,7 @@ const Usluge = () => {
                 </div>
 
                 <div>
-                  <h4 className="font-semibold text-dark-grey mb-2">2. Najam za Prezentacije i Evente</h4>
+                  <h4 className="font-semibold text-dark-grey mb-2">2. Najam za prezentacije i evente</h4>
                   <p>
                     75 kvadrata pažljivo uređenog prostora može postati lokacija za vaš idući influencerski event ili lansiranje proizvoda. 
                     Nudimo scenske elemente, displaye za proizvode i dekoracije.
@@ -214,18 +214,18 @@ const Usluge = () => {
                 </div>
 
                 <div id="foto">
-                  <h4 className="font-semibold text-dark-grey mb-2">3. Studio za Fotografiranje</h4>
+                  <h4 className="font-semibold text-dark-grey mb-2">3. Studio za fotografiranje</h4>
                   <p>
                     Za sve bitne datume koje želite uramiti – mature, vjenčanja, diplomiranje. Nudimo suradnju s vrhunskim fotografima.
                   </p>
                 </div>
 
                 <div>
-                  <h4 className="font-semibold text-dark-grey mb-2">4. Edukativne Radionice</h4>
+                  <h4 className="font-semibold text-dark-grey mb-2">4. Edukativne radionice</h4>
                 </div>
 
                 <div>
-                  <h4 className="font-semibold text-dark-grey mb-2">5. Ostali Privatni i Poslovni Događaji</h4>
+                  <h4 className="font-semibold text-dark-grey mb-2">5. Ostali privatni i poslovni događaji</h4>
                 </div>
               </AccordionContent>
             </AccordionItem>
