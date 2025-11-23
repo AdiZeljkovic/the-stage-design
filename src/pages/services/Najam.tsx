@@ -3,6 +3,11 @@ import { Button } from "@/components/ui/button";
 import { Mic, Camera, Users, BookOpen, MapPin, Sparkles } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import heroImage from "@/assets/services/najam-hero.jpg";
+import podcastImage from "@/assets/services/podcast-studio.jpg";
+import eventsImage from "@/assets/services/presentations-events.jpg";
+import photoImage from "@/assets/services/photo-studio.jpg";
+import workshopsImage from "@/assets/services/workshops.jpg";
 
 const Najam = () => {
   return (
@@ -10,7 +15,13 @@ const Najam = () => {
       <Navbar />
       <div className="min-h-screen bg-warm-white pt-16">
       {/* Hero Section */}
-      <section className="relative h-[60vh] bg-gradient-to-br from-gold/20 to-cream">
+      <section className="relative h-[60vh] bg-gradient-to-br from-gold/20 to-cream overflow-hidden">
+        <div 
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: `url(${heroImage})` }}
+        >
+          <div className="absolute inset-0 bg-gradient-to-br from-gold/40 to-cream/60" />
+        </div>
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center animate-fadeIn">
             <Users className="w-16 h-16 mx-auto mb-6 text-gold" />
@@ -58,8 +69,13 @@ const Najam = () => {
           {/* Service Cards */}
           <div className="space-y-8 mb-12">
             {/* Podcast Studio */}
-            <div className="p-8 bg-gradient-to-br from-cream/50 to-white rounded-lg border border-gold/20">
-              <div className="flex items-start gap-4 mb-4">
+            <div className="p-8 bg-gradient-to-br from-cream/50 to-white rounded-lg border border-gold/20 overflow-hidden">
+              <div className="grid md:grid-cols-2 gap-6 mb-4">
+                <div 
+                  className="rounded-lg h-64 bg-cover bg-center"
+                  style={{ backgroundImage: `url(${podcastImage})` }}
+                />
+                <div className="flex items-start gap-4">
                 <Mic className="w-10 h-10 text-gold flex-shrink-0" />
                 <div>
                   <h3 className="text-2xl font-serif font-bold text-dark-grey mb-3">
@@ -75,12 +91,18 @@ const Najam = () => {
                     <li>• Parking opcije u blizini</li>
                   </ul>
                 </div>
+                </div>
               </div>
             </div>
 
             {/* Presentations & Events */}
-            <div className="p-8 bg-gradient-to-br from-cream/50 to-white rounded-lg border border-gold/20">
-              <div className="flex items-start gap-4 mb-4">
+            <div className="p-8 bg-gradient-to-br from-cream/50 to-white rounded-lg border border-gold/20 overflow-hidden">
+              <div className="grid md:grid-cols-2 gap-6 mb-4">
+                <div 
+                  className="rounded-lg h-64 bg-cover bg-center"
+                  style={{ backgroundImage: `url(${eventsImage})` }}
+                />
+                <div className="flex items-start gap-4">
                 <Users className="w-10 h-10 text-gold flex-shrink-0" />
                 <div>
                   <h3 className="text-2xl font-serif font-bold text-dark-grey mb-3">
@@ -97,12 +119,18 @@ const Najam = () => {
                     <li>• Profesionalnu atmosferu</li>
                   </ul>
                 </div>
+                </div>
               </div>
             </div>
 
             {/* Photo Studio */}
-            <div className="p-8 bg-gradient-to-br from-cream/50 to-white rounded-lg border border-gold/20">
-              <div className="flex items-start gap-4 mb-4">
+            <div className="p-8 bg-gradient-to-br from-cream/50 to-white rounded-lg border border-gold/20 overflow-hidden">
+              <div className="grid md:grid-cols-2 gap-6 mb-4">
+                <div 
+                  className="rounded-lg h-64 bg-cover bg-center"
+                  style={{ backgroundImage: `url(${photoImage})` }}
+                />
+                <div className="flex items-start gap-4">
                 <Camera className="w-10 h-10 text-gold flex-shrink-0" />
                 <div>
                   <h3 className="text-2xl font-serif font-bold text-dark-grey mb-3">
@@ -119,12 +147,19 @@ const Najam = () => {
                     <li>• Rekvizite prema potrebi</li>
                   </ul>
                 </div>
+                </div>
               </div>
             </div>
+          </div>
 
             {/* Educational Workshops */}
-            <div className="p-8 bg-gradient-to-br from-cream/50 to-white rounded-lg border border-gold/20">
-              <div className="flex items-start gap-4 mb-4">
+            <div className="p-8 bg-gradient-to-br from-cream/50 to-white rounded-lg border border-gold/20 overflow-hidden">
+              <div className="grid md:grid-cols-2 gap-6 mb-4">
+                <div 
+                  className="rounded-lg h-64 bg-cover bg-center"
+                  style={{ backgroundImage: `url(${workshopsImage})` }}
+                />
+                <div className="flex items-start gap-4">
                 <BookOpen className="w-10 h-10 text-gold flex-shrink-0" />
                 <div>
                   <h3 className="text-2xl font-serif font-bold text-dark-grey mb-3">

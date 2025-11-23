@@ -3,6 +3,10 @@ import { Button } from "@/components/ui/button";
 import { PartyPopper, Camera, Music, Users, DollarSign } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import heroImage from "@/assets/services/rodjendani-hero.jpg";
+import makeupImage from "@/assets/services/makeup-birthday.jpg";
+import tiktokImage from "@/assets/services/tiktok-challenge.jpg";
+import gamesImage from "@/assets/services/interactive-games.jpg";
 
 const Rodjendani = () => {
   return (
@@ -10,7 +14,13 @@ const Rodjendani = () => {
       <Navbar />
       <div className="min-h-screen bg-warm-white pt-16">
       {/* Hero Section */}
-      <section className="relative h-[60vh] bg-gradient-to-br from-gold/20 to-cream">
+      <section className="relative h-[60vh] bg-gradient-to-br from-gold/20 to-cream overflow-hidden">
+        <div 
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: `url(${heroImage})` }}
+        >
+          <div className="absolute inset-0 bg-gradient-to-br from-gold/40 to-cream/60" />
+        </div>
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center animate-fadeIn">
             <PartyPopper className="w-16 h-16 mx-auto mb-6 text-gold" />
@@ -51,6 +61,10 @@ const Rodjendani = () => {
 
           {/* Package 1 */}
           <div className="mb-16 pb-16 border-b border-border">
+            <div 
+              className="rounded-lg h-64 md:h-80 bg-cover bg-center mb-6"
+              style={{ backgroundImage: `url(${makeupImage})` }}
+            />
             <h2 className="text-3xl font-serif font-bold text-dark-grey mb-4">
               1. Make-up Birthday
             </h2>
@@ -76,6 +90,10 @@ const Rodjendani = () => {
 
           {/* Package 2 */}
           <div className="mb-16 pb-16 border-b border-border">
+            <div 
+              className="rounded-lg h-64 md:h-80 bg-cover bg-center mb-6"
+              style={{ backgroundImage: `url(${tiktokImage})` }}
+            />
             <h2 className="text-3xl font-serif font-bold text-dark-grey mb-4">
               2. TikTok Izazov
             </h2>
@@ -97,6 +115,10 @@ const Rodjendani = () => {
 
           {/* Package 3 */}
           <div className="mb-8">
+            <div 
+              className="rounded-lg h-64 md:h-80 bg-cover bg-center mb-6"
+              style={{ backgroundImage: `url(${gamesImage})` }}
+            />
             <h2 className="text-3xl font-serif font-bold text-dark-grey mb-4">
               3. Interaktivne Društvene Igre
             </h2>

@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Palette, Wine, DollarSign, Users } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import heroImage from "@/assets/services/sip-paint-hero.jpg";
 
 const SipPaint = () => {
   return (
@@ -10,7 +11,13 @@ const SipPaint = () => {
       <Navbar />
       <div className="min-h-screen bg-warm-white pt-16">
       {/* Hero Section */}
-      <section className="relative h-[60vh] bg-gradient-to-br from-gold/20 to-cream">
+      <section className="relative h-[60vh] bg-gradient-to-br from-gold/20 to-cream overflow-hidden">
+        <div 
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: `url(${heroImage})` }}
+        >
+          <div className="absolute inset-0 bg-gradient-to-br from-gold/40 to-cream/60" />
+        </div>
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center animate-fadeIn">
             <Palette className="w-16 h-16 mx-auto mb-6 text-gold" />
