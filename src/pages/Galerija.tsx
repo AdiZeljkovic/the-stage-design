@@ -3,6 +3,18 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { X } from "lucide-react";
+import birthday1 from "@/assets/gallery/birthday-1.jpg";
+import birthday2 from "@/assets/gallery/birthday-2.jpg";
+import bachelorette1 from "@/assets/gallery/bachelorette-1.jpg";
+import bachelorette2 from "@/assets/gallery/bachelorette-2.jpg";
+import event1 from "@/assets/gallery/event-1.jpg";
+import event2 from "@/assets/gallery/event-2.jpg";
+import space1 from "@/assets/gallery/space-1.jpg";
+import space2 from "@/assets/gallery/space-2.jpg";
+import space3 from "@/assets/gallery/space-3.jpg";
+import makeup1 from "@/assets/gallery/makeup-1.jpg";
+import makeup2 from "@/assets/gallery/makeup-2.jpg";
+import makeup3 from "@/assets/gallery/makeup-3.jpg";
 
 const categories = ["SVI", "ROĐENDANI", "DJEVOJAČKE", "EVENTI", "PROSTOR", "MAKEUP"];
 
@@ -11,12 +23,20 @@ const Galerija = () => {
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(0);
 
-  // Placeholder images - replace with real images
-  const images = Array.from({ length: 12 }, (_, i) => ({
-    id: i + 1,
-    category: categories[Math.floor(Math.random() * (categories.length - 1)) + 1],
-    src: `/placeholder-${i + 1}.jpg`,
-  }));
+  const images = [
+    { id: 1, category: "ROĐENDANI", src: birthday1 },
+    { id: 2, category: "ROĐENDANI", src: birthday2 },
+    { id: 3, category: "DJEVOJAČKE", src: bachelorette1 },
+    { id: 4, category: "DJEVOJAČKE", src: bachelorette2 },
+    { id: 5, category: "EVENTI", src: event1 },
+    { id: 6, category: "EVENTI", src: event2 },
+    { id: 7, category: "PROSTOR", src: space1 },
+    { id: 8, category: "PROSTOR", src: space2 },
+    { id: 9, category: "PROSTOR", src: space3 },
+    { id: 10, category: "MAKEUP", src: makeup1 },
+    { id: 11, category: "MAKEUP", src: makeup2 },
+    { id: 12, category: "MAKEUP", src: makeup3 },
+  ];
 
   const filteredImages = activeFilter === "SVI" 
     ? images 
@@ -79,10 +99,12 @@ const Galerija = () => {
                 className="break-inside-avoid mb-4 cursor-pointer hover-scale"
                 onClick={() => openLightbox(index)}
               >
-                <div className="bg-gradient-to-br from-gold/20 to-gold/5 rounded-lg overflow-hidden aspect-[3/4]">
-                  <div className="w-full h-full flex items-center justify-center text-soft-grey">
-                    <span className="text-sm">{image.category}</span>
-                  </div>
+                <div className="rounded-lg overflow-hidden aspect-[3/4]">
+                  <img 
+                    src={image.src} 
+                    alt={image.category}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
             ))}
@@ -107,10 +129,12 @@ const Galerija = () => {
             ‹
           </button>
 
-          <div className="max-w-4xl max-h-[80vh] bg-muted rounded-lg overflow-hidden">
-            <div className="w-full h-full flex items-center justify-center p-8">
-              <span className="text-soft-grey">{filteredImages[selectedImage].category}</span>
-            </div>
+          <div className="max-w-4xl max-h-[80vh] rounded-lg overflow-hidden">
+            <img 
+              src={filteredImages[selectedImage].src} 
+              alt={filteredImages[selectedImage].category}
+              className="w-full h-full object-contain"
+            />
           </div>
 
           <button

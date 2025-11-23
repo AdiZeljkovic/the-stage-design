@@ -5,6 +5,14 @@ import { Sparkles, Calendar, Palette, Users } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import heroBackground from "@/assets/hero-background.jpg";
+import birthday1 from "@/assets/gallery/birthday-1.jpg";
+import bachelorette1 from "@/assets/gallery/bachelorette-1.jpg";
+import event1 from "@/assets/gallery/event-1.jpg";
+import space1 from "@/assets/gallery/space-1.jpg";
+import space2 from "@/assets/gallery/space-2.jpg";
+import makeup1 from "@/assets/gallery/makeup-1.jpg";
+import makeup2 from "@/assets/gallery/makeup-2.jpg";
+import birthday2 from "@/assets/gallery/birthday-2.jpg";
 
 const Index = () => {
   return (
@@ -149,9 +157,13 @@ const Index = () => {
           </p>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-            {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
-              <div key={i} className="aspect-square bg-muted rounded-lg overflow-hidden hover-scale">
-                <div className="w-full h-full bg-gradient-to-br from-gold/20 to-gold/5" />
+            {[birthday1, bachelorette1, event1, space1, space2, makeup1, makeup2, birthday2].map((img, i) => (
+              <div key={i} className="aspect-square rounded-lg overflow-hidden hover-scale">
+                <img 
+                  src={img} 
+                  alt={`Galerija slika ${i + 1}`}
+                  className="w-full h-full object-cover"
+                />
               </div>
             ))}
           </div>
