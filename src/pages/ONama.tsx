@@ -2,6 +2,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Instagram } from "lucide-react";
 import heroBackground from "@/assets/hero-background.jpg";
+import studioDetail from "@/assets/about/studio-detail.jpg";
+import nerminaPortrait from "@/assets/about/nermina-portrait.jpg";
 
 const ONama = () => {
   return (
@@ -46,10 +48,12 @@ const ONama = () => {
               </div>
             </div>
 
-            <div className="h-64 sm:h-80 lg:h-96 bg-muted rounded-lg overflow-hidden shadow-elegant order-1 lg:order-2">
-              <div className="w-full h-full bg-gradient-to-br from-gold/20 to-gold/5 flex items-center justify-center">
-                <span className="text-soft-grey">Detalj prostora</span>
-              </div>
+            <div className="h-64 sm:h-80 lg:h-96 rounded-lg overflow-hidden shadow-elegant order-1 lg:order-2">
+              <img 
+                src={studioDetail} 
+                alt="The Stage studio detalj"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
@@ -68,10 +72,12 @@ const ONama = () => {
           <div className="max-w-4xl mx-auto">
             <div className="bg-warm-white rounded-lg shadow-elegant overflow-hidden">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 p-6 sm:p-8">
-                <div className="aspect-square bg-muted rounded-lg overflow-hidden">
-                  <div className="w-full h-full bg-gradient-to-br from-gold/30 to-gold/10 flex items-center justify-center">
-                    <span className="text-soft-grey">Nermina Ibrulj</span>
-                  </div>
+                <div className="aspect-square rounded-lg overflow-hidden">
+                  <img 
+                    src={nerminaPortrait} 
+                    alt="Nermina Nerma Ibrulj"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
 
                 <div className="flex flex-col justify-center">
