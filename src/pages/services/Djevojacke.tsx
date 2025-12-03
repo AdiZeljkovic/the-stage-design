@@ -38,7 +38,7 @@ const Djevojacke = () => {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
             <div className="flex flex-col items-center">
               <DollarSign className="w-8 h-8 text-gold mb-2" />
-              <p className="text-2xl font-serif text-gold font-bold">400 KM</p>
+              <p className="text-2xl font-serif text-gold font-bold">350 KM</p>
               <p className="text-soft-grey text-sm">Kompletna proslava</p>
             </div>
             <div className="flex flex-col items-center">
