@@ -117,25 +117,25 @@ const Kontakt = () => {
 
               {/* Contact Info */}
               <div className="mt-12 space-y-4">
-                <div className="flex items-center gap-3 text-soft-grey">
+              <div className="flex items-center gap-3 text-soft-grey">
                   <div className="w-10 h-10 bg-gold/10 rounded-full flex items-center justify-center flex-shrink-0">
                     <MapPin className="w-5 h-5 text-gold" />
                   </div>
-                  <span>Adresa u centru grada, Sarajevo</span>
+                  <span>Zmaja od Bosne 4, Sarajevo 71000, BiH</span>
                 </div>
 
                 <div className="flex items-center gap-3 text-soft-grey">
                   <div className="w-10 h-10 bg-gold/10 rounded-full flex items-center justify-center flex-shrink-0">
                     <Phone className="w-5 h-5 text-gold" />
                   </div>
-                  <span>+387 XX XXX XXX</span>
+                  <span>+387 62 307 151</span>
                 </div>
 
                 <div className="flex items-center gap-3 text-soft-grey">
                   <div className="w-10 h-10 bg-gold/10 rounded-full flex items-center justify-center flex-shrink-0">
                     <Mail className="w-5 h-5 text-gold" />
                   </div>
-                  <span>info@thestage.ba</span>
+                  <span>thestagesarajevo@gmail.com</span>
                 </div>
               </div>
             </div>
