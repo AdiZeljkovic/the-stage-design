@@ -18,13 +18,36 @@ const Kontakt = () => {
     message: "",
   });
 
+  const serviceLabels: Record<string, string> = {
+    rodjendani: "Rođendani",
+    djevojacke: "Djevojačke Večeri",
+    "baby-shower": "Baby Shower",
+    "italian-night": "Italian Night",
+    "sip-paint": "Sip and Paint",
+    sminkanje: "Profesionalno Šminkanje",
+    najam: "Najam Prostora",
+    ostalo: "Ostalo",
+  };
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    
+    const subject = `Upit - ${serviceLabels[formData.service] || "Opći upit"} - ${formData.name}`;
+    const body = `Ime i prezime: ${formData.name}
+Email: ${formData.email}
+Telefon: ${formData.phone}
+Usluga: ${serviceLabels[formData.service] || "Nije odabrano"}
+
+Poruka:
+${formData.message}`;
+
+    const mailtoLink = `mailto:thestagesarajevo@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = mailtoLink;
+
     toast({
-      title: "Poruka poslana!",
-      description: "Kontaktirat ćemo vas u najkraćem mogućem roku.",
+      title: "Email klijent otvoren!",
+      description: "Molimo pošaljite email iz vašeg email klijenta.",
     });
-    setFormData({ name: "", email: "", phone: "", service: "", message: "" });
   };
 
   const handleChange = (field: string, value: string) => {
