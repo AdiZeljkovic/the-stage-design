@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -56,6 +57,11 @@ ${formData.message}`;
 
   return (
     <div className="min-h-screen">
+      <SEO
+        title="Kontakt | The Stage Sarajevo - Rezervacije"
+        description="Kontaktirajte The Stage Sarajevo za rezervacije. Adresa: Zmaja od Bosne 4, Sarajevo. Telefon: +387 62 307 151. Pošaljite upit za rođendan ili event."
+        canonical="/kontakt"
+      />
       <Navbar />
 
       <div className="pt-24 pb-20">
@@ -64,7 +70,7 @@ ${formData.message}`;
             {/* Left Side - Form */}
             <div className="p-6 sm:p-8 lg:p-12 flex flex-col justify-center">
               <h1 className="text-3xl sm:text-4xl font-serif font-bold text-dark-grey mb-4">
-                Stupite na scenu
+                Kontakt - The Stage Sarajevo
               </h1>
               <p className="text-soft-grey mb-8">
                 Kontaktirajte nas za rezervacije, upite ili da zajedno isplaniramo vaš savršeni događaj.

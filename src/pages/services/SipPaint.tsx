@@ -3,11 +3,17 @@ import { Button } from "@/components/ui/button";
 import { Palette, Wine, DollarSign, Users } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import SEO from "@/components/SEO";
 import heroImage from "@/assets/services/sip-paint-hero.jpg";
 
 const SipPaint = () => {
   return (
     <>
+      <SEO
+        title="Sip and Paint Sarajevo | 50 KM | The Stage"
+        description="Sip & Paint večeri u Sarajevu - slikanje uz koktele. Cijena 50 KM po osobi. Svakog drugog četvrtka. Idealan izlazak s prijateljicama!"
+        canonical="/usluge/sip-paint"
+      />
       <Navbar />
       <div className="min-h-screen bg-warm-white pt-16">
       {/* Hero Section */}

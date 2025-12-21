@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import SEO from "@/components/SEO";
 import { Instagram } from "lucide-react";
 import onamaHero from "@/assets/about/hero.jpg";
 import onamaStudio from "@/assets/about/studio.jpg";
@@ -8,6 +9,11 @@ import onamaTeam from "@/assets/about/team.jpg";
 const ONama = () => {
   return (
     <div className="min-h-screen">
+      <SEO
+        title="O Nama | The Stage Sarajevo - Event Prostor"
+        description="Upoznajte The Stage Sarajevo - ekskluzivni event prostor od 75m² u centru Sarajeva. Tim profesionalaca za organizaciju nezaboravnih događaja."
+        canonical="/o-nama"
+      />
       <Navbar />
 
       {/* Hero Section */}
@@ -18,7 +24,7 @@ const ONama = () => {
         <div className="absolute inset-0 bg-dark-grey/30" />
         <div className="relative z-10 h-full flex items-center justify-center">
           <h1 className="text-5xl md:text-6xl font-serif font-bold text-warm-white text-center">
-            O Nama
+            O Nama - The Stage Sarajevo
           </h1>
         </div>
       </section>
@@ -51,8 +57,9 @@ const ONama = () => {
             <div className="h-64 sm:h-80 lg:h-96 rounded-lg overflow-hidden shadow-elegant order-1 lg:order-2">
               <img 
                 src={onamaStudio} 
-                alt="The Stage studio detalj"
+                alt="The Stage Sarajevo - unutrašnjost event prostora"
                 className="w-full h-full object-cover"
+                loading="lazy"
               />
             </div>
           </div>
@@ -75,8 +82,9 @@ const ONama = () => {
                 <div className="aspect-square rounded-lg overflow-hidden">
                   <img 
                     src={onamaTeam} 
-                    alt="Nermina Nerma Ibrulj"
+                    alt="Nermina Nerma Ibrulj - makeup artistica i kreativna direktorica The Stage Sarajevo"
                     className="w-full h-full object-cover"
+                    loading="lazy"
                   />
                 </div>
 

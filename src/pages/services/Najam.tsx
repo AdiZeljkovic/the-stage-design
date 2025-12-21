@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Mic, Camera, Users, BookOpen, MapPin, Sparkles } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import SEO from "@/components/SEO";
 import heroImage from "@/assets/services/najam-hero.jpg";
 import podcastImage from "@/assets/services/podcast-studio.jpg";
 import eventsImage from "@/assets/services/presentations-events.jpg";
@@ -12,6 +13,11 @@ import workshopsImage from "@/assets/services/workshops.jpg";
 const Najam = () => {
   return (
     <>
+      <SEO
+        title="Najam Prostora Sarajevo | Podcast Studio | The Stage"
+        description="Najam event prostora u Sarajevu - 75m² u centru grada. Podcast studio, foto sesije, prezentacije i radionice. Zatražite ponudu!"
+        canonical="/usluge/najam-prostora"
+      />
       <Navbar />
       <div className="min-h-screen bg-warm-white pt-16">
       {/* Hero Section */}

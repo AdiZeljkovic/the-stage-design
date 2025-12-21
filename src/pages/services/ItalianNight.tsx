@@ -3,11 +3,17 @@ import { Button } from "@/components/ui/button";
 import { Wine, Utensils, DollarSign, Users } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import SEO from "@/components/SEO";
 import heroImage from "@/assets/services/italian-night-hero.jpg";
 
 const ItalianNight = () => {
   return (
     <>
+      <SEO
+        title="Italian Night Sarajevo | Pasta & Spritz 50 KM | The Stage"
+        description="Italian Night u Sarajevu - naučite praviti pastu i talijanska pića. Cijena 50 KM po osobi. Savršen date night ili izlazak s prijateljima!"
+        canonical="/usluge/italian-night"
+      />
       <Navbar />
       <div className="min-h-screen bg-warm-white pt-16">
       {/* Hero Section */}

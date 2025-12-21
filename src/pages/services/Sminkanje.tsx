@@ -3,11 +3,17 @@ import { Button } from "@/components/ui/button";
 import { Sparkles, Star, Users, Award } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import SEO from "@/components/SEO";
 import heroImage from "@/assets/services/sminkanje-hero.jpg";
 
 const Sminkanje = () => {
   return (
     <>
+      <SEO
+        title="Profesionalno Šminkanje Sarajevo | The Stage"
+        description="Profesionalno šminkanje u Sarajevu za vjenčanja, mature, foto sesije. High-end proizvodi: Dior, YSL, MAC. Zatražite ponudu!"
+        canonical="/usluge/sminkanje"
+      />
       <Navbar />
       <div className="min-h-screen bg-warm-white pt-16">
       {/* Hero Section */}
