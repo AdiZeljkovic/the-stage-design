@@ -4,15 +4,16 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Sparkles, Calendar, Palette, Users } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import heroBackground from "@/assets/hero-background.jpg";
-import birthday1 from "@/assets/gallery/birthday-1.jpg";
-import bachelorette1 from "@/assets/gallery/bachelorette-1.jpg";
-import event1 from "@/assets/gallery/event-1.jpg";
-import space1 from "@/assets/gallery/space-1.jpg";
-import space2 from "@/assets/gallery/space-2.jpg";
-import makeup1 from "@/assets/gallery/makeup-1.jpg";
-import makeup2 from "@/assets/gallery/makeup-2.jpg";
-import birthday2 from "@/assets/gallery/birthday-2.jpg";
+import indexHero from "@/assets/index/hero.jpg";
+import indexAbout from "@/assets/index/about.jpg";
+import indexGallery1 from "@/assets/index/gallery-1.jpg";
+import indexGallery2 from "@/assets/index/gallery-2.jpg";
+import indexGallery3 from "@/assets/index/gallery-3.jpg";
+import indexGallery4 from "@/assets/index/gallery-4.jpg";
+import indexGallery5 from "@/assets/index/gallery-5.jpg";
+import indexGallery6 from "@/assets/index/gallery-6.jpg";
+import indexGallery7 from "@/assets/index/gallery-7.jpg";
+import indexGallery8 from "@/assets/index/gallery-8.jpg";
 
 const Index = () => {
   return (
@@ -24,7 +25,7 @@ const Index = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{ 
-            backgroundImage: `url(${heroBackground})`,
+            backgroundImage: `url(${indexHero})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center center'
           }}
@@ -119,7 +120,7 @@ const Index = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="h-96 bg-muted rounded-lg overflow-hidden">
               <img
-                src={heroBackground}
+                src={indexAbout}
                 alt="The Stage prostor"
                 className="w-full h-full object-cover"
               />
@@ -157,7 +158,7 @@ const Index = () => {
           </p>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-            {[birthday1, bachelorette1, event1, space1, space2, makeup1, makeup2, birthday2].map((img, i) => (
+            {[indexGallery1, indexGallery2, indexGallery3, indexGallery4, indexGallery5, indexGallery6, indexGallery7, indexGallery8].map((img, i) => (
               <div key={i} className="aspect-square rounded-lg overflow-hidden hover-scale">
                 <img 
                   src={img} 

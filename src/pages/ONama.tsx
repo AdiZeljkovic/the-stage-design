@@ -1,9 +1,9 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Instagram } from "lucide-react";
-import heroBackground from "@/assets/hero-background.jpg";
-import studioDetail from "@/assets/about/studio-detail.jpg";
-import nerminaPortrait from "@/assets/about/nermina-portrait.jpg";
+import onamaHero from "@/assets/about/hero.jpg";
+import onamaStudio from "@/assets/about/studio.jpg";
+import onamaTeam from "@/assets/about/team.jpg";
 
 const ONama = () => {
   return (
@@ -13,7 +13,7 @@ const ONama = () => {
       {/* Hero Section */}
       <section
         className="relative h-[60vh] bg-cover bg-center"
-        style={{ backgroundImage: `url(${heroBackground})` }}
+        style={{ backgroundImage: `url(${onamaHero})` }}
       >
         <div className="absolute inset-0 bg-dark-grey/30" />
         <div className="relative z-10 h-full flex items-center justify-center">
@@ -50,7 +50,7 @@ const ONama = () => {
 
             <div className="h-64 sm:h-80 lg:h-96 rounded-lg overflow-hidden shadow-elegant order-1 lg:order-2">
               <img 
-                src={studioDetail} 
+                src={onamaStudio} 
                 alt="The Stage studio detalj"
                 className="w-full h-full object-cover"
               />
@@ -74,7 +74,7 @@ const ONama = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 p-6 sm:p-8">
                 <div className="aspect-square rounded-lg overflow-hidden">
                   <img 
-                    src={nerminaPortrait} 
+                    src={onamaTeam} 
                     alt="Nermina Nerma Ibrulj"
                     className="w-full h-full object-cover"
                   />
