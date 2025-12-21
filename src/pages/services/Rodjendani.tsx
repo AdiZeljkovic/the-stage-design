@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { PartyPopper, Camera, Music, Users, DollarSign } from "lucide-react";
+import { PartyPopper, Camera, Music, Users, DollarSign, Palette } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import heroImage from "@/assets/services/rodjendani-hero.jpg";
 import makeupImage from "@/assets/services/makeup-birthday.jpg";
-import tiktokImage from "@/assets/services/tiktok-challenge.jpg";
+import sipPaintImage from "@/assets/services/sip-paint-birthday.jpg";
 import gamesImage from "@/assets/services/interactive-games.jpg";
 
 const Rodjendani = () => {
@@ -92,24 +92,33 @@ const Rodjendani = () => {
           <div className="mb-16 pb-16 border-b border-border">
             <div 
               className="rounded-lg h-64 md:h-80 bg-cover bg-center mb-6"
-              style={{ backgroundImage: `url(${tiktokImage})` }}
+              style={{ backgroundImage: `url(${sipPaintImage})` }}
             />
             <h2 className="text-3xl font-serif font-bold text-dark-grey mb-4">
-              2. TikTok Izazov
+              2. Sip & Paint Birthday
             </h2>
-            <h3 className="text-xl text-gold mb-6">Zaplešite do Zvijezda</h3>
+            <h3 className="text-xl text-gold mb-6">Kreativnost, Druženje i Opuštena Zabava</h3>
             <p className="text-soft-grey mb-6 leading-relaxed">
-              Zabavite se uz najnovije plesne izazove! Naš tim vas vodi kroz 10 trending TikTok izazova, savladavanje koreografije, snimanje i ocjenjivanje.
+              Sip & Paint rođendan je savršen spoj kreativnosti, druženja i opuštene zabave. Umjesto klasične proslave, slavljenica i gosti dobijaju iskustvo koje se pamti i nešto što nose kući – vlastito umjetničko djelo.
+            </p>
+            <p className="text-soft-grey mb-6 leading-relaxed">
+              Proslava počinje uz piće po izboru, laganu muziku i pripremljen prostor sa platnima, bojama, kistovima i svim potrebnim materijalima. Kroz cijeli event vodi animator ili instruktor koji korak po korak pomaže gostima da naslikaju sliku, bez obzira na prethodno iskustvo. Nema pogrešnih poteza, samo dobra atmosfera i puno smijeha.
+            </p>
+            <p className="text-soft-grey mb-6 leading-relaxed">
+              Sip & Paint rođendan je idealan za tinejdžere i odrasle koji žele nešto drugačije, estetski lijepo i opušteno. Prostor je privatno rezervisan za vašu grupu, bez gužve i bez stresa oko organizacije – mi se brinemo za setup, rekvizite, muziku i cjelokupan doživljaj.
+            </p>
+            <p className="text-soft-grey mb-6 leading-relaxed italic">
+              Na kraju večeri, svaki gost odlazi kući sa svojom slikom i uspomenom koja traje duže od jedne Instagram priče.
             </p>
             <h4 className="font-semibold text-dark-grey mb-3">Paket uključuje:</h4>
             <ul className="space-y-2 text-soft-grey">
-              <li>• Pojedinačne i grupne aktivnosti</li>
-              <li>• Tehnička oprema i pomoć pri snimanju videa za društvene mreže</li>
-              <li>• Slikanje ispred posebno dizajniranih zidova (backdrop)</li>
-              <li>• "TikTok Most Viral" music playlista</li>
+              <li>• Privatno rezervisan prostor za vašu grupu</li>
+              <li>• Sav slikarski materijal (platna, boje, kistovi)</li>
+              <li>• Vodstvo animatora/instruktora kroz cijeli event</li>
+              <li>• Piće po izboru i lagana muzika</li>
               <li>• Snack bar</li>
-              <li>• Neograničena pića (Coca-Cola, Mojito limunada, ledeni čaj)</li>
-              <li>• Gift bag za slavljenika/slavljenicu</li>
+              <li>• Vaše umjetničko djelo za ponijeti kući</li>
+              <li>• Gift bag za slavljenicu</li>
             </ul>
           </div>
 
