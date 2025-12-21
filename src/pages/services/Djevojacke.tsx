@@ -3,11 +3,17 @@ import { Button } from "@/components/ui/button";
 import { Heart, Sparkles, DollarSign, Music } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import SEO from "@/components/SEO";
 import heroImage from "@/assets/services/djevojacke-hero.jpg";
 
 const Djevojacke = () => {
   return (
     <>
+      <SEO
+        title="Djevojačke Večeri Sarajevo | 350 KM | The Stage"
+        description="Organizacija djevojačkih večeri u Sarajevu. Bride to be proslava sa dekoracijom, igrama i muzikom. Cijena 350 KM. Rezervišite termin!"
+        canonical="/usluge/djevojacke-veceri"
+      />
       <Navbar />
       <div className="min-h-screen bg-warm-white pt-16">
       {/* Hero Section */}

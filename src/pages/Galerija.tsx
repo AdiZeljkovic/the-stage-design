@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { X } from "lucide-react";
 import birthday1 from "@/assets/gallery/birthday-1.jpg";
@@ -24,18 +25,18 @@ const Galerija = () => {
   const [selectedImage, setSelectedImage] = useState(0);
 
   const images = [
-    { id: 1, category: "ROĐENDANI", src: birthday1 },
-    { id: 2, category: "ROĐENDANI", src: birthday2 },
-    { id: 3, category: "DJEVOJAČKE", src: bachelorette1 },
-    { id: 4, category: "DJEVOJAČKE", src: bachelorette2 },
-    { id: 5, category: "EVENTI", src: event1 },
-    { id: 6, category: "EVENTI", src: event2 },
-    { id: 7, category: "PROSTOR", src: space1 },
-    { id: 8, category: "PROSTOR", src: space2 },
-    { id: 9, category: "PROSTOR", src: space3 },
-    { id: 10, category: "MAKEUP", src: makeup1 },
-    { id: 11, category: "MAKEUP", src: makeup2 },
-    { id: 12, category: "MAKEUP", src: makeup3 },
+    { id: 1, category: "ROĐENDANI", src: birthday1, alt: "Rođendanska proslava u The Stage Sarajevo" },
+    { id: 2, category: "ROĐENDANI", src: birthday2, alt: "Dekoracija za rođendan Sarajevo" },
+    { id: 3, category: "DJEVOJAČKE", src: bachelorette1, alt: "Djevojačka večer u Sarajevu" },
+    { id: 4, category: "DJEVOJAČKE", src: bachelorette2, alt: "Bride to be proslava Sarajevo" },
+    { id: 5, category: "EVENTI", src: event1, alt: "Privatni event u The Stage Sarajevo" },
+    { id: 6, category: "EVENTI", src: event2, alt: "Korporativni događaj Sarajevo" },
+    { id: 7, category: "PROSTOR", src: space1, alt: "Event prostor za najam Sarajevo" },
+    { id: 8, category: "PROSTOR", src: space2, alt: "The Stage Sarajevo unutrašnjost" },
+    { id: 9, category: "PROSTOR", src: space3, alt: "Podcast studio Sarajevo" },
+    { id: 10, category: "MAKEUP", src: makeup1, alt: "Profesionalno šminkanje Sarajevo" },
+    { id: 11, category: "MAKEUP", src: makeup2, alt: "Makeup artist Sarajevo" },
+    { id: 12, category: "MAKEUP", src: makeup3, alt: "Šminkanje za posebne prilike Sarajevo" },
   ];
 
   const filteredImages = activeFilter === "SVI" 
@@ -61,12 +62,17 @@ const Galerija = () => {
 
   return (
     <div className="min-h-screen bg-warm-white">
+      <SEO
+        title="Galerija | The Stage Sarajevo - Foto i Video"
+        description="Pogledajte galeriju The Stage Sarajevo - fotografije rođendana, djevojačkih večeri, baby shower proslava, Sip & Paint večeri i profesionalnog šminkanja."
+        canonical="/galerija"
+      />
       <Navbar />
 
       <div className="pt-24 pb-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl font-serif font-bold text-center text-dark-grey mb-4">
-            Galerija
+            Galerija The Stage Sarajevo
           </h1>
           <p className="text-center text-soft-grey mb-12 text-lg">
             Trenuci koji pričaju priču
@@ -102,8 +108,9 @@ const Galerija = () => {
                 <div className="rounded-lg overflow-hidden aspect-[3/4]">
                   <img 
                     src={image.src} 
-                    alt={image.category}
+                    alt={image.alt}
                     className="w-full h-full object-cover"
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -132,7 +139,7 @@ const Galerija = () => {
           <div className="max-w-4xl max-h-[80vh] rounded-lg overflow-hidden">
             <img 
               src={filteredImages[selectedImage].src} 
-              alt={filteredImages[selectedImage].category}
+              alt={filteredImages[selectedImage].alt}
               className="w-full h-full object-contain"
             />
           </div>

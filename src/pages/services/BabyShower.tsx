@@ -3,11 +3,17 @@ import { Button } from "@/components/ui/button";
 import { Baby, Camera, DollarSign, Heart } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import SEO from "@/components/SEO";
 import heroImage from "@/assets/services/baby-shower-hero.jpg";
 
 const BabyShower = () => {
   return (
     <>
+      <SEO
+        title="Baby Shower Sarajevo | 300 KM | The Stage"
+        description="Organizacija baby shower proslava u Sarajevu. Fotogeničan prostor, snack bar i dekoracija. Cijena 300 KM. Rezervišite termin!"
+        canonical="/usluge/baby-shower"
+      />
       <Navbar />
       <div className="min-h-screen bg-warm-white pt-16">
       {/* Hero Section */}

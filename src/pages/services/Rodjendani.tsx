@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { PartyPopper, Camera, Music, Users, DollarSign, Palette } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import SEO from "@/components/SEO";
 import heroImage from "@/assets/services/rodjendani-hero.jpg";
 import makeupImage from "@/assets/services/makeup-birthday.jpg";
 import sipPaintImage from "@/assets/services/sip-paint-birthday.jpg";
@@ -11,6 +12,11 @@ import gamesImage from "@/assets/services/interactive-games.jpg";
 const Rodjendani = () => {
   return (
     <>
+      <SEO
+        title="Rođendani Sarajevo | Cijena od 350 KM | The Stage"
+        description="Organizacija rođendana u Sarajevu. Make-up Birthday, Sip & Paint i Interaktivne igre. Cijena 350 KM za grupu do 10 osoba. Rezervišite termin!"
+        canonical="/usluge/rodjendani"
+      />
       <Navbar />
       <div className="min-h-screen bg-warm-white pt-16">
       {/* Hero Section */}

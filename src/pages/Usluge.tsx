@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import SEO from "@/components/SEO";
 import { ChevronRight } from "lucide-react";
 
 const services = [
@@ -16,12 +17,17 @@ const services = [
 const Usluge = () => {
   return (
     <div className="min-h-screen">
+      <SEO
+        title="Usluge i Cjenovnik | The Stage Sarajevo"
+        description="Pogledajte naše usluge u Sarajevu: rođendani od 350 KM, djevojačke večeri, baby shower, Sip & Paint od 50 KM, Italian Night i profesionalno šminkanje."
+        canonical="/usluge"
+      />
       <Navbar />
 
       <div className="pt-24 pb-20 bg-cream min-h-screen">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl font-serif font-bold text-center text-dark-grey mb-4">
-            Naše usluge
+            Usluge i Cjenovnik Sarajevo
           </h1>
           <p className="text-center text-soft-grey mb-12 text-lg">
             Cjenovnik i detalji svih dostupnih paketa
