@@ -4,6 +4,9 @@ import { Baby, Camera, DollarSign, Heart } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import ServiceSchema from "@/components/ServiceSchema";
+import StickyCTA from "@/components/StickyCTA";
 import heroImage from "@/assets/services/baby-shower-hero.jpg";
 
 const BabyShower = () => {
@@ -14,7 +17,21 @@ const BabyShower = () => {
         description="Organizacija baby shower proslava u Sarajevu. Fotogeničan prostor, snack bar i dekoracija. Cijena 300 KM. Rezervišite termin!"
         canonical="/usluge/baby-shower"
       />
+      <BreadcrumbSchema 
+        items={[
+          { name: "Početna", url: "/" },
+          { name: "Usluge", url: "/usluge" },
+          { name: "Baby Shower", url: "/usluge/baby-shower" }
+        ]} 
+      />
+      <ServiceSchema 
+        name="Baby Shower Sarajevo"
+        description="Fotogeničan prostor, snack bar i dekoracija. Cijena 300 KM."
+        url="/usluge/baby-shower"
+        price="300"
+      />
       <Navbar />
+      <StickyCTA />
       <div className="min-h-screen bg-warm-white pt-16">
       {/* Hero Section */}
       <section className="relative h-[60vh] bg-gradient-to-br from-gold/20 to-cream overflow-hidden">
