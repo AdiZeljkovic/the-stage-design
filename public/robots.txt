@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://thestagesarajevo.ba/sitemap.xml
+Sitemap: https://thestage.ba/sitemap.xml

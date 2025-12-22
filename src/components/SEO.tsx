@@ -17,7 +17,7 @@ const SEO = ({
   ogType = "website",
   noindex = false,
 }: SEOProps) => {
-  const siteUrl = "https://thestagesarajevo.ba";
+  const siteUrl = "https://thestage.ba";
   const fullCanonical = canonical ? `${siteUrl}${canonical}` : undefined;
 
   return (

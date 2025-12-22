@@ -14,10 +14,10 @@ const LocalBusinessSchema = ({
   const schema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": "https://thestagesarajevo.ba/#organization",
+    "@id": "https://thestage.ba/#organization",
     name: businessName,
-    image: "https://thestagesarajevo.ba/og-image.jpg",
-    url: "https://thestagesarajevo.ba",
+    image: "https://thestage.ba/og-image.jpg",
+    url: "https://thestage.ba",
     telephone: telephone,
     email: "thestagesarajevo@gmail.com",
     address: {
