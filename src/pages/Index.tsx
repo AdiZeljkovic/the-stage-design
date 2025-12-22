@@ -65,57 +65,65 @@ const Index = () => {
           </h2>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {/* Card 1 */}
-            <Card className="bg-warm-white shadow-elegant hover-scale cursor-pointer">
-              <CardContent className="p-6">
-                <div className="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center mb-4">
-                  <Sparkles className="w-6 h-6 text-gold" />
-                </div>
-                <h3 className="text-xl font-serif font-semibold text-dark-grey mb-2">Proslave</h3>
-                <p className="text-soft-grey text-sm">
-                  Rođendani, djevojačke večeri i baby shower u luksunom okruženju
-                </p>
-              </CardContent>
-            </Card>
+            {/* Card 1 - Proslave */}
+            <Link to="/usluge/rodjendani">
+              <Card className="bg-warm-white shadow-elegant hover-scale cursor-pointer h-full">
+                <CardContent className="p-6">
+                  <div className="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center mb-4">
+                    <Sparkles className="w-6 h-6 text-gold" />
+                  </div>
+                  <h3 className="text-xl font-serif font-semibold text-dark-grey mb-2">Proslave</h3>
+                  <p className="text-soft-grey text-sm">
+                    Rođendani, djevojačke večeri i baby shower u luksunom okruženju
+                  </p>
+                </CardContent>
+              </Card>
+            </Link>
 
-            {/* Card 2 */}
-            <Card className="bg-warm-white shadow-elegant hover-scale cursor-pointer">
-              <CardContent className="p-6">
-                <div className="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center mb-4">
-                  <Calendar className="w-6 h-6 text-gold" />
-                </div>
-                <h3 className="text-xl font-serif font-semibold text-dark-grey mb-2">Tematske Večeri</h3>
-                <p className="text-soft-grey text-sm">
-                  Italian Night, Sip & Paint i druge jedinstvene večeri
-                </p>
-              </CardContent>
-            </Card>
+            {/* Card 2 - Tematske Večeri */}
+            <Link to="/usluge/sip-paint">
+              <Card className="bg-warm-white shadow-elegant hover-scale cursor-pointer h-full">
+                <CardContent className="p-6">
+                  <div className="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center mb-4">
+                    <Calendar className="w-6 h-6 text-gold" />
+                  </div>
+                  <h3 className="text-xl font-serif font-semibold text-dark-grey mb-2">Tematske Večeri</h3>
+                  <p className="text-soft-grey text-sm">
+                    Italian Night, Sip & Paint i druge jedinstvene večeri
+                  </p>
+                </CardContent>
+              </Card>
+            </Link>
 
-            {/* Card 3 */}
-            <Card className="bg-warm-white shadow-elegant hover-scale cursor-pointer">
-              <CardContent className="p-6">
-                <div className="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center mb-4">
-                  <Palette className="w-6 h-6 text-gold" />
-                </div>
-                <h3 className="text-xl font-serif font-semibold text-dark-grey mb-2">Profesionalne Usluge</h3>
-                <p className="text-soft-grey text-sm">
-                  Šminkanje, edukacije i kreativne radionice
-                </p>
-              </CardContent>
-            </Card>
+            {/* Card 3 - Profesionalne Usluge */}
+            <Link to="/usluge/sminkanje">
+              <Card className="bg-warm-white shadow-elegant hover-scale cursor-pointer h-full">
+                <CardContent className="p-6">
+                  <div className="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center mb-4">
+                    <Palette className="w-6 h-6 text-gold" />
+                  </div>
+                  <h3 className="text-xl font-serif font-semibold text-dark-grey mb-2">Profesionalne Usluge</h3>
+                  <p className="text-soft-grey text-sm">
+                    Šminkanje, edukacije i kreativne radionice
+                  </p>
+                </CardContent>
+              </Card>
+            </Link>
 
-            {/* Card 4 */}
-            <Card className="bg-warm-white shadow-elegant hover-scale cursor-pointer">
-              <CardContent className="p-6">
-                <div className="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center mb-4">
-                  <Users className="w-6 h-6 text-gold" />
-                </div>
-                <h3 className="text-xl font-serif font-semibold text-dark-grey mb-2">Najam Prostora</h3>
-                <p className="text-soft-grey text-sm">
-                  Podcast studio, eventi, foto sesije i poslovni skupovi
-                </p>
-              </CardContent>
-            </Card>
+            {/* Card 4 - Najam Prostora */}
+            <Link to="/usluge/najam">
+              <Card className="bg-warm-white shadow-elegant hover-scale cursor-pointer h-full">
+                <CardContent className="p-6">
+                  <div className="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center mb-4">
+                    <Users className="w-6 h-6 text-gold" />
+                  </div>
+                  <h3 className="text-xl font-serif font-semibold text-dark-grey mb-2">Najam Prostora</h3>
+                  <p className="text-soft-grey text-sm">
+                    Podcast studio, eventi, foto sesije i poslovni skupovi
+                  </p>
+                </CardContent>
+              </Card>
+            </Link>
           </div>
         </div>
       </section>
