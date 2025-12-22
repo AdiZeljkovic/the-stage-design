@@ -41,13 +41,13 @@ const Index = () => {
 
       {/* Hero Section */}
       <section className="relative h-screen w-full min-h-[600px]">
-        <div 
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ 
-            backgroundImage: `url(${indexHero})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center center'
-          }}
+        <img 
+          src={indexHero}
+          alt="The Stage Sarajevo - ekskluzivni event prostor za proslave"
+          className="absolute inset-0 w-full h-full object-cover"
+          loading="eager"
+          decoding="async"
+          fetchPriority="high"
         />
         <div className="absolute inset-0 bg-dark-grey/20" />
         <div className="relative h-full flex items-center justify-center px-4 sm:px-6 lg:px-8">
@@ -142,6 +142,8 @@ const Index = () => {
                 src={indexAbout}
                 alt="The Stage Sarajevo - ekskluzivni event prostor za proslave i događaje"
                 className="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
               />
             </div>
 

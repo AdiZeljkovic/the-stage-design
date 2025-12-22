@@ -21,12 +21,14 @@ const Rodjendani = () => {
       <div className="min-h-screen bg-warm-white pt-16">
       {/* Hero Section */}
       <section className="relative h-[60vh] bg-gradient-to-br from-gold/20 to-cream overflow-hidden">
-        <div 
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${heroImage})` }}
-        >
-          <div className="absolute inset-0 bg-gradient-to-br from-gold/40 to-cream/60" />
-        </div>
+        <img 
+          src={heroImage}
+          alt="Rođendani u Sarajevu - The Stage event prostor"
+          className="absolute inset-0 w-full h-full object-cover"
+          loading="eager"
+          decoding="async"
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-gold/40 to-cream/60" />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center animate-fadeIn">
             <PartyPopper className="w-16 h-16 mx-auto mb-6 text-gold" />
@@ -67,9 +69,12 @@ const Rodjendani = () => {
 
           {/* Package 1 */}
           <div className="mb-16 pb-16 border-b border-border">
-            <div 
-              className="rounded-lg h-64 md:h-80 bg-cover bg-center mb-6"
-              style={{ backgroundImage: `url(${makeupImage})` }}
+            <img 
+              src={makeupImage}
+              alt="Make-up Birthday - Rođendansko šminkanje Sarajevo"
+              className="rounded-lg h-64 md:h-80 w-full object-cover mb-6"
+              loading="lazy"
+              decoding="async"
             />
             <h2 className="text-3xl font-serif font-bold text-dark-grey mb-4">
               1. Make-up Birthday
@@ -96,9 +101,12 @@ const Rodjendani = () => {
 
           {/* Package 2 */}
           <div className="mb-16 pb-16 border-b border-border">
-            <div 
-              className="rounded-lg h-64 md:h-80 bg-cover bg-center mb-6"
-              style={{ backgroundImage: `url(${sipPaintImage})` }}
+            <img 
+              src={sipPaintImage}
+              alt="Sip and Paint Birthday - Kreativni rođendan Sarajevo"
+              className="rounded-lg h-64 md:h-80 w-full object-cover mb-6"
+              loading="lazy"
+              decoding="async"
             />
             <h2 className="text-3xl font-serif font-bold text-dark-grey mb-4">
               2. Sip & Paint Birthday
@@ -130,9 +138,12 @@ const Rodjendani = () => {
 
           {/* Package 3 */}
           <div className="mb-8">
-            <div 
-              className="rounded-lg h-64 md:h-80 bg-cover bg-center mb-6"
-              style={{ backgroundImage: `url(${gamesImage})` }}
+            <img 
+              src={gamesImage}
+              alt="Interaktivne igre za rođendane Sarajevo"
+              className="rounded-lg h-64 md:h-80 w-full object-cover mb-6"
+              loading="lazy"
+              decoding="async"
             />
             <h2 className="text-3xl font-serif font-bold text-dark-grey mb-4">
               3. Interaktivne Društvene Igre

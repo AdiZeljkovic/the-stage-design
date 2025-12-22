@@ -17,10 +17,14 @@ const ONama = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <section
-        className="relative h-[60vh] bg-cover bg-center"
-        style={{ backgroundImage: `url(${onamaHero})` }}
-      >
+      <section className="relative h-[60vh]">
+        <img 
+          src={onamaHero}
+          alt="O nama - The Stage Sarajevo event prostor"
+          className="absolute inset-0 w-full h-full object-cover"
+          loading="eager"
+          decoding="async"
+        />
         <div className="absolute inset-0 bg-dark-grey/30" />
         <div className="relative z-10 h-full flex items-center justify-center">
           <h1 className="text-5xl md:text-6xl font-serif font-bold text-warm-white text-center">
@@ -60,6 +64,7 @@ const ONama = () => {
                 alt="The Stage Sarajevo - unutrašnjost event prostora"
                 className="w-full h-full object-cover"
                 loading="lazy"
+                decoding="async"
               />
             </div>
           </div>
