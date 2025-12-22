@@ -138,15 +138,13 @@ const Rodjendani = () => {
 
           {/* Package 3 */}
           <div className="mb-8">
-            <div className="rounded-lg h-64 md:h-80 w-full bg-cream/50 mb-6 overflow-hidden">
-              <img 
-                src={gamesImage}
-                alt="Interaktivne igre za rođendane Sarajevo"
-                className="w-full h-full object-contain"
-                loading="lazy"
-                decoding="async"
-              />
-            </div>
+            <img 
+              src={gamesImage}
+              alt="Interaktivne igre za rođendane Sarajevo"
+              className="rounded-lg h-64 md:h-80 w-full object-cover mb-6"
+              loading="lazy"
+              decoding="async"
+            />
             <h2 className="text-3xl font-serif font-bold text-dark-grey mb-4">
               3. Interaktivne Društvene Igre
             </h2>
