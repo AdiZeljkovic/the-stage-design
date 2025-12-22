@@ -1,10 +1,8 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
-import { Instagram } from "lucide-react";
 import onamaHero from "@/assets/about/hero.jpg";
 import onamaStudio from "@/assets/about/studio.jpg";
-import onamaTeam from "@/assets/about/team.jpg";
 
 const ONama = () => {
   return (
@@ -71,74 +69,6 @@ const ONama = () => {
         </div>
       </section>
 
-      {/* Team Section */}
-      <section className="py-12 sm:py-16 lg:py-20 bg-cream">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-serif font-bold text-center text-dark-grey mb-4">
-            Upoznajte tim
-          </h2>
-          <p className="text-center text-soft-grey mb-16">
-            Ljudi koji stvaraju magiju
-          </p>
-
-          <div className="max-w-4xl mx-auto">
-            <div className="bg-warm-white rounded-lg shadow-elegant overflow-hidden">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 p-6 sm:p-8">
-                <div className="aspect-square rounded-lg overflow-hidden">
-                  <img 
-                    src={onamaTeam} 
-                    alt="Nermina Nerma Ibrulj - makeup artistica i kreativna direktorica The Stage Sarajevo"
-                    className="w-full h-full object-cover"
-                    loading="lazy"
-                  />
-                </div>
-
-                <div className="flex flex-col justify-center">
-                  <h3 className="text-3xl font-serif font-bold text-dark-grey mb-2">
-                    Nermina Nerma Ibrulj
-                  </h3>
-                  <p className="text-gold font-medium mb-6">
-                    Glavna Makeup Artistica & Kreativna Direktorica
-                  </p>
-                  <div className="space-y-4 text-soft-grey leading-relaxed mb-6">
-                    <p>
-                      Sa godinama iskustva na televiziji, filmu i u muzičkoj industriji, Nerma donosi dašak svjetskog glamura u 'The Stage'. 
-                      Njena strast prema ljepoti i umjetnosti šminkanja pretvara svaki makeup appointment u jedinstveno iskustvo.
-                    </p>
-                    <p>
-                      Kao edukatorica, Nerma dijeli svoje znanje i inspirira nove generacije makeup artista, koristeći isključivo najkvalitetnije 
-                      high-end proizvode i tehnike koje je savladala radeći s najvećim imenima regiona.
-                    </p>
-                  </div>
-
-                  <div className="flex gap-4">
-                    <a
-                      href="https://instagram.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-gold hover:text-gold/80 transition-colors"
-                    >
-                      <Instagram className="w-5 h-5" />
-                      <span className="text-sm font-medium">@nermaibrulj</span>
-                    </a>
-                    <a
-                      href="https://tiktok.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-gold hover:text-gold/80 transition-colors"
-                    >
-                      <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
-                      </svg>
-                      <span className="text-sm font-medium">@nermaibrulj</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Values Section */}
       <section className="py-20 bg-warm-white">
