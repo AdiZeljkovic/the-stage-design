@@ -1,3 +1,4 @@
+import { useMemo } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -8,27 +9,11 @@ import SEO from "@/components/SEO";
 import LocalBusinessSchema from "@/components/LocalBusinessSchema";
 import indexHero from "@/assets/index/hero.jpg";
 import indexAbout from "@/assets/index/about.jpg";
-import indexGallery1 from "@/assets/index/gallery-1.jpg";
-import indexGallery2 from "@/assets/index/gallery-2.jpg";
-import indexGallery3 from "@/assets/index/gallery-3.jpg";
-import indexGallery4 from "@/assets/index/gallery-4.jpg";
-import indexGallery5 from "@/assets/index/gallery-5.jpg";
-import indexGallery6 from "@/assets/index/gallery-6.jpg";
-import indexGallery7 from "@/assets/index/gallery-7.jpg";
-import indexGallery8 from "@/assets/index/gallery-8.jpg";
-
-const galleryImages = [
-  { src: indexGallery1, alt: "Rođendanska proslava u The Stage Sarajevo" },
-  { src: indexGallery2, alt: "Djevojačka večer u event prostoru Sarajevo" },
-  { src: indexGallery3, alt: "Sip and Paint večer u Sarajevu" },
-  { src: indexGallery4, alt: "Baby shower dekoracija The Stage" },
-  { src: indexGallery5, alt: "Italian Night pravljenje paste Sarajevo" },
-  { src: indexGallery6, alt: "Profesionalno šminkanje Sarajevo" },
-  { src: indexGallery7, alt: "Podcast studio najam Sarajevo" },
-  { src: indexGallery8, alt: "Event prostor za proslave Sarajevo" },
-];
+import { getRandomGalleryImages } from "@/lib/galleryImages";
 
 const Index = () => {
+  const galleryImages = useMemo(() => getRandomGalleryImages(8), []);
+
   return (
     <div className="min-h-screen">
       <SEO
