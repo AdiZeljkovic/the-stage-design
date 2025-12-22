@@ -140,9 +140,12 @@ const Najam = () => {
             {/* Photo Studio */}
             <div className="p-8 bg-gradient-to-br from-cream/50 to-white rounded-lg border border-gold/20 overflow-hidden">
               <div className="grid md:grid-cols-2 gap-6 mb-4">
-                <div 
-                  className="rounded-lg h-64 bg-cover bg-center"
-                  style={{ backgroundImage: `url(${photoImage})` }}
+                <img 
+                  src={photoImage}
+                  alt="Studio za fotografiranje Sarajevo"
+                  className="rounded-lg h-64 w-full object-cover"
+                  loading="lazy"
+                  decoding="async"
                 />
                 <div className="flex items-start gap-4">
                 <Camera className="w-10 h-10 text-gold flex-shrink-0" />
