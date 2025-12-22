@@ -117,6 +117,8 @@ const LocalBusinessSchema = ({
             name: "Profesionalno šminkanje Sarajevo",
             description: "Profesionalne usluge šminkanja za sve prilike u Sarajevu",
           },
+          price: "70",
+          priceCurrency: "BAM",
         },
         {
           "@type": "Offer",
@@ -125,6 +127,8 @@ const LocalBusinessSchema = ({
             name: "Najam prostora Sarajevo",
             description: "Najam event prostora za podcast, foto sesije i evente u Sarajevu",
           },
+          price: "50",
+          priceCurrency: "BAM",
         },
       ],
     },

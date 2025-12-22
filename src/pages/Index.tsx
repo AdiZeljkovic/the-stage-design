@@ -7,6 +7,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
 import LocalBusinessSchema from "@/components/LocalBusinessSchema";
+import FAQSchema from "@/components/FAQSchema";
 import indexHero from "@/assets/index/hero.jpg";
 import indexAbout from "@/assets/index/about.jpg";
 import { getRandomGalleryImages } from "@/lib/galleryImages";
@@ -22,6 +23,7 @@ const Index = () => {
         canonical="/"
       />
       <LocalBusinessSchema />
+      <FAQSchema />
       <Navbar />
 
       {/* Hero Section */}
