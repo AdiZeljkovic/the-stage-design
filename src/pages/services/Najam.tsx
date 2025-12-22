@@ -109,9 +109,12 @@ const Najam = () => {
             {/* Presentations & Events */}
             <div className="p-8 bg-gradient-to-br from-cream/50 to-white rounded-lg border border-gold/20 overflow-hidden">
               <div className="grid md:grid-cols-2 gap-6 mb-4">
-                <div 
-                  className="rounded-lg h-64 bg-cover bg-center"
-                  style={{ backgroundImage: `url(${eventsImage})` }}
+                <img 
+                  src={eventsImage}
+                  alt="Prostor za prezentacije i evente Sarajevo"
+                  className="rounded-lg h-64 w-full object-cover"
+                  loading="lazy"
+                  decoding="async"
                 />
                 <div className="flex items-start gap-4">
                 <Users className="w-10 h-10 text-gold flex-shrink-0" />
