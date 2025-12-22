@@ -18,12 +18,14 @@ const ItalianNight = () => {
       <div className="min-h-screen bg-warm-white pt-16">
       {/* Hero Section */}
       <section className="relative h-[60vh] bg-gradient-to-br from-gold/20 to-cream overflow-hidden">
-        <div 
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${heroImage})` }}
-        >
-          <div className="absolute inset-0 bg-gradient-to-br from-gold/40 to-cream/60" />
-        </div>
+        <img 
+          src={heroImage}
+          alt="Italian Night u Sarajevu - pasta i kokteli The Stage"
+          className="absolute inset-0 w-full h-full object-cover"
+          loading="eager"
+          decoding="async"
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-gold/40 to-cream/60" />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center animate-fadeIn">
             <Wine className="w-16 h-16 mx-auto mb-6 text-gold" />

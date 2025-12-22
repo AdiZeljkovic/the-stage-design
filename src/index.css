@@ -111,3 +111,28 @@ All colors MUST be HSL.
 html {
   scroll-behavior: smooth;
 }
+
+/* Performance optimizations */
+img {
+  content-visibility: auto;
+}
+
+/* Reduce CLS for images */
+img[loading="lazy"] {
+  background: linear-gradient(135deg, hsl(var(--muted)) 0%, hsl(var(--muted) / 0.5) 100%);
+}
+
+/* GPU acceleration for animations */
+.hover-scale,
+.fade-in,
+.slide-up,
+.animate-fade-in {
+  will-change: transform, opacity;
+}
+
+/* Optimize font rendering */
+body {
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
