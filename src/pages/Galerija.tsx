@@ -2,7 +2,6 @@ import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
-import { Button } from "@/components/ui/button";
 import { X } from "lucide-react";
 import birthday1 from "@/assets/gallery/birthday-1.jpg";
 import birthday2 from "@/assets/gallery/birthday-2.jpg";
@@ -17,31 +16,24 @@ import makeup1 from "@/assets/gallery/makeup-1.jpg";
 import makeup2 from "@/assets/gallery/makeup-2.jpg";
 import makeup3 from "@/assets/gallery/makeup-3.jpg";
 
-const categories = ["SVI", "ROĐENDANI", "DJEVOJAČKE", "EVENTI", "PROSTOR", "MAKEUP"];
-
 const Galerija = () => {
-  const [activeFilter, setActiveFilter] = useState("SVI");
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(0);
 
   const images = [
-    { id: 1, category: "ROĐENDANI", src: birthday1, alt: "Rođendanska proslava u The Stage Sarajevo" },
-    { id: 2, category: "ROĐENDANI", src: birthday2, alt: "Dekoracija za rođendan Sarajevo" },
-    { id: 3, category: "DJEVOJAČKE", src: bachelorette1, alt: "Djevojačka večer u Sarajevu" },
-    { id: 4, category: "DJEVOJAČKE", src: bachelorette2, alt: "Bride to be proslava Sarajevo" },
-    { id: 5, category: "EVENTI", src: event1, alt: "Privatni event u The Stage Sarajevo" },
-    { id: 6, category: "EVENTI", src: event2, alt: "Korporativni događaj Sarajevo" },
-    { id: 7, category: "PROSTOR", src: space1, alt: "Event prostor za najam Sarajevo" },
-    { id: 8, category: "PROSTOR", src: space2, alt: "The Stage Sarajevo unutrašnjost" },
-    { id: 9, category: "PROSTOR", src: space3, alt: "Podcast studio Sarajevo" },
-    { id: 10, category: "MAKEUP", src: makeup1, alt: "Profesionalno šminkanje Sarajevo" },
-    { id: 11, category: "MAKEUP", src: makeup2, alt: "Makeup artist Sarajevo" },
-    { id: 12, category: "MAKEUP", src: makeup3, alt: "Šminkanje za posebne prilike Sarajevo" },
+    { id: 1, src: birthday1, alt: "Rođendanska proslava u The Stage Sarajevo" },
+    { id: 2, src: birthday2, alt: "Dekoracija za rođendan Sarajevo" },
+    { id: 3, src: bachelorette1, alt: "Djevojačka večer u Sarajevu" },
+    { id: 4, src: bachelorette2, alt: "Bride to be proslava Sarajevo" },
+    { id: 5, src: event1, alt: "Privatni event u The Stage Sarajevo" },
+    { id: 6, src: event2, alt: "Korporativni događaj Sarajevo" },
+    { id: 7, src: space1, alt: "Event prostor za najam Sarajevo" },
+    { id: 8, src: space2, alt: "The Stage Sarajevo unutrašnjost" },
+    { id: 9, src: space3, alt: "Podcast studio Sarajevo" },
+    { id: 10, src: makeup1, alt: "Profesionalno šminkanje Sarajevo" },
+    { id: 11, src: makeup2, alt: "Makeup artist Sarajevo" },
+    { id: 12, src: makeup3, alt: "Šminkanje za posebne prilike Sarajevo" },
   ];
-
-  const filteredImages = activeFilter === "SVI" 
-    ? images 
-    : images.filter(img => img.category === activeFilter);
 
   const openLightbox = (index: number) => {
     setSelectedImage(index);
@@ -53,11 +45,11 @@ const Galerija = () => {
   };
 
   const nextImage = () => {
-    setSelectedImage((prev) => (prev + 1) % filteredImages.length);
+    setSelectedImage((prev) => (prev + 1) % images.length);
   };
 
   const prevImage = () => {
-    setSelectedImage((prev) => (prev - 1 + filteredImages.length) % filteredImages.length);
+    setSelectedImage((prev) => (prev - 1 + images.length) % images.length);
   };
 
   return (
@@ -78,28 +70,9 @@ const Galerija = () => {
             Trenuci koji pričaju priču
           </p>
 
-          {/* Filters */}
-          <div className="flex flex-wrap justify-center gap-2 sm:gap-3 mb-12">
-            {categories.map((category) => (
-              <Button
-                key={category}
-                onClick={() => setActiveFilter(category)}
-                variant={activeFilter === category ? "default" : "outline"}
-                size="sm"
-                className={
-                  activeFilter === category
-                    ? "bg-gold text-warm-white hover:bg-gold/90 text-xs sm:text-sm"
-                    : "border-gold text-gold hover:bg-gold hover:text-warm-white text-xs sm:text-sm"
-                }
-              >
-                {category}
-              </Button>
-            ))}
-          </div>
-
-          {/* Masonry Gallery - Single column on mobile */}
+          {/* Masonry Gallery */}
           <div className="columns-1 md:columns-2 lg:columns-3 xl:columns-4 gap-4">
-            {filteredImages.map((image, index) => (
+            {images.map((image, index) => (
               <div
                 key={image.id}
                 className="break-inside-avoid mb-4 cursor-pointer hover-scale"
@@ -139,8 +112,8 @@ const Galerija = () => {
 
           <div className="max-w-4xl max-h-[80vh] rounded-lg overflow-hidden">
             <img 
-              src={filteredImages[selectedImage].src} 
-              alt={filteredImages[selectedImage].alt}
+              src={images[selectedImage].src} 
+              alt={images[selectedImage].alt}
               className="w-full h-full object-contain"
             />
           </div>
