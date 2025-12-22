@@ -4,6 +4,9 @@ import { PartyPopper, Camera, Music, Users, DollarSign, Palette } from "lucide-r
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import ServiceSchema from "@/components/ServiceSchema";
+import StickyCTA from "@/components/StickyCTA";
 import heroImage from "@/assets/services/rodjendani-hero.jpg";
 import makeupImage from "@/assets/services/makeup-birthday.jpg";
 import sipPaintImage from "@/assets/services/sip-paint-birthday.jpg";
@@ -17,7 +20,21 @@ const Rodjendani = () => {
         description="Organizacija rođendana u Sarajevu. Make-up Birthday, Sip & Paint i Interaktivne igre. Cijena 350 KM za grupu do 10 osoba. Rezervišite termin!"
         canonical="/usluge/rodjendani"
       />
+      <BreadcrumbSchema 
+        items={[
+          { name: "Početna", url: "/" },
+          { name: "Usluge", url: "/usluge" },
+          { name: "Rođendani", url: "/usluge/rodjendani" }
+        ]} 
+      />
+      <ServiceSchema 
+        name="Organizacija rođendana Sarajevo"
+        description="Make-up Birthday, Sip & Paint i Interaktivne igre. Cijena 350 KM za grupu do 10 osoba."
+        url="/usluge/rodjendani"
+        price="350"
+      />
       <Navbar />
+      <StickyCTA />
       <div className="min-h-screen bg-warm-white pt-16">
       {/* Hero Section */}
       <section className="relative h-[60vh] bg-gradient-to-br from-gold/20 to-cream overflow-hidden">
