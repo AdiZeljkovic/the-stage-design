@@ -10,8 +10,8 @@ const SipPaint = () => {
   return (
     <>
       <SEO
-        title="Sip and Paint Sarajevo | 50 KM | The Stage"
-        description="Sip & Paint večeri u Sarajevu - slikanje uz koktele. Cijena 50 KM po osobi. Svakog drugog četvrtka. Idealan izlazak s prijateljicama!"
+        title="Sip and Paint Sarajevo | The Stage"
+        description="Sip & Paint večeri u Sarajevu - slikanje uz koktele. Svakog drugog četvrtka. Idealan izlazak s prijateljicama!"
         canonical="/usluge/sip-paint"
       />
       <Navbar />
@@ -46,8 +46,8 @@ const SipPaint = () => {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
             <div className="flex flex-col items-center">
               <DollarSign className="w-8 h-8 text-gold mb-2" />
-              <p className="text-2xl font-serif text-gold font-bold">50 KM</p>
-              <p className="text-soft-grey text-sm">Po osobi</p>
+              <p className="text-2xl font-serif text-gold font-bold">Po dogovoru</p>
+              <p className="text-soft-grey text-sm">Cijena</p>
             </div>
             <div className="flex flex-col items-center">
               <Users className="w-8 h-8 text-gold mb-2" />

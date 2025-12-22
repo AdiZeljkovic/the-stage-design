@@ -10,8 +10,8 @@ const ItalianNight = () => {
   return (
     <>
       <SEO
-        title="Italian Night Sarajevo | Pasta & Spritz 50 KM | The Stage"
-        description="Italian Night u Sarajevu - naučite praviti pastu i talijanska pića. Cijena 50 KM po osobi. Savršen date night ili izlazak s prijateljima!"
+        title="Italian Night Sarajevo | Pasta & Spritz | The Stage"
+        description="Italian Night u Sarajevu - naučite praviti pastu i talijanska pića. Savršen date night ili izlazak s prijateljima!"
         canonical="/usluge/italian-night"
       />
       <Navbar />
@@ -46,8 +46,8 @@ const ItalianNight = () => {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
             <div className="flex flex-col items-center">
               <DollarSign className="w-8 h-8 text-gold mb-2" />
-              <p className="text-2xl font-serif text-gold font-bold">50 KM</p>
-              <p className="text-soft-grey text-sm">Po osobi</p>
+              <p className="text-2xl font-serif text-gold font-bold">Po dogovoru</p>
+              <p className="text-soft-grey text-sm">Cijena</p>
             </div>
             <div className="flex flex-col items-center">
               <Users className="w-8 h-8 text-gold mb-2" />
