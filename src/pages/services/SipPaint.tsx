@@ -4,6 +4,9 @@ import { Palette, Wine, DollarSign, Users } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import ServiceSchema from "@/components/ServiceSchema";
+import StickyCTA from "@/components/StickyCTA";
 import heroImage from "@/assets/services/sip-paint-hero.jpg";
 
 const SipPaint = () => {
@@ -14,7 +17,20 @@ const SipPaint = () => {
         description="Sip & Paint večeri u Sarajevu - slikanje uz koktele. Svakog drugog četvrtka. Idealan izlazak s prijateljicama!"
         canonical="/usluge/sip-paint"
       />
+      <BreadcrumbSchema 
+        items={[
+          { name: "Početna", url: "/" },
+          { name: "Usluge", url: "/usluge" },
+          { name: "Sip and Paint", url: "/usluge/sip-paint" }
+        ]} 
+      />
+      <ServiceSchema 
+        name="Sip and Paint Sarajevo"
+        description="Sip & Paint večeri u Sarajevu - slikanje uz koktele. Svakog drugog četvrtka."
+        url="/usluge/sip-paint"
+      />
       <Navbar />
+      <StickyCTA />
       <div className="min-h-screen bg-warm-white pt-16">
       {/* Hero Section */}
       <section className="relative h-[60vh] bg-gradient-to-br from-gold/20 to-cream overflow-hidden">

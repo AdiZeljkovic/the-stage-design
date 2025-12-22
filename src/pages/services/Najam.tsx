@@ -4,6 +4,9 @@ import { Mic, Camera, Users, BookOpen, MapPin, Sparkles } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import ServiceSchema from "@/components/ServiceSchema";
+import StickyCTA from "@/components/StickyCTA";
 import heroImage from "@/assets/services/najam-hero.jpg";
 import podcastImage from "@/assets/services/podcast-studio.jpg";
 import eventsImage from "@/assets/services/presentations-events.jpg";
@@ -18,7 +21,21 @@ const Najam = () => {
         description="Najam event prostora u Sarajevu - 75m² u centru grada. Podcast studio, foto sesije, prezentacije i radionice. Zatražite ponudu!"
         canonical="/usluge/najam-prostora"
       />
+      <BreadcrumbSchema 
+        items={[
+          { name: "Početna", url: "/" },
+          { name: "Usluge", url: "/usluge" },
+          { name: "Najam Prostora", url: "/usluge/najam-prostora" }
+        ]} 
+      />
+      <ServiceSchema 
+        name="Najam prostora Sarajevo"
+        description="Event prostor 75m² u centru Sarajeva. Podcast studio, foto sesije, prezentacije i radionice."
+        url="/usluge/najam-prostora"
+        price="50"
+      />
       <Navbar />
+      <StickyCTA />
       <div className="min-h-screen bg-warm-white pt-16">
       {/* Hero Section */}
       <section className="relative h-[60vh] bg-gradient-to-br from-gold/20 to-cream overflow-hidden">

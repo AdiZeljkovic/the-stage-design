@@ -4,6 +4,9 @@ import { Sparkles, Star, Users, Award } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import ServiceSchema from "@/components/ServiceSchema";
+import StickyCTA from "@/components/StickyCTA";
 import heroImage from "@/assets/services/sminkanje-hero.jpg";
 
 const Sminkanje = () => {
@@ -14,7 +17,21 @@ const Sminkanje = () => {
         description="Profesionalno šminkanje u Sarajevu za vjenčanja, mature, foto sesije. High-end proizvodi: Dior, YSL, MAC. Zatražite ponudu!"
         canonical="/usluge/sminkanje"
       />
+      <BreadcrumbSchema 
+        items={[
+          { name: "Početna", url: "/" },
+          { name: "Usluge", url: "/usluge" },
+          { name: "Profesionalno Šminkanje", url: "/usluge/sminkanje" }
+        ]} 
+      />
+      <ServiceSchema 
+        name="Profesionalno šminkanje Sarajevo"
+        description="Šminkanje za vjenčanja, mature, foto sesije. High-end proizvodi: Dior, YSL, MAC."
+        url="/usluge/sminkanje"
+        price="70"
+      />
       <Navbar />
+      <StickyCTA />
       <div className="min-h-screen bg-warm-white pt-16">
       {/* Hero Section */}
       <section className="relative h-[60vh] bg-gradient-to-br from-gold/20 to-cream overflow-hidden">

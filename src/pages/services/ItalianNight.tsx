@@ -4,6 +4,9 @@ import { Wine, Utensils, DollarSign, Users } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import ServiceSchema from "@/components/ServiceSchema";
+import StickyCTA from "@/components/StickyCTA";
 import heroImage from "@/assets/services/italian-night-hero.jpg";
 
 const ItalianNight = () => {
@@ -14,7 +17,20 @@ const ItalianNight = () => {
         description="Italian Night u Sarajevu - naučite praviti pastu i talijanska pića. Savršen date night ili izlazak s prijateljima!"
         canonical="/usluge/italian-night"
       />
+      <BreadcrumbSchema 
+        items={[
+          { name: "Početna", url: "/" },
+          { name: "Usluge", url: "/usluge" },
+          { name: "Italian Night", url: "/usluge/italian-night" }
+        ]} 
+      />
+      <ServiceSchema 
+        name="Italian Night Sarajevo"
+        description="Naučite praviti pastu i talijanska pića. Savršen date night ili izlazak s prijateljima!"
+        url="/usluge/italian-night"
+      />
       <Navbar />
+      <StickyCTA />
       <div className="min-h-screen bg-warm-white pt-16">
       {/* Hero Section */}
       <section className="relative h-[60vh] bg-gradient-to-br from-gold/20 to-cream overflow-hidden">

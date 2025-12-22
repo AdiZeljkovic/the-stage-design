@@ -4,6 +4,9 @@ import { Heart, Sparkles, DollarSign, Music } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import ServiceSchema from "@/components/ServiceSchema";
+import StickyCTA from "@/components/StickyCTA";
 import heroImage from "@/assets/services/djevojacke-hero.jpg";
 
 const Djevojacke = () => {
@@ -14,7 +17,21 @@ const Djevojacke = () => {
         description="Organizacija djevojačkih večeri u Sarajevu. Bride to be proslava sa dekoracijom, igrama i muzikom. Cijena 350 KM. Rezervišite termin!"
         canonical="/usluge/djevojacke-veceri"
       />
+      <BreadcrumbSchema 
+        items={[
+          { name: "Početna", url: "/" },
+          { name: "Usluge", url: "/usluge" },
+          { name: "Djevojačke Večeri", url: "/usluge/djevojacke-veceri" }
+        ]} 
+      />
+      <ServiceSchema 
+        name="Djevojačke večeri Sarajevo"
+        description="Bride to be proslava sa dekoracijom, igrama i muzikom. Cijena 350 KM."
+        url="/usluge/djevojacke-veceri"
+        price="350"
+      />
       <Navbar />
+      <StickyCTA />
       <div className="min-h-screen bg-warm-white pt-16">
       {/* Hero Section */}
       <section className="relative h-[60vh] bg-gradient-to-br from-gold/20 to-cream overflow-hidden">
