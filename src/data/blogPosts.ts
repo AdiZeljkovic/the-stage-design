@@ -17,7 +17,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: "1",
     slug: "djevojacka-vecer-sarajevo-kompletni-vodic",
-    title: "Djevojačka Večer u Sarajevu: Sve Što Trebate Znati za Nezaboravnu Proslavu",
+    title: "Djevojačka večer u Sarajevu: sve što trebate znati za nezaboravnu proslavu",
     excerpt: "Organizirate djevojačku večer za svoju najbolju prijateljicu? Otkrijte kako stvoriti večer o kojoj će se pričati godinama - od izbora lokacije do aktivnosti koje će oduševiti svaku buduću mladenku.",
     content: `Kad je Amina nazvala svoje četiri najbliže prijateljice s vijesti o zarukama, prva misao svake od njih bila je ista: kako joj priuštiti [djevojačku večer](/usluge/djevojacke) kakvu zaslužuje? Ovo pitanje, naizgled jednostavno, u sebi krije čitav labirint odluka, kompromisa i kreativnih izazova s kojima se suoči svaka kuma, svaka djeveruša, svaka grupa prijateljica koja želi da njihova buduća mladenka osjeti koliko je voljena.
 
@@ -40,7 +40,7 @@ Aminina djevojačka večer završila je u 2 ujutro. Nitko nije želio otići. Go
 `,
     category: "Djevojačke večeri",
     author: "The Stage Tim",
-    publishedAt: "2024-12-20",
+    publishedAt: "2025-12-28",
     readTime: 7,
     featured: true,
     image: "/src/assets/services/djevojacke-hero.jpg",
@@ -49,7 +49,7 @@ Aminina djevojačka večer završila je u 2 ujutro. Nitko nije želio otići. Go
   {
     id: "2",
     slug: "djecji-rodjendan-ideje-koje-djeca-obozavaju",
-    title: "Dječji Rođendan koji Vaše Dijete Neće Zaboraviti: Ideje koje Roditelji Često Previde",
+    title: "Dječji rođendan koji vaše dijete neće zaboraviti: ideje koje roditelji često previde",
     excerpt: "Umjesto još jedne rođendanske zabave koju će dijete zaboraviti za tjedan dana, saznajte kako stvoriti magične trenutke koji će ostati urezani u sjećanje zauvijek.",
     content: `Pitala sam svoju desetogodišnju nećakinju koji joj je rođendan bio najbolji. Očekivala sam da će izabrati onaj s najvećom tortom, ili možda onaj s najviše poklona. Umjesto toga, bez razmišljanja je rekla: "Onaj gdje sam s prijateljicama slikala na platnu, jer sam se osjećala kao prava umjetnica."
 
@@ -72,7 +72,7 @@ Vaše dijete neće pamtiti koliko je koštala torta. Neće pamtiti brand poklona
 `,
     category: "Rođendani",
     author: "The Stage Tim",
-    publishedAt: "2024-12-15",
+    publishedAt: "2025-12-26",
     readTime: 8,
     featured: true,
     image: "/src/assets/services/rodjendani-hero.jpg",
@@ -81,7 +81,7 @@ Vaše dijete neće pamtiti koliko je koštala torta. Neće pamtiti brand poklona
   {
     id: "3",
     slug: "baby-shower-moderna-proslava-trudnice",
-    title: "Baby Shower u BiH: Vodič za Modernu Proslavu koju će Buduća Mama Obožavati",
+    title: "Baby shower u BiH: vodič za modernu proslavu koju će buduća mama obožavati",
     excerpt: "Baby shower više nije američki trend — postala je tradicija koju bosanske žene prihvataju svim srcem. Saznajte kako organizirati proslavu koja će rasplakati buduću mamu od sreće.",
     content: `Lejla je bila u sedmom mjesecu trudnoće kada ju je sestra iznenadila. "Mislila sam da idemo na ručak", rekla mi je kasnije, još uvijek sa suzama u očima. "Umjesto toga, ušla sam u prostor pun mojih najbližih prijateljica, balone u obliku oblaka, stol pun poklona za moju bebu. Plakala sam sat vremena. Od sreće."
 
@@ -102,7 +102,7 @@ Lokacija čini ogromnu razliku. Organizacija kod kuće ima svoj šarm, ali [prof
 Kada ta mala beba jednog dana pita: "Mama, jesam li bila željena?", pokazat ćete joj fotografije s baby showera. I odgovor će biti kristalno jasan.`,
     category: "Baby Shower",
     author: "The Stage Tim",
-    publishedAt: "2024-12-10",
+    publishedAt: "2025-12-24",
     readTime: 9,
     featured: false,
     image: "/src/assets/services/baby-shower-hero.jpg",
@@ -111,7 +111,7 @@ Kada ta mala beba jednog dana pita: "Mama, jesam li bila željena?", pokazat će
   {
     id: "4",
     slug: "sip-and-paint-kreativnost-druzenje-sarajevo",
-    title: "Sip & Paint: Zašto je Ovo Postala Najtraženija Grupna Aktivnost u Sarajevu",
+    title: "Sip & Paint: zašto je ovo postala najtraženija grupna aktivnost u Sarajevu",
     excerpt: "Niste umjetnik? Savršeno. Upravo zato ćete obožavati Sip & Paint. Otkrijte zašto tisuće Sarajlija zamjenjuju klasične izlaske ovom jedinstvenom kombinacijom kreativnosti i druženja.",
     content: `Kada je Maja predložila [Sip & Paint](/usluge/sip-paint) za svoj trideseti rođendan, reakcije prijateljica bile su predvidljivo skeptične. "Ja ne znam crtati." "Bit će neugodno." "Zar ne možemo jednostavno u restoran?" Tri sata kasnije, ista ta grupa postavljala je svoje slike na Instagram s komentarima poput: "Gdje je ovo bilo cijeli moj život?"
 
@@ -130,7 +130,7 @@ Za romantične večeri, parovi otkrivaju novu dimenziju zajedničkog vremena. Um
 Skupite ekipu. Odaberite datum. Za dva sata, držat ćete u rukama vlastitu sliku i pitati se zašto ovo niste probali prije. Umjetnik ili ne — večer koju ćete pamtiti vas čeka.`,
     category: "Aktivnosti",
     author: "The Stage Tim",
-    publishedAt: "2024-12-05",
+    publishedAt: "2025-12-22",
     readTime: 7,
     featured: true,
     image: "/src/assets/services/sip-paint-hero.jpg",
@@ -139,7 +139,7 @@ Skupite ekipu. Odaberite datum. Za dva sata, držat ćete u rukama vlastitu slik
   {
     id: "5",
     slug: "profesionalno-sminkanje-savjeti-strucnjaka",
-    title: "Profesionalno Šminkanje: Tajne koje Makeup Artisti Rijetko Otkrivaju",
+    title: "Profesionalno šminkanje: tajne koje makeup artisti rijetko otkrivaju",
     excerpt: "Nakon stotina lica i nebrojenih posebnih prilika, naša šminkerica otkriva što zaista čini razliku između makeup-a koji traje i onog koji nestaje do ponoći.",
     content: `Sara je za svoje vjenčanje gledala 47 YouTube tutorijala. Kupila je identične proizvode. Pratila iste korake, pauzirala video, primjenjivala, ponavljala. Rezultat na dan vjenčanja? "Zašto ne izgleda kao na videu?" Nije do nje. Je do konteksta koji tutorijali nikad ne pokazuju.
 
@@ -160,7 +160,7 @@ Za vjenčanje ili veliku proslavu, planirajte da makeup bude gotov najmanje sat 
 Profesionalno šminkanje nije luksuz. To je investicija u samopouzdanje. Zaslužujete pogledati fotografije za godinu dana i pomisliti: "Bila sam prelijepa."`,
     category: "Ljepota",
     author: "The Stage Tim",
-    publishedAt: "2024-11-28",
+    publishedAt: "2025-12-20",
     readTime: 8,
     featured: false,
     image: "/src/assets/services/sminkanje-hero.jpg",
@@ -169,7 +169,7 @@ Profesionalno šminkanje nije luksuz. To je investicija u samopouzdanje. Zasluž
   {
     id: "6",
     slug: "italian-night-sarajevo-kulinarska-avantura",
-    title: "Italian Night u Sarajevu: Kada Toskana Dođe do Vas",
+    title: "Italian Night u Sarajevu: kada Toskana dođe do vas",
     excerpt: "Ne trebate avion do Italije za autentično iskustvo. Otkrijte kako jedna večer može prenijeti duh Mediterana direktno u srce Sarajeva — hrana, muzika, atmosfera i la dolce vita.",
     content: `Zatvorite oči na trenutak. Miris svježe pečene focacce ispunjava prostor. Zvuk talijanske glazbe u pozadini stvara atmosferu koja vas transportira stotinama kilometara južnije. Čaša Chianti vina u ruci, hladna i teška. Smijeh prijatelja oko dugačkog stola prekrivenog bijelim stolnjakom. To nije luksuzni odmor koji si ne možete priuštiti. To je [Italian Night](/usluge/italian-night) večer koju možete imati ovdje, sada, u srcu Sarajeva.
 
@@ -192,7 +192,7 @@ Na The Stage Italian Night, sve je uključeno u paket: privatni prostor samo za 
 Italija nije samo mjesto na karti. To je stanje uma, način života gdje je hrana ljubav, razgovor umjetnost, a svaki obrok slavlje. Ne morate čekati odmor. Ne morate kupovati avionske karte. Italija dolazi k vama. Buon appetito!`,
     category: "Tematske večeri",
     author: "The Stage Tim",
-    publishedAt: "2024-11-20",
+    publishedAt: "2025-12-18",
     readTime: 7,
     featured: false,
     image: "/src/assets/services/italian-night-hero.jpg",
@@ -201,7 +201,7 @@ Italija nije samo mjesto na karti. To je stanje uma, način života gdje je hran
   {
     id: "7",
     slug: "kako-odabrati-event-prostor-sarajevo",
-    title: "Kako Odabrati Savršen Event Prostor u Sarajevu: Vodič za Pametne Organizatore",
+    title: "Kako odabrati savršen event prostor u Sarajevu: vodič za pametne organizatore",
     excerpt: "Lokacija čini ili lomi događaj. Naučite koje greške izbjegavati i na što obratiti pažnju prije nego potpišete bilo što — savjeti od profesionalaca koji su vidjeli sve.",
     content: `Emina je rezervirala "savršen" prostor za svoju [djevojačku večer](/usluge/djevojacke). Na fotografijama je izgledao prekrasno — visoki stropovi, elegantna rasvjeta, stilski namještaj. U stvarnosti je čekalo razočarenje: bučan restoran gdje se jedva čula s prijateljicama, loše osvjetljenje koje je upropastilo svaku fotografiju, i osoblje koje ih je žurilo da završe jer je sljedeća grupa čekala. "Da sam znala na što obratiti pažnju", rekla mi je kasnije, "sve bi bilo potpuno drugačije."
 
@@ -232,7 +232,7 @@ Posjetite prostor osobno. Zamislite svoje goste unutra. Pitajte sve što vas zan
 `,
     category: "Savjeti",
     author: "The Stage Tim",
-    publishedAt: "2024-11-15",
+    publishedAt: "2025-12-16",
     readTime: 8,
     featured: false,
     image: "/src/assets/services/najam-hero.jpg",
@@ -241,7 +241,7 @@ Posjetite prostor osobno. Zamislite svoje goste unutra. Pitajte sve što vas zan
   {
     id: "8",
     slug: "trendovi-u-proslavama-2025",
-    title: "Trendovi u Proslavama 2025: Šta će Gosti Očekivati Ove Godine",
+    title: "Trendovi u proslavama 2025: šta će gosti očekivati ove godine",
     excerpt: "Zaboravite sve što ste znali o tradicionalnim proslavama. Nova godina donosi nove standarde — evo šta vaši gosti očekuju i kako ostati ispred krivulje.",
     content: `Pandemija je promijenila sve. Uključujući, možda posebno, način na koji ljudi proslavljaju važne trenutke u životu. Oni koji su preživjeli periode izolacije sada žele više — više povezanosti, više značenja, više autentičnosti. Površna slavlja više jednostavno nisu dovoljna. Istraživanja pokazuju da je 67% ljudi nakon 2020. godine promijenilo prioritete kada su proslave u pitanju, stavljajući naglasak na kvalitetu iskustva umjesto na veličinu ili raskoš.
 
@@ -262,7 +262,7 @@ Ironično, u doba najintenzivnije tehnologije koju je čovječanstvo ikad doživ
 Kako primijeniti ove trendove? Ne morate implementirati sve. Pitajte se što odgovara vašoj specifičnoj grupi, što možete realistično izvesti s dostupnim budžetom i vremenom, i što će zaista poboljšati iskustvo umjesto da samo prati modu. 2025. će biti godina autentičnosti. Godina manje pretvaranja i više stvarnog povezivanja. Trendovi dolaze i odlaze, ali suština ostaje nepromijenjena već tisućljećima: okupiti ljude, stvoriti uspomene, proslaviti trenutke.`,
     category: "Trendovi",
     author: "The Stage Tim",
-    publishedAt: "2024-11-10",
+    publishedAt: "2025-12-14",
     readTime: 7,
     featured: false,
     image: "/src/assets/gallery/event-1.jpg",
@@ -271,7 +271,7 @@ Kako primijeniti ove trendove? Ne morate implementirati sve. Pitajte se što odg
   {
     id: "9",
     slug: "personalizacija-proslave-detalji-koji-cine-razliku",
-    title: "Personalizacija Proslave: Sitni Detalji koji Vaše Goste Ostavljaju Bez Riječi",
+    title: "Personalizacija proslave: sitni detalji koji vaše goste ostavljaju bez riječi",
     excerpt: "Svatko može rezervirati prostor i naručiti tortu. Ali pravi čarobnjaci organizacije znaju da su najmanji detalji oni koji stvaraju najveće uspomene.",
     content: `Zamislite dvije proslave. Proslava A ima lijep prostor, ukusnu hranu, ugodnu muziku. Sve je tehnički "u redu", profesionalno izvedeno, bez greške. Proslava B ima prosječan prostor i prosječnu hranu. Ali na svakom mjestu čeka ručno napisana poruka zašto je baš taj gost poseban za slavljenika. Playlist uključuje pjesme koje znače nešto, koje bude uspomene. Fotografije iz zajedničkih trenutaka ukrašavaju zidove. Torta ima oblik nečega što samo najbliži razumiju.
 
@@ -296,7 +296,7 @@ Postoje zamke koje treba svjesno izbjeći. Over-personalizacija s previše insid
 Na kraju, personalizacija se svodi na jedno jednostavno pitanje: kako mogu pokazati ovoj osobi da je viđena, cijenjena i voljena? Odgovor na to pitanje vodi do detalja koji ostaju u srcu zauvijek.`,
     category: "Savjeti",
     author: "The Stage Tim",
-    publishedAt: "2024-11-05",
+    publishedAt: "2025-12-12",
     readTime: 8,
     featured: false,
     image: "/src/assets/gallery/birthday-1.jpg",
@@ -305,7 +305,7 @@ Na kraju, personalizacija se svodi na jedno jednostavno pitanje: kako mogu pokaz
   {
     id: "10",
     slug: "team-building-aktivnosti-koje-zaposlenici-zapravo-zele",
-    title: "Team Building koji Zaposlenici Neće Mrziti: Aktivnosti koje Zaista Povezuju",
+    title: "Team building koji zaposlenici neće mrziti: aktivnosti koje zaista povezuju",
     excerpt: "Priznajte — riječ 'team building' izaziva kolektivni uzdah u vašem uredu. Ali ne mora biti tako. Otkrijte kako organizirati okupljanje koje će ljudi stvarno željeti ponoviti.",
     content: `Hajde da budemo potpuno iskreni jedni prema drugima. Tradicionalni team building ima lošu reputaciju. I uglavnom zasluženo. "Obvezna zabava" je oksimoron koji svatko prepoznaje. Trust fall vježbe nisu spojile nikog u povijesti korporativnog svijeta. I ne, još jedan pub quiz neće riješiti komunikacijske probleme u timu koji jedva razmjenjuje mailove.
 
@@ -330,7 +330,7 @@ Team building nije trošak u budžetu. To je investicija u ljude koji čine vaš
 Sljedeći put kad planirate team building, zapitajte se iskreno: bih li ja želio ići na ovo? Ako je odgovor "ne" — radite iznova dok ne postane "da".`,
     category: "Korporativno",
     author: "The Stage Tim",
-    publishedAt: "2024-10-28",
+    publishedAt: "2025-12-10",
     readTime: 8,
     featured: false,
     image: "/src/assets/services/presentations-events.jpg",
