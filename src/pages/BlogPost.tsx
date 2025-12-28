@@ -53,6 +53,7 @@ const BlogPost = () => {
         title={`${post.title} | Blog - The Stage Sarajevo`}
         description={post.excerpt}
         canonical={`/blog/${post.slug}`}
+        ogType="article"
       />
       <BreadcrumbSchema 
         items={[
