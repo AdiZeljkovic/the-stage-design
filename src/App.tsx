@@ -21,6 +21,8 @@ const ItalianNight = lazy(() => import("./pages/services/ItalianNight"));
 const SipPaint = lazy(() => import("./pages/services/SipPaint"));
 const Sminkanje = lazy(() => import("./pages/services/Sminkanje"));
 const Najam = lazy(() => import("./pages/services/Najam"));
+const Blog = lazy(() => import("./pages/Blog"));
+const BlogPost = lazy(() => import("./pages/BlogPost"));
 
 const queryClient = new QueryClient();
 
@@ -51,6 +53,8 @@ const App = () => (
             <Route path="/galerija" element={<Galerija />} />
             <Route path="/o-nama" element={<ONama />} />
             <Route path="/kontakt" element={<Kontakt />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:slug" element={<BlogPost />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Suspense>

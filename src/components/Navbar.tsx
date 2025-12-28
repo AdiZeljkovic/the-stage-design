@@ -157,6 +157,16 @@ const Navbar = () => {
             </Link>
 
             <Link
+              to="/blog"
+              className={cn(
+                "text-dark-grey hover:text-gold transition-colors font-medium whitespace-nowrap",
+                (isActive("/blog") || location.pathname.startsWith("/blog/")) && "text-gold"
+              )}
+            >
+              Blog
+            </Link>
+
+            <Link
               to="/o-nama"
               className={cn(
                 "text-dark-grey hover:text-gold transition-colors font-medium whitespace-nowrap",
@@ -276,6 +286,16 @@ const Navbar = () => {
                 )}
               >
                 Galerija
+              </Link>
+              <Link
+                to="/blog"
+                onClick={() => setIsOpen(false)}
+                className={cn(
+                  "block py-4 text-xl text-dark-grey hover:text-gold transition-colors font-medium border-b border-gold/10",
+                  (isActive("/blog") || location.pathname.startsWith("/blog/")) && "text-gold"
+                )}
+              >
+                Blog
               </Link>
               <Link
                 to="/o-nama"
