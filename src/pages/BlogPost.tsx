@@ -19,11 +19,11 @@ const BlogPost = () => {
 
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
-    return date.toLocaleDateString('bs-BA', { 
-      day: 'numeric', 
-      month: 'long', 
-      year: 'numeric' 
-    });
+    const day = date.getDate();
+    const months = ['jan', 'feb', 'mar', 'apr', 'maj', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec'];
+    const month = months[date.getMonth()];
+    const year = date.getFullYear();
+    return `${day}. ${month} ${year}`;
   };
 
   // Get related posts (same category, excluding current)
