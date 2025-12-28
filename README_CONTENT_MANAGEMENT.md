@@ -152,22 +152,45 @@ src/
 
 ## 🖼️ Managing Images
 
-### Current Images Location
+### Image Folders Structure
 
-- **Hero Background:** `src/assets/hero-background.jpg`
-- **Gallery Images:** Replace placeholder images in `src/pages/Galerija.tsx`
+```
+src/assets/
+├── about/              ← About page images
+├── blog/               ← Blog featured images (NEW!)
+├── gallery/            ← Gallery page images
+├── index/              ← Homepage images
+├── services/           ← Service page hero images
+└── hero-background.jpg
+```
+
+### 📝 Blog Featured Images
+
+**Location:** `src/assets/blog/`
+
+Slike za blog članke imenujte prema **slug-u članka**:
+
+| Članak Slug | Naziv Slike |
+|-------------|-------------|
+| `djevojacka-vecer-sarajevo-kompletni-vodic` | `djevojacka-vecer-sarajevo-kompletni-vodic.jpg` |
+| `djecji-rodjendan-ideje-koje-djeca-obozavaju` | `djecji-rodjendan-ideje-koje-djeca-obozavaju.jpg` |
+
+**Podržani formati:** `.jpg`, `.jpeg`, `.png`, `.webp`
+
+**Fallback sistem:** Ako slika ne postoji u `blog/` folderu, automatski će se koristiti odgovarajuća slika iz `services/` foldera prema kategoriji članka.
+
+### 🎨 Gallery Images
+
+**Location:** `src/assets/gallery/`
+
+Slike automatski preuzimaju alt tagove iz `src/lib/galleryImages.ts`.
 
 ### How to Add New Images
 
-1. Place images in `src/assets/` folder
-2. Import in the relevant component:
-   ```typescript
-   import newImage from "@/assets/new-image.jpg";
-   ```
-3. Use in JSX:
-   ```jsx
-   <img src={newImage} alt="Description" />
-   ```
+1. Place images in the appropriate `src/assets/` subfolder
+2. For blog: name the file matching the article slug
+3. For gallery: add alt text mapping in `src/lib/galleryImages.ts`
+4. Images are automatically imported - no code changes needed!
 
 ---
 

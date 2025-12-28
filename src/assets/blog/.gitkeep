@@ -1,0 +1,14 @@
+# Blog Featured Images
+# ====================
+# 
+# Stavite slike za blog članke u ovaj folder.
+# 
+# PRAVILA IMENOVANJA:
+# - Naziv slike MORA odgovarati slug-u članka
+# - Primjer: članak "djevojacka-vecer-sarajevo-kompletni-vodic" 
+#   treba sliku: djevojacka-vecer-sarajevo-kompletni-vodic.jpg
+#
+# PODRŽANI FORMATI: .jpg, .jpeg, .png, .webp
+#
+# Ako slika ne postoji, automatski će se koristiti 
+# odgovarajuća slika iz services foldera prema kategoriji članka.

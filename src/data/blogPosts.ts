@@ -1,3 +1,5 @@
+import { getBlogImage } from '@/lib/blogImages';
+
 export interface BlogPost {
   id: string;
   slug: string;
@@ -9,9 +11,17 @@ export interface BlogPost {
   publishedAt: string;
   readTime: number;
   featured: boolean;
-  image: string;
   tags: string[];
 }
+
+// Helper function to get post with resolved image
+export interface BlogPostWithImage extends BlogPost {
+  image: string;
+}
+
+export const getPostImage = (post: BlogPost): string => {
+  return getBlogImage(post.slug, post.category);
+};
 
 export const blogPosts: BlogPost[] = [
   {
@@ -43,7 +53,6 @@ Aminina djevojačka večer završila je u 2 ujutro. Nitko nije želio otići. Go
     publishedAt: "2025-12-28",
     readTime: 7,
     featured: true,
-    image: "/src/assets/services/djevojacke-hero.jpg",
     tags: ["djevojačka večer", "sarajevo", "proslave", "mladenka", "organizacija"]
   },
   {
@@ -75,7 +84,6 @@ Vaše dijete neće pamtiti koliko je koštala torta. Neće pamtiti brand poklona
     publishedAt: "2025-12-26",
     readTime: 8,
     featured: true,
-    image: "/src/assets/services/rodjendani-hero.jpg",
     tags: ["dječji rođendan", "ideje", "organizacija", "sarajevo", "proslave"]
   },
   {
@@ -105,7 +113,6 @@ Kada ta mala beba jednog dana pita: "Mama, jesam li bila željena?", pokazat će
     publishedAt: "2025-12-24",
     readTime: 9,
     featured: false,
-    image: "/src/assets/services/baby-shower-hero.jpg",
     tags: ["baby shower", "trudnoća", "proslava", "organizacija", "sarajevo"]
   },
   {
@@ -133,7 +140,6 @@ Skupite ekipu. Odaberite datum. Za dva sata, držat ćete u rukama vlastitu slik
     publishedAt: "2025-12-22",
     readTime: 7,
     featured: true,
-    image: "/src/assets/services/sip-paint-hero.jpg",
     tags: ["sip and paint", "kreativnost", "druženje", "sarajevo", "team building"]
   },
   {
@@ -163,7 +169,6 @@ Profesionalno šminkanje nije luksuz. To je investicija u samopouzdanje. Zasluž
     publishedAt: "2025-12-20",
     readTime: 8,
     featured: false,
-    image: "/src/assets/services/sminkanje-hero.jpg",
     tags: ["šminkanje", "makeup", "savjeti", "profesionalno", "ljepota"]
   },
   {
@@ -195,7 +200,6 @@ Italija nije samo mjesto na karti. To je stanje uma, način života gdje je hran
     publishedAt: "2025-12-18",
     readTime: 7,
     featured: false,
-    image: "/src/assets/services/italian-night-hero.jpg",
     tags: ["italian night", "tematska večer", "hrana", "italija", "sarajevo"]
   },
   {
@@ -235,7 +239,6 @@ Posjetite prostor osobno. Zamislite svoje goste unutra. Pitajte sve što vas zan
     publishedAt: "2025-12-16",
     readTime: 8,
     featured: false,
-    image: "/src/assets/services/najam-hero.jpg",
     tags: ["event prostor", "organizacija", "sarajevo", "savjeti", "lokacija"]
   },
   {
@@ -265,7 +268,6 @@ Kako primijeniti ove trendove? Ne morate implementirati sve. Pitajte se što odg
     publishedAt: "2025-12-14",
     readTime: 7,
     featured: false,
-    image: "/src/assets/gallery/event-1.jpg",
     tags: ["trendovi", "proslave", "2025", "organizacija", "eventi"]
   },
   {
@@ -299,7 +301,6 @@ Na kraju, personalizacija se svodi na jedno jednostavno pitanje: kako mogu pokaz
     publishedAt: "2025-12-12",
     readTime: 8,
     featured: false,
-    image: "/src/assets/gallery/birthday-1.jpg",
     tags: ["personalizacija", "detalji", "organizacija", "proslave", "savjeti"]
   },
   {
@@ -333,7 +334,6 @@ Sljedeći put kad planirate team building, zapitajte se iskreno: bih li ja želi
     publishedAt: "2025-12-10",
     readTime: 8,
     featured: false,
-    image: "/src/assets/services/presentations-events.jpg",
     tags: ["team building", "korporativno", "zaposlenici", "aktivnosti", "sarajevo"]
   }
 ];
