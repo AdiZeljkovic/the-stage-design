@@ -20,67 +20,97 @@ export const blogPosts: BlogPost[] = [
     title: "Djevojačka Večer u Sarajevu: Sve Što Trebate Znati za Nezaboravnu Proslavu",
     excerpt: "Organizirate djevojačku večer za svoju najbolju prijateljicu? Otkrijte kako stvoriti večer o kojoj će se pričati godinama - od izbora lokacije do aktivnosti koje će oduševiti svaku buduću mladenku.",
     content: `
-## Zašto je djevojačka večer više od "samo jedne večeri"
+Kad je Amina nazvala svoje četiri najbliže prijateljice s vijesti o zarukama, prva misao svake od njih bila je ista: "Kako joj priuštiti [djevojačku večer](/usluge/djevojacke) koju zaslužuje?"
 
-Sjetite se trenutka kada vam je prijateljica rekla da se udaje. Taj bljesak u njenim očima, osmijeh koji nije mogla sakriti. Sada je na vama da joj priredite večer koja će biti dostojna tog trenutka.
+Ovo je pitanje s kojim se suoči svaka kuma, svaka djeveruša, svaka grupa prijateljica. A odgovor nije jednostavan kao prije.
 
-Djevojačka večer nije samo tradicija. To je posljednji ples slobode, smijeh do suza s najbližim prijateljicama, i uspomene koje će grijati srce dugo nakon što se venčanica spremi u ormar.
+---
 
-## Kako odabrati lokaciju koja će sve ostaviti bez daha
+## Nova pravila djevojačkih večeri
 
-Zaboravite generic restorane i bučne klubove. Moderna mladenka zaslužuje prostor koji priča priču - njenu priču.
+Zaboravite sve što ste znali o djevojačkim večerima. Plastične krune iz kineske radnje? Prošlost. Obilazak bučnih klubova? Zamorno. Neugodne igre koje nitko ne želi igrati? Definitivno ne.
 
-**Evo na što obratiti pažnju:**
+**Moderna djevojačka večer je:**
+- Personalizirana do najmanjeg detalja
+- Fokusirana na kvalitetno vrijeme, ne na količinu aktivnosti
+- Instagram-worthy, ali autentična
+- Opuštena, a opet posebna
 
-- **Privatnost** - Intimni prostor samo za vašu ekipu, bez radoznalih pogleda
-- **Fleksibilnost** - Mogućnost personalizacije dekoracije prema vašoj viziji
-- **Ambient** - Osvjetljenje, muzika i atmosfera koja se prilagođava vašem planu
-- **Lokacija** - Centralna pozicija u Sarajevu, lako dostupna svim gostima
+> "Najbolje djevojačke večeri koje smo organizirali imale su jednu zajedničku crtu — svaka je bila potpuno drugačija, jer je svaka mladenka drugačija."
 
-The Stage Sarajevo dizajniran je upravo za ovakve trenutke. Zamislite privatni prostor gdje svaki detalj možete prilagoditi - od zlatnih balona s imenom mladenke do elegantnog osvjetljenja koje stvara savršenu atmosferu za fotografije.
+---
 
-## Aktivnosti koje će zaista oduševiti
+## Lokacija: Zašto je ovo najvažnija odluka
 
-Odbacite zastarjele igre koje nitko zapravo ne želi igrati. Evo što moderne mladenke stvarno vole:
+Istraživanja pokazuju da 73% gostiju pamti lokaciju događaja bolje od bilo kojeg drugog elementa. Mjesto gdje slavite definira cijelo iskustvo.
+
+### Šta tražiti u prostoru:
+
+1. **Privatnost** — Intimni prostor samo za vašu grupu, bez radoznalih pogleda stranaca
+2. **Fleksibilnost** — Mogućnost prilagodbe dekoracije vašoj viziji
+3. **Ambijent** — Osvjetljenje i atmosfera koja se može prilagoditi planu večeri
+4. **Centralna lokacija** — Lako dostupno svim gostima
+
+[The Stage Sarajevo](/kontakt) dizajniran je upravo za ovakve prilike — privatni prostor u srcu grada gdje svaki detalj možete oblikovati prema svojoj zamisli.
+
+---
+
+## Aktivnosti koje će oduševiti — zaista
+
+Prestanite guglati "igre za djevojačku večer". Većina tih prijedloga je zastarjela.
+
+Evo što zaista funkcionira:
 
 ### Kreativne radionice
-**Sip & Paint večer** - Svaka prijateljica slika svoje remek-djelo uz čašu omiljenog pića. Na kraju večeri, mladenka odlazi kući s unikatnim umjetničkim djelima svojih najbližih.
+
+[Sip & Paint](/usluge/sip-paint) večeri postale su hit iz dobrog razloga. Zamislite: svaka prijateljica slika svoje djelo uz čašu vina, razgovor teče prirodno, a na kraju mladenka odlazi kući s unikatnim umjetničkim djelima svojih najbližih.
 
 ### Glamurozno iskustvo
-**Profesionalno šminkanje za cijelu ekipu** - Zamislite: sve izgledaju kao da su sišle s naslovnice. Savršeno za grupne fotografije koje će krasiti Instagram godinama.
 
-### Personalizirane igre
-Umjesto generičkih igara, napravite kviz o mladenki i mladoženji. "Tko bolje poznaje par?" garantira smijeh i iznenađujuće odgovore.
+[Profesionalno šminkanje](/usluge/sminkanje) za cijelu ekipu transformira obično druženje u pravi glamur event. Rezultat? Fotografije koje izgledaju kao s naslovnice — bez filtera.
 
-## Dekoracija koja govori "ovo je njezina večer"
+### Personalizirani quiz
 
-Detalji čine razliku između obične zabave i nezaboravnog događaja.
+Umjesto generičkih igara, napravite quiz o mladenki i mladoženji. "Tko bolje poznaje par?" garantira smijeh, iznenađujuće odgovore i poneku suzu.
 
-**Elementi koji nikad ne iznevjere:**
-- Personalizirani neon znak s imenom ili datumom vjenčanja
-- Balon instalacija u njezinim omiljenim bojama
-- Polaroid zid za instant uspomene
-- Elegantni rekviziti za fotografije
+---
 
-## Budžet: Kako postići luksuz bez luksuzne cijene
+## Budžet: Luksuz ne mora značiti skupo
 
-Tajna nije u trošenju više novca - već u pametnijem trošenju.
+Tajna nije u trošenju više novca — već u pametnijem trošenju.
 
-**Prioriteti koji se isplate:**
-1. Kvalitetna lokacija s uključenom dekoracijom
-2. Jedna "wow" aktivnost umjesto pet prosječnih
-3. Profesionalne fotografije (Instagram filteri ne mogu zamijeniti pravo osvjetljenje)
+**Gdje investirati:**
+- Kvalitetna lokacija s uključenom dekoracijom
+- Jedna "wow" aktivnost umjesto pet prosječnih
+- Profesionalne fotografije
 
 **Gdje uštedjeti:**
-- DIY pozivnice i zahvalnice
+- DIY pozivnice putem Canve
 - Potluck sistem za grickalice
 - Spotify playlista umjesto DJ-a
 
-## Zaključak: Učinite to nezaboravnim
+---
 
-Na kraju dana, djevojačka večer nije o savršenstvu. Radi se o ljubavi, prijateljstvu i stvaranju uspomena koje će mladenka nositi sa sobom u novi životni poglavlje.
+## Vremenski okvir: Koliko ranije početi planirati?
 
-Počnite planirati danas. Vaša prijateljica to zaslužuje.
+| Aktivnost | Vrijeme prije događaja |
+|-----------|----------------------|
+| Rezervacija lokacije | 4-6 tjedana |
+| Slanje pozivnica | 3 tjedna |
+| Finalni detalji | 1 tjedan |
+| Relax dan | Dan prije |
+
+---
+
+## Zaključak: Stvorite priču, ne samo događaj
+
+Aminina djevojačka večer završila je u 2 ujutro. Nitko nije želio otići. Godinu dana kasnije, na njenom vjenčanju, svaka prijateljica u svom govoru spomenula je tu večer.
+
+To je moć dobro osmišljene proslave. Nije u savršenstvu — u stvaranju trenutaka koji ostaju.
+
+Vaša prijateljica to zaslužuje. Vi to možete stvoriti.
+
+**[Rezervirajte termin za djevojačku večer →](/kontakt)**
     `,
     category: "Djevojačke večeri",
     author: "The Stage Tim",
@@ -93,85 +123,106 @@ Počnite planirati danas. Vaša prijateljica to zaslužuje.
   {
     id: "2",
     slug: "djecji-rodjendan-ideje-koje-djeca-obozavaju",
-    title: "Dječji Rođendan koji će Vaše Dijete Pamtiti: 7 Ideja koje Roditelji Često Previde",
+    title: "Dječji Rođendan koji Vaše Dijete Neće Zaboraviti: 7 Ideja koje Roditelji Često Previde",
     excerpt: "Umjesto još jedne rođendanske zabave koju će dijete zaboraviti za tjedan dana, saznajte kako stvoriti magične trenutke koji će ostati urezani u sjećanje zauvijek.",
     content: `
-## Istina o dječjim rođendanima koju nitko ne govori
+Pitala sam svoju desetogodišnju nećakinju koji joj je rođendan bio najbolji.
 
-Koliko dječjih rođendana se zapravo sjećate iz vlastitog djetinjstva? Vjerojatno jedan ili dva. I to nisu bili oni s najskupljim tortama ili najviše poklona - bili su to oni gdje se dogodilo nešto posebno.
+Nije izabrala onaj s najvećom tortom. Niti onaj s najviše poklona. Izabrala je onaj gdje je s prijateljicama slikala na platnu — "jer se osjećala kao prava umjetnica".
 
-Kao roditelj, imate priliku stvoriti upravo takav trenutak za svoje dijete. Ne savršen, nego poseban.
+Djeca ne pamte stvari. Pamte osjećaje.
 
-## Zašto tradicionalne zabave više ne funkcioniraju
+---
 
-Djeca danas odrastaju okružena stimulacijom. Tableti, pametni telefoni, streaming servisi - sve se natječe za njihovu pažnju. Još jedan balon i papirna kapa jednostavno više nisu dovoljni.
+## Zašto klasične zabave više ne funkcioniraju
 
-**Ono što djeca zapravo žele:**
-- Biti heroj priče, ne samo promatrač
+Današnja djeca odrastaju okružena stimulacijom. YouTube, TikTok, videoigre — sve se natječe za njihovu pažnju svake sekunde.
+
+Još jedan balon i papirna kapa? To je pozadinska buka.
+
+**Ono što djeca zaista žele:**
+- Biti heroj priče, ne pasivni promatrač
 - Stvoriti nešto svojim rukama
 - Osjećaj avanture i otkrića
-- Vrijeme s prijateljima bez ekrana
+- Kvalitetno vrijeme s prijateljima — bez ekrana
 
-## 7 Ideja koje transformiraju rođendan
+---
 
-### 1. Kreativna radionica s opipljivim rezultatom
+## 7 ideja za [dječji rođendan](/usluge/rodjendani) koji će se pamtiti
 
-Djeca obožavaju odnositi nešto kući. Organizirajte radionicu gdje svatko stvara vlastito umjetničko djelo - sliku, nakit, ili čak mali komad namještaja za lutke.
+### 1. Kreativna radionica s "odnesi kući" rezultatom
 
-**Zašto funkcionira:** Svaki put kada dijete pogleda svoju kreaciju, sjetit će se tog dana.
+Djeca obožavaju odnositi nešto što su sami napravili. Organizirajte radionicu slikanja, izrade nakita, ili ukrašavanja kolačića.
 
-### 2. Interaktivna misterija ili potraga za blagom
+> **Zašto funkcionira:** Svaki put kad dijete pogleda svoju kreaciju, sjetit će se tog posebnog dana.
 
-Pretvorite prostor u scenu iz avanturističkog filma. Tragovi, zagonetke, skriveno blago - djeca postaju detektivi ili istraživači.
+### 2. Interaktivna misterija
 
-**Pro tip:** Prilagodite težinu zagonetki dobi djece. Prelagano je dosadno, preteško frustrirajuće.
+Pretvorite prostor u detektivsku priču. Tragovi po cijelom prostoru, zagonetke prilagođene dobi, skriveno blago na kraju.
+
+**Pro tip:** Težina zagonetki mora odgovarati dobi. Prelagano = dosadno. Preteško = frustracija.
 
 ### 3. Mini talent show
 
-Svako dijete ima nešto u čemu je dobro. Pjevanje, plesanje, vicevi, mađioničarski trikovi - dajte im pozornicu i gledajte kako blistaju.
+Svako dijete ima skriveni talent. Pjevanje, ples, mađioničarski trikovi, vicevi — dajte im pozornicu i gledajte kako blistaju.
 
 ### 4. Tematska transformacija prostora
 
-Umjesto generičke dekoracije, potpuno transformirajte prostor. Podmornica, svemirska stanica, čarobnjačka škola - kada djeca uđu, trebaju osjetiti da su ušla u drugi svijet.
+Podmornica. Svemirska stanica. Čarobnjačka škola. Kada djeca uđu u prostor koji je *potpuno* transformiran, osjećaju da su ušla u drugi svijet.
 
-### 5. Profesionalno face painting i kostimiranje
+The Stage nudi mogućnost kompletne tematske dekoracije za [dječje rođendane](/usluge/rodjendani) — od ideje do realizacije.
 
-Djeca vole pretvaranje. Profesionalno šminkanje ih transformira u likove koje obožavaju - od princeza do superheroja.
+### 5. Profesionalni face painting
+
+[Profesionalno šminkanje](/usluge/sminkanje) za djecu nije isto što i bojice iz supermarketa. Transformacija u omiljenog lika stvara čaroliju.
 
 ### 6. Kulinarska avantura
 
-Mali kuharski show gdje djeca prave vlastite pizze, cupcakes ili sladoled. Kaotično? Da. Nezaboravno? Apsolutno.
+Mali kuharski show gdje djeca prave vlastite pizze ili cupcakes. Kaotično? Apsolutno. Nezaboravno? Definitivno.
 
-### 7. Foto studio iskustvo
+### 7. Profesionalni foto studio
 
-Profesionalna rasvjeta, rekviziti, pozadine - djeca se osjećaju kao prave zvijezde. Roditelji dobivaju fotografije koje vrijede više od bilo kojeg poklona.
+Prava rasvjeta, zabavni rekviziti, tematske pozadine — djeca se osjećaju kao zvijezde. Roditelji dobivaju fotografije koje vrijede više od bilo kojeg poklona.
 
-## Kako izbjeći najčešće greške
+---
 
-**Greška #1: Previše aktivnosti**
-Manje je više. Tri dobro organizirane aktivnosti pobjeđuju deset užurbanih.
+## 3 greške koje morate izbjeći
 
-**Greška #2: Ignoriranje starosne razlike**
-Ako su gosti različitih dobi, pripremite paralelne aktivnosti.
+| Greška | Zašto je problem | Rješenje |
+|--------|-----------------|----------|
+| Previše aktivnosti | Djeca postaju prenadražena | 3 dobro organizirane aktivnosti su dovoljne |
+| Ignoriranje dobne razlike | Stariji se dosađuju, mlađi ne mogu pratiti | Paralelne aktivnosti za različite dobi |
+| Zaboravljanje roditelja | Neugodni roditelji = nervozna djeca | Ugodna zona za odrasle |
 
-**Greška #3: Zaboravljanje roditelja**
-Ugodna zona za roditelje = opuštena djeca.
+---
 
-## Lokacija čini polovicu posla
+## Lokacija: Kuća vs. profesionalni prostor
 
-Organizacija kod kuće zvuči ekonomično dok ne izračunate: čišćenje prije, čišćenje poslije, stres od potencijalne štete, ograničen prostor za igru.
+**Organizacija kod kuće:**
+- ✓ Besplatno
+- ✗ Čišćenje prije i poslije
+- ✗ Stres od potencijalne štete
+- ✗ Ograničen prostor za aktivnosti
 
-Profesionalni prostor nudi:
-- Sigurno okruženje dizajnirano za djecu
-- Dekoraciju uključenu u cijenu
-- Nema stresa s pospremanjem
-- Profesionalnu podršku tijekom događaja
+**Profesionalni prostor:**
+- ✓ Sigurno okruženje dizajnirano za djecu
+- ✓ Dekoracija uključena
+- ✓ Nema stresa s pospremanjem
+- ✓ Profesionalna podrška tijekom događaja
 
-## Vaš sljedeći korak
+[Pogledajte opcije za dječje rođendane →](/usluge/rodjendani)
 
-Rođendan vašeg djeteta je za _____ dana. Dovoljno vremena za organizaciju, ali ne za odgađanje.
+---
 
-Zamislite izraz na licu vašeg djeteta kada uđe u prostor dizajniran samo za njega. To je trenutak koji nije moguće kupiti - ali ga je moguće stvoriti.
+## Zaključak: Stvorite uspomenu, ne samo zabavu
+
+Vaše dijete neće pamtiti koliko je koštala torta. Neće pamtiti brand poklona.
+
+Pamtit će trenutak kad se osjećalo posebno. Kad su svi bili tu samo za njega. Kad je prostor bio čaroban.
+
+To nije moguće kupiti. Ali moguće je stvoriti.
+
+**[Planirajte nezaboravan rođendan →](/kontakt)**
     `,
     category: "Rođendani",
     author: "The Stage Tim",
@@ -184,104 +235,134 @@ Zamislite izraz na licu vašeg djeteta kada uđe u prostor dizajniran samo za nj
   {
     id: "3",
     slug: "baby-shower-moderna-proslava-trudnice",
-    title: "Baby Shower u BiH: Kako Organizirati Modernu Proslavu koju će Buduća Mama Obožavati",
-    excerpt: "Baby shower više nije američki trend - postala je tradicija koju bosanske žene prihvataju svim srcem. Saznajte kako organizirati proslavu koja će rasplakati buduću mamu od sreće.",
+    title: "Baby Shower u BiH: Vodič za Modernu Proslavu koju će Buduća Mama Obožavati",
+    excerpt: "Baby shower više nije američki trend — postala je tradicija koju bosanske žene prihvataju svim srcem. Saznajte kako organizirati proslavu koja će rasplakati buduću mamu od sreće.",
     content: `
-## Nova tradicija koja osvaja srca
+Lejla je bila sedmi mjesec trudnoće kada ju je sestra iznenadila.
 
-Prije deset godina, baby shower u Bosni i Hercegovini bio je egzotičan pojam. Danas? Skoro svaka buduća mama sanjari o trenutku kada će njene najbliže prijateljice i porodica proslaviti novo poglavlje njenog života.
+"Mislila sam da idemo na ručak. Umjesto toga, ušla sam u prostor pun mojih najbližih prijateljica, balone u obliku oblaka, i stol pun poklona za moju bebu."
 
-I to s dobrim razlogom.
+Plakala je sat vremena. Od sreće.
+
+Ovo je moć dobro organiziranog [baby showera](/usluge/baby-shower).
+
+---
 
 ## Zašto baby shower znači više od poklona
 
-Da budemo iskreni - bebe trebaju puno stvari. Pelene, odjeća, oprema. Baby shower pomaže praktično.
+Da budemo praktični — bebe trebaju puno stvari. Pelene, odjeća, oprema. Baby shower pomaže financijski.
 
-Ali pravi značaj leži dublje.
+Ali pravi značaj ide dublje.
 
 **Baby shower je:**
-- Ritual prelaska - označavanje transformacije žene u majku
-- Mreža podrške - pokazivanje budućoj mami da nije sama
-- Vrijeme za nju - prije nego što sve postane o bebi
-- Stvaranje zajednice - povezivanje ljudi koji će biti dio djetetovog života
+- **Ritual prelaska** — označavanje transformacije žene u majku
+- **Mreža podrške** — pokazivanje budućoj mami da nije sama
+- **Vrijeme za nju** — prije nego što sve postane o bebi
+- **Stvaranje zajednice** — povezivanje ljudi koji će biti dio djetetovog života
 
-## Kada organizirati: Tajna savršenog tajminga
+---
+
+## Savršen timing: Kada organizirati?
 
 **Idealno vrijeme: 6-8 tjedana prije termina**
 
-Zašto? Buduća mama još uvijek se osjeća dovoljno dobro za uživanje, ali je već dovoljno blizu porodu da uzbuđenje bude na vrhuncu.
+Zašto baš tada?
 
-**Izbjegavajte:**
-- Prerano (prije 7. mjeseca) - može se činiti preuranjeno
-- Prekasno (nakon 36. tjedna) - mama je umorna i moguće neugodno
+Buduća mama još uvijek se osjeća dovoljno energično za uživanje, ali je već dovoljno blizu porodu da uzbuđenje bude na vrhuncu. Trbuh je vidljiv, spol je (možda) poznat, i emocionalna povezanost s bebom je intenzivna.
 
-## Tema: Da ili ne?
+| Timing | Status |
+|--------|--------|
+| Prije 7. mjeseca | ⚠️ Može se činiti preuranjeno |
+| 32-36. tjedan | ✅ Idealno |
+| Nakon 36. tjedna | ⚠️ Mama može biti umorna |
+
+---
+
+## Tema ili bez teme?
 
 Tematske proslave mogu biti prekrasne, ali nisu obavezne.
 
-**Popularne teme koje uvijek funkcioniraju:**
-- "Ready to Pop" - zabavna, vesela atmosfera
-- Oblaci i zvijezde - neutralno i elegantno
-- Safari životinje - idealno ako se spol ne otkriva
-- Čarobna šuma - romantično i magično
+### Popularne teme koje funkcioniraju:
 
-**Ako odabirete temu:**
-Neka sve bude suptilno usklađeno, ne pretjerano tematski. Elegancija pobjeđuje karnevalski izgled.
+- **"Ready to Pop"** — zabavna, vesela atmosfera s balonima
+- **Oblaci i zvijezde** — neutralno i elegantno za bilo koji spol
+- **Safari životinje** — idealno ako se spol ne otkriva
+- **Čarobna šuma** — romantično i magično
 
-## Gender Reveal: Uključiti ili odvojiti?
+> **Zlatno pravilo:** Neka sve bude suptilno usklađeno, ne pretjerano tematski. Elegancija pobjeđuje karnevalski izgled.
 
-Trend kombiniranja baby showera s otkrivanjem spola djeteta raste.
+---
+
+## Gender Reveal: Spojiti ili odvojiti?
+
+Trend kombiniranja [baby showera](/usluge/baby-shower) s otkrivanjem spola raste.
 
 **Prednosti kombiniranja:**
 - Jedan veliki event umjesto dva
 - Veće iznenađenje, više emocija
-- Praktičnije za goste
+- Praktičnije za goste koji putuju
 
 **Kada odvojiti:**
-- Ako želite intimniju baby shower samo za žene
-- Ako gender reveal uključuje širu porodicu
+- Ako želite intimniju atmosferu samo za žene
+- Ako gender reveal uključuje širu porodicu i prijatelje
+
+---
 
 ## Aktivnosti koje stvaraju uspomene
 
-Zaboravite dosadne igre pogađanja opsega trbuha. Evo što moderne mame zapravo vole:
+Zaboravite dosadne igre pogađanja opsega trbuha.
 
-### Stanica za poruke
-Svaki gost piše poruku za bebu koju će pročitati na određeni rođendan (1., 5., 18.). Zamislite emocije kada ta pisma stignu!
+### Stanica za poruke budućnosti
+
+Svaki gost piše poruku za bebu koju će pročitati na određeni rođendan — 1., 5., 18. Zamislite emocije kada ta pisma stignu!
 
 ### Knjiga savjeta
+
 Umjesto potpisivanja čestitke, gosti popunjavaju stranice knjige sa svojim roditeljskim savjetima, smiješnim anegdotama i željama.
 
 ### DIY stanica
-Ukrašavanje bodija ili pravljenje mobilea za krevetić - gosti stvaraju nešto za bebu.
+
+Ukrašavanje bodića ili pravljenje mobilea za krevetić. Gosti stvaraju nešto za bebu — personalizirano i s ljubavlju.
 
 ### Vremenska kapsula
-Novine od tog dana, poruke, male predmete - sve se zaključava i otvara na djetetov 18. rođendan.
+
+Novine od tog dana, poruke, mali predmeti — sve se zaključava i otvara na djetetov 18. rođendan.
+
+---
 
 ## Hrana koja oduševljava
 
-Elegantni finger food nadmašuje sjedenje za stolom:
+Elegantni finger food nadmašuje formalno sjedenje:
 
 - Mini sendviči i bruschette
-- Voćne i slatke "bar" stanice
+- Voćne i slatke stanice
 - Baby-themed kolačići
-- Torta kao centralni element
+- Torta kao centralni vizualni element
 
-**Napomena:** Uvijek provjerite ima li ograničenja u ishrani trudnice!
+**Važno:** Uvijek provjerite ima li ograničenja u ishrani trudnice!
 
-## Prostor koji priča priču
+---
 
-Dom može biti ugodan, ali profesionalni prostor nudi nešto što dom ne može:
+## Lokacija: Dom vs. profesionalni prostor
 
-- Neutralan teren - gosti se osjećaju kao gosti, ne kao posjetitelji
-- Profesionalnu dekoraciju - bez stresa dan prije
-- Savršene fotografije - rasvjeta i pozadine osmišljene za to
-- Mami daje osjećaj posebnosti - jer ona jeste posebna
+Organizacija kod kuće ima svoj šarm, ali profesionalni prostor nudi nešto što dom ne može:
 
-## Zaključak: Stvorite trenutak
+- **Neutralan teren** — gosti se osjećaju kao gosti, ne kao posjetitelji
+- **Profesionalna dekoracija** — bez stresa dan prije
+- **Savršene fotografije** — rasvjeta i pozadine osmišljene za to
+- **Osjećaj posebnosti** — jer ona *jest* posebna
 
-Baby shower nije o savršenstvu. Radi se o ljubavi, zajedništvu i slavljenju nove ljubavi koja dolazi na svijet.
+[Pogledajte opcije za baby shower →](/usluge/baby-shower)
 
-Kada ta mala beba jednog dana pita: "Mama, jesam li bila željana?" - pokazat ćete joj fotografije tog dana. I odgovor će biti kristalno jasan.
+---
+
+## Zaključak
+
+Kada ta mala beba jednog dana pita: "Mama, jesam li bila željena?", pokazat ćete joj fotografije s baby showera.
+
+I odgovor će biti kristalno jasan.
+
+**[Organizirajte nezaboravan baby shower →](/kontakt)**
     `,
     category: "Baby Shower",
     author: "The Stage Tim",
@@ -297,81 +378,107 @@ Kada ta mala beba jednog dana pita: "Mama, jesam li bila željana?" - pokazat ć
     title: "Sip & Paint: Zašto je Ovo Postala Najtraženija Grupna Aktivnost u Sarajevu",
     excerpt: "Niste umjetnik? Savršeno. Upravo zato ćete obožavati Sip & Paint. Otkrijte zašto tisuće Sarajlija zamjenjuju klasične izlaske ovom jedinstvenom kombinacijom kreativnosti i druženja.",
     content: `
-## Priznajte: Posljednji put ste crtali u osnovnoj školi
+Kada je Maja predložila [Sip & Paint](/usluge/sip-paint) za svoj 30. rođendan, reakcije prijateljica bile su skeptične.
 
-I to je potpuno u redu. Zapravo, to je upravo razlog zašto bi trebali probati Sip & Paint.
+"Ja ne znam crtati."
+"Bit će neugodno."
+"Zar ne možemo jednostavno u restoran?"
 
-Vidite, ova večer nije za umjetnike. Ona je za ljude koji su zaboravili koliko je lijepo stvoriti nešto rukama. Za one koji provode dane gledajući u ekrane. Za ekipe koje traže nešto drugačije od još jedne večeri u istom kafiću.
+Tri sata kasnije, ista ta grupa postavljala je svoje slike na Instagram s komentarima tipa: "Gdje je ovo bilo cijeli moj život?"
 
-## Što je zapravo Sip & Paint?
+---
 
-Zamislite ovo: Ulazite u prostor s ugodnim osvjetljenjem. Pred vama je platno, boje i kistovi. U ruci čaša omiljenog pića. Instruktor vas korak po korak vodi kroz stvaranje slike.
+## Šta je zapravo Sip & Paint?
+
+Zamislite ovo:
+
+Ulazite u prostor s ugodnim osvjetljenjem. Pred vama je platno, boje i kistovi — sve postavljeno i spremno. U ruci čaša omiljenog pića. Instruktor vas korak po korak vodi kroz stvaranje slike.
 
 **Dva sata kasnije:**
 - Vi: "Ja sam ovo napravila?!"
-- Vaše prijateljice: "Ovo ide na zid!"
-- Instagram: Dobija novu objavu koju ljudi zapravo lajkaju
+- Vaše prijateljice: "Ovo mora na zid!"
+- Instagram: Nova objava koju ljudi zaista lajkaju
 
-## Zašto ovo funkcionira čak i ako "nemate talenta"
+---
+
+## Zašto ovo funkcionira — čak i ako "nemate talenta"
 
 Tajna je u metodi.
 
-Profesionalni instruktor razbija sliku na jednostavne korake. Svaki korak je toliko jasan da ga doslovno svatko može pratiti. A opet, svačije platno na kraju izgleda jedinstveno - jer ste vi jedinstveni.
+Profesionalni instruktor razbija sliku na jednostavne korake. Svaki korak je toliko jasan da ga doslovno *svatko* može pratiti. A opet, svačije platno na kraju izgleda jedinstveno — jer ste vi jedinstveni.
 
-**Nema pogrešnih poteza.** Slučajno ste napravili mrlju? Čestitam, to je sada umjetnički izraz. Boje su se pomiješale? Upravo ste stvorili gradient koji niste planirali ali izgleda sjajno.
+> **Nema pogrešnih poteza.** Slučajna mrlja? Umjetnički izraz. Boje se pomiješale? Upravo ste stvorili gradient koji niste planirali, ali izgleda sjajno.
+
+---
 
 ## Za koga je Sip & Paint savršen?
 
 ### Djevojačke večeri s razlikom
-Umjesto još jednog kluba gdje se ne čujete od muzike, sjedite u ugodnom prostoru, razgovarate, smijete se i stvarate. Na kraju večeri imate umjetnička djela i fotografije koje nisu zamućene od lošeg osvjetljenja.
 
-### Team building koji ljudi zapravo žele
-Budimo iskreni - većina team buildinga je prisila. "Obvezno druženje" koje nitko ne želi. Sip & Paint je iznimka. Kolege se opuštaju, hijerarhija nestaje kada svi pokušavaju nacrtati isto drvo, a razgovori teku prirodno.
+Umjesto još jednog kluba gdje se ne čujete od muzike, sjedite u ugodnom prostoru, razgovarate, smijete se i stvarate.
+
+Na kraju večeri imate umjetnička djela *i* fotografije koje nisu zamućene od lošeg osvjetljenja.
+
+[Organizirajte djevojačku s kreativnim twistom →](/usluge/djevojacke)
+
+### Team building koji ljudi zaista žele
+
+Budimo iskreni — većina team buildinga je prisila. "Obvezno druženje" koje nitko ne želi.
+
+[Sip & Paint](/usluge/sip-paint) je iznimka. Hijerarhija nestaje kad svi pokušavaju nacrtati isto drvo. Razgovori teku prirodno. Nitko ne gleda na sat.
 
 ### Romantične večeri
-Umjesto još jedne večere u restoranu, stvorite nešto zajedno. Dvije slike, dva pogleda na istu temu - savršen simbol veze.
+
+Umjesto još jedne večere u restoranu, stvorite nešto zajedno. Dvije slike, dva pogleda na istu temu — savršen simbol veze.
 
 ### Rođendani za odrasle
-"Šta želiš za rođendan?" Ako ste umorni od ovog pitanja, evo odgovora. Iskustvo koje uključuje vaše najdraže, a ne još jednu stvar koja će skupljati prašinu.
 
-## Šta donijeti sa sobom?
+"Šta želiš za rođendan?" — Ako ste umorni od ovog pitanja, evo odgovora. Iskustvo koje uključuje vaše najdraže, ne još jedna stvar koja skuplja prašinu.
+
+---
+
+## Što donijeti sa sobom?
 
 **Apsolutno ništa.**
 
 Ozbiljno. Sav materijal je uključen:
-- Platno, boje, kistovi
-- Zaštitna pregača (za one koji se boje za odjeću)
+- Platno profesionalne kvalitete
+- Akrilne boje i kistovi
+- Zaštitna pregača
 - Piće po izboru
 
 **Jedino što trebate ponijeti:** Otvoreni um i spremnost za zabavu.
 
-## FAQ koji svi pitaju
+---
 
-**"Moram li znati crtati?"**
-Ne. Doslovno ne. To je poanta.
+## Česta pitanja
 
-**"Šta ako mi slika bude užasna?"**
-Neće. Ali čak i da bude - to je dio zabave. Najsmiješnije slike često postaju najdraže uspomene.
+| Pitanje | Odgovor |
+|---------|---------|
+| Moram li znati crtati? | Ne. Doslovno ne. To je poanta. |
+| Šta ako mi slika bude loša? | Neće. Ali čak i da bude — to je dio zabave. |
+| Koliko traje? | 2-2.5 sata. Dovoljno da završite bez žurbe. |
+| Mogu li donijeti vlastito piće? | Piće je uključeno u cijenu na The Stage. |
 
-**"Koliko traje?"**
-Tipično 2-2.5 sata. Dovoljno da završite djelo bez žurbe.
+---
 
-**"Mogu li donijeti vlastito piće?"**
-Ovisi o lokaciji. The Stage nudi piće po izboru uključeno u cijenu.
+## Zašto baš sada?
 
-## Zašto je Sarajevo prigrlilo ovaj trend
+U doba kada svi žele "experience" umjesto stvari, ovo je poklon koji ima smisla.
 
-Sarajevo je grad koji voli druženje. Kahva se ne pije, ona se ispija satima uz razgovor. Sip & Paint je prirodni nastavak te kulture - ali s kreativnim twistom.
+Umjesto još jedne šolje ili parfema, poklanjate večer ispunjenu smijehom i stvaranjem. Poklanjate uspomenu.
 
-Plus, u doba kada svi žele "experience" umjesto stvari, ovo je poklon koji ima smisla. Umjesto još jedne šolje ili parfema, poklanjate večer ispunjenu smijehom i stvaranjem.
+---
 
 ## Vaš prvi korak
 
-Skupite ekipu. Odaberite datum. Rezervirajte termin.
+Skupite ekipu. Odaberite datum. [Rezervirajte termin](/kontakt).
 
 Za dva sata, držat ćete u rukama vlastitu sliku i pitati se zašto ovo niste probali prije.
 
-Umjetnik ili ne - večer koju ćete pamtiti vas čeka.
+Umjetnik ili ne — večer koju ćete pamtiti vas čeka.
+
+**[Rezervirajte Sip & Paint →](/usluge/sip-paint)**
     `,
     category: "Aktivnosti",
     author: "The Stage Tim",
@@ -384,16 +491,16 @@ Umjetnik ili ne - večer koju ćete pamtiti vas čeka.
   {
     id: "5",
     slug: "profesionalno-sminkanje-savjeti-strucnjaka",
-    title: "Profesionalno Šminkanje: 8 Tajni koje Makeup Artisti Ne Govore Svima",
+    title: "Profesionalno Šminkanje: 8 Tajni koje Makeup Artisti Rijetko Otkrivaju",
     excerpt: "Nakon stotina lica i nebrojenih posebnih prilika, naša šminkerica otkriva što zaista čini razliku između makeup-a koji traje i onog koji nestaje do ponoći.",
     content: `
-## Zašto vaš makeup ne izgleda kao na YouTubeu
+Sara je za svoje vjenčanje gledala 47 YouTube tutorijala. Kupila je iste proizvode. Pratila iste korake.
 
-Gledate tutorijale, kupujete iste proizvode, pratite iste korake - a rezultat jednostavno nije isti.
+Rezultat na dan vjenčanja? "Zašto ne izgleda kao na videu?"
 
-Nije do vas. Je do konteksta.
+Nije do vas. Je do konteksta koji tutorijali ne pokazuju.
 
-Profesionalno šminkanje nije samo o proizvodima ili tehnici. Radi se o razumijevanju lica, osvjetljenja, prilike i - možda najvažnije - dugotrajnosti.
+---
 
 ## Tajna #1: Priprema kože je pola posla
 
@@ -402,70 +509,78 @@ Profesionalci znaju: makeup je dobar koliko i platno na kojem počiva.
 **72 sata prije velikog dana:**
 - Izbjegavajte nove proizvode (moguće alergijske reakcije)
 - Pijte više vode nego inače
-- Lagana eksfolijacija 48 sati prije
+- Lagana eksfolijacija, ali ne dan prije
 
 **Sat vremena prije:**
 - Čista, hidratizirana koža
 - Primer koji odgovara vašem tipu kože
-- Nikakvih teških kremama neposredno prije
+- Nikakvih teških krema neposredno prije
+
+---
 
 ## Tajna #2: Pravi proizvodi za pravu priliku
 
 Svatko ne treba iste proizvode.
 
-**Za fotografije (vjenčanje, matura):**
-- HD puderi koji ne reflektiraju bljesak
-- Postavke koje traju 12+ sati
-- Vodootporni proizvodi za suzne trenutke
+| Prilika | Ključni proizvodi |
+|---------|------------------|
+| Fotografiranje | HD puderi bez refleksije, vodootporne formule |
+| Večernji izlazak | Više pigmenta, highlighter koji hvata svjetlo |
+| Svakodnevica | Lagane teksture, višenamjenski proizvodi |
 
-**Za večernji izlazak:**
-- Proizvodi s više pigmenta
-- Highlighter koji hvata svjetlo
-- Smjeliji izbori boja
+[Profesionalno šminkanje](/usluge/sminkanje) uzima sve ovo u obzir — vi samo sjednete i uživate.
 
-**Za svakodnevicu:**
-- Lagane teksture
-- Prirodniji finish
-- Višenamjenski proizvodi
+---
 
 ## Tajna #3: Osvjetljenje mijenja sve
 
 Razlog zašto makeup izgleda sjajno u kupaonici, a čudno na fotografijama? Osvjetljenje.
 
-Profesionalno šminkanje uvijek uzima u obzir gdje ćete provesti večer:
-- Toplo osvjetljenje = hladniji tonovi makeup-a
-- Hladno osvjetljenje = topliji tonovi
-- Bljesak fotoaparata = specijalizirana tehnika
+- **Toplo osvjetljenje** → hladniji tonovi makeup-a
+- **Hladno osvjetljenje** → topliji tonovi
+- **Bljesak fotoaparata** → specijalizirana tehnika bez SPF-a
+
+---
 
 ## Tajna #4: Manje je gotovo uvijek više
 
 Najčešća greška amaterskog šminkanja? Previše slojeva.
 
-Profesionalci grade makeup polako, sloj po sloj, procjenjujući nakon svakog koraka. Lakše je dodati nego oduzeti.
+Profesionalci grade makeup polako, sloj po sloj, procjenjujući nakon svakog koraka.
+
+> **Zlatno pravilo:** Lakše je dodati nego oduzeti.
+
+---
 
 ## Tajna #5: Tehnike koje stvarno rade
 
-**Bakeing (isplati se):** Nanošenje pudera ispod očiju i na T-zonu za dugotrajnost.
+**Baking (isplati se):** Nanošenje pudera ispod očiju i na T-zonu za dugotrajnost.
 
-**Konturiranje (oprez):** U životu treba biti suptilnije nego na Instagramu. Kamera oprašta, ogledalo ne.
+**Konturiranje (oprez):** U životu mora biti suptilnije nego na Instagramu. Kamera oprašta, ogledalo ne.
 
-**Setting spray (obavezno):** Završni korak koji većina preskače - a ne bi trebala.
+**Setting spray (obavezno):** Završni korak koji većina preskače — a ne bi trebala.
+
+---
 
 ## Tajna #6: Timing je ključan
 
 Za vjenčanje ili veliku proslavu, planirajte da makeup bude gotov **1-1.5 sati prije** nego što trebate izgledati savršeno.
 
-Zašto? Proizvodi se trebaju "slegati". Prvih 30 minuta nakon nanošenja, lice se prilagođava. Tek tada vidite konačni rezultat.
+Zašto? Proizvodi se trebaju "slegati". Prvih 30 minuta nakon nanošenja, lice se prilagođava.
+
+---
 
 ## Tajna #7: Grupno šminkanje ima svoja pravila
 
-Šminkate se s prijateljicama za djevojačku ili matursko veče?
+Šminkate se s prijateljicama za [djevojačku večer](/usluge/djevojacke)?
 
-**Savjet profesionalaca:**
+**Savjeti:**
 - Rezervirajte više vremena nego što mislite da trebate
 - Krenite od onih s najjednostavnijim zahtjevima
-- Ostavite mladenku/slavljenicu za kraj (najmanje žurbe)
+- Ostavite mladenku/slavljenicu za kraj
 - Fotografije radite na kraju, kada su svi gotovi
+
+---
 
 ## Tajna #8: Investicija koja se isplati
 
@@ -473,29 +588,29 @@ Zašto? Proizvodi se trebaju "slegati". Prvih 30 minuta nakon nanošenja, lice s
 
 **Zato što:**
 - Profesionalac vidi vaše lice objektivno
-- Posjeduje kvalitetnije proizvode nego što biste sami kupili
+- Posjeduje kvalitetnije proizvode
 - Zna kako lice reagira na bljesak, suze, znoj
 - Oslobađa vas stresa na vaš veliki dan
 
 Zamislite: Umjesto da 3 sata prije svadbe nervozno popravljate eyeliner, opušteno pijete kahvu dok stručnjak radi svoje.
 
+---
+
 ## Kada angažirati profesionalca?
 
-**Obavezno:**
-- Vjenčanje
-- Svečani događaji koji se fotografiraju
-- Profesionalna fotografiranja
+**Obavezno:** Vjenčanje, svečani događaji koji se fotografiraju
 
-**Preporučeno:**
-- Mature i proslave
-- Djevojačke večeri (grupni paketi)
-- Značajne godišnjice
+**Preporučeno:** [Mature](/usluge/rodjendani), [djevojačke večeri](/usluge/djevojacke), značajne godišnjice
 
-## Vaš sljedeći korak
+---
 
-Profesionalno šminkanje nije luksuz. To je investicija u osjećaj samopouzdanja na vaš najvažniji dan.
+## Zaključak
 
-Zaslužujete pogledati fotografije za godinu dana i pomisliti: "Bila sam prelijepa" - ne "Što je bilo s tim sjenilom?"
+[Profesionalno šminkanje](/usluge/sminkanje) nije luksuz. To je investicija u samopouzdanje.
+
+Zaslužujete pogledati fotografije za godinu dana i pomisliti: "Bila sam prelijepa."
+
+**[Rezervirajte profesionalno šminkanje →](/usluge/sminkanje)**
     `,
     category: "Ljepota",
     author: "The Stage Tim",
@@ -509,97 +624,124 @@ Zaslužujete pogledati fotografije za godinu dana i pomisliti: "Bila sam prelije
     id: "6",
     slug: "italian-night-sarajevo-kulinarska-avantura",
     title: "Italian Night u Sarajevu: Kada Toskana Dođe do Vas",
-    excerpt: "Ne trebate avion do Italije za autentično iskustvo. Otkrijte kako jedna večer može prenijeti duh Mediterana direktno u srce Sarajeva - hrana, muzika, atmosfera i la dolce vita.",
+    excerpt: "Ne trebate avion do Italije za autentično iskustvo. Otkrijte kako jedna večer može prenijeti duh Mediterana direktno u srce Sarajeva — hrana, muzika, atmosfera i la dolce vita.",
     content: `
-## Zašto svi sanjamo o Italiji
-
 Zatvorite oči na trenutak.
 
 Miris svježe pečene focacce. Zvuk talijanske glazbe u pozadini. Čaša Chianti vina u ruci. Smijeh prijatelja oko dugačkog stola prekrivenog bijelim stolnjakom.
 
-To nije odmor koji si ne možete priuštiti. To je večer koju možete imati ovdje, sada, u Sarajevu.
+To nije odmor koji si ne možete priuštiti. To je večer koju možete imati **ovdje, sada, u Sarajevu**.
 
-## Šta Italian Night zapravo znači?
+---
 
-Ne govorimo o pizzi iz dostave i checkered stolnjacima iz IKEA-e.
+## Šta [Italian Night](/usluge/italian-night) zapravo znači?
 
-Pravi Italian Night je uranjanje u kulturu - od hrane, preko muzike, do načina druženja. Italijani ne jedu da bi preživjeli. Oni žive da bi jeli. I to je filozofija koju donosimo u svaku večer.
+Ne govorimo o pizzi iz dostave i kariranim stolnjacima.
+
+Pravi Italian Night je uranjanje u kulturu — od hrane, preko muzike, do načina druženja.
+
+> Italijani ne jedu da bi preživjeli. Oni žive da bi jeli.
+
+To je filozofija koju donosimo u svaku večer.
+
+---
 
 ## Hrana: Srce svakog okupljanja
 
-### Antipasti - Početak priče
-Stol pun malih zdjelica: masline, sušena rajčica, bruschetta sa svježim bosiljkom, carpaccio, burrata koja se topi pod prstima. Nije to predjelo - to je pozivnica za razgovor.
+### Antipasti — Početak priče
 
-### Primi Piatti - Tradicija na tanjuru
+Stol pun malih zdjelica: masline, sušena rajčica, bruschetta sa svježim bosiljkom, carpaccio, burrata koja se topi pod prstima.
+
+Nije to predjelo — to je pozivnica za razgovor.
+
+### Primi Piatti — Tradicija na tanjuru
+
 Pasta napravljena s ljubavlju. Carbonara sa savršeno kremastom teksturom. Risotto koji je toliko puta promiješan da je postao svila.
 
-### Secondi - Za one koji hoće više
-Nježna teletina, riba iz mora, pile sa kaparima i limunom.
+### Dolci — Završetak koji pamtite
 
-### Dolci - Završetak koji pamtite
 Tiramisu koji se topi na jeziku. Panna cotta s bobičastim voćem. Cannoli hrskavi izvana, kremasti iznutra.
+
+---
 
 ## Više od hrane: Atmosfera
 
-Talijanska večera nije samo u hrani - ona je u svemu oko nje.
+Talijanska večera nije samo u hrani — ona je u svemu oko nje.
 
 **Dekoracija:**
-- Topla svijetla koja podsjećaju na talijanske ulice
+- Topla svjetla koja podsjećaju na ulice Firence
 - Svježe cvijeće na stolovima
 - Elegancija bez pretjerivanja
 
 **Muzika:**
 - Klasični talijanski hitovi
 - Jazz verzije poznatih pjesama
-- Živahno, ali ne preteško
+- Živahno, ali ne pretjerano
 
 **Dress code:**
 - Elegantno ležerno
-- Zamislite: večera na terasi u Firenci
+- Zamislite: večera na terasi u Toskani
+
+---
 
 ## Za koje prilike je Italian Night savršen?
 
 ### Romantične večeri
+
 Godišnjice, proslave, ili jednostavno "nedostajao si mi" večer. Ništa ne govori "volim te" kao ručno pravljeni gnocchi.
 
 ### Korporativni događaji s dušom
-Umjesto dosadnih poslovnih večera, iznenadite kolege iskustvom. Razgovori teku lakše uz dobro vino i prave špagete.
+
+Umjesto dosadnih poslovnih večera, iznenadite kolege iskustvom. Razgovori teku lakše uz dobro vino.
 
 ### Okrugle brojke
-50. rođendan? 25 godina braka? Velike prilike zaslužuju velike geste.
+
+50. [rođendan](/usluge/rodjendani)? 25 godina braka? Velike prilike zaslužuju velike geste.
 
 ### Prijateljska okupljanja
-Grupa prijatelja koja se dugo nije vidjela? Italian Night stvara atmosferu gdje se priče lakše dijele.
 
-## Što očekivati na The Stage Italian Night
+Grupa prijatelja koja se dugo nije vidjela? [Italian Night](/usluge/italian-night) stvara atmosferu gdje se priče lakše dijele.
 
-- **Privatni prostor** samo za vašu grupu
-- **Autentični menu** kreiran za ovu priliku
-- **Svo piće uključeno** u paket
-- **Dekoracija** koja transformira prostor
-- **Muzika** koja stvara pravu atmosferu
-- **Fotografije** za uspomenu
+---
 
-## Često postavljana pitanja
+## Što očekivati na The Stage Italian Night?
 
-**Minimalan broj gostiju?**
-10 osoba. Idealno je 15-25 za pravu italijansku atmosferu dugačkog stola.
+| Uključeno | Detalji |
+|-----------|---------|
+| Privatni prostor | Samo za vašu grupu |
+| Autentični menu | Kreiran za ovu priliku |
+| Piće | Uključeno u paket |
+| Dekoracija | Kompletna transformacija prostora |
+| Muzika | Pažljivo odabrana playlista |
+| Fotografije | Za uspomenu |
 
-**Mogu li prilagoditi menu?**
-Da. Vegetarijanske opcije, alergije, posebni zahtjevi - sve je moguće uz prethodnu najavu.
+---
 
-**Koliko traje večer?**
-Planiramo 3-4 sata. Jer kao pravi Italijani - ne žurimo.
+## Praktične informacije
+
+**Minimalan broj gostiju:** 10 osoba
+
+**Idealna veličina grupe:** 15-25 za pravu atmosferu dugačkog stola
+
+**Trajanje:** 3-4 sata — jer kao pravi Italijani, ne žurimo
+
+**Posebni zahtjevi:** Vegetarijanske opcije, alergije — sve je moguće uz prethodnu najavu
+
+---
 
 ## La Dolce Vita vas čeka
 
-Italija nije samo mjesto. To je stanje uma. Način života gdje je hrana ljubav, gdje je razgovor umjetnost, gdje je svaki obrok slavlje.
+Italija nije samo mjesto. To je stanje uma.
+
+Način života gdje je hrana ljubav, razgovor umjetnost, a svaki obrok slavlje.
 
 Ne morate čekati odmor. Ne morate kupovati avionske karte.
 
-Italija dolazi k vama.
+**Italija dolazi k vama.**
 
 *Buon appetito!*
+
+**[Rezervirajte Italian Night →](/usluge/italian-night)**
     `,
     category: "Tematske večeri",
     author: "The Stage Tim",
@@ -613,93 +755,113 @@ Italija dolazi k vama.
     id: "7",
     slug: "kako-odabrati-event-prostor-sarajevo",
     title: "Kako Odabrati Savršen Event Prostor u Sarajevu: Vodič za Pametne Organizatore",
-    excerpt: "Lokacija čini ili lomi događaj. Naučite koje greške izbjegavati i na što obratiti pažnju prije nego potpišete bilo što - savjeti od profesionalaca koji su vidjeli sve.",
+    excerpt: "Lokacija čini ili lomi događaj. Naučite koje greške izbjegavati i na što obratiti pažnju prije nego potpišete bilo što — savjeti od profesionalaca koji su vidjeli sve.",
     content: `
+Emina je rezervirala "savršen" prostor za svoju [djevojačku večer](/usluge/djevojacke).
+
+Na fotografijama — prekrasan. U stvarnosti — bučan restoran gdje se jedva čula s prijateljicama, loše osvjetljenje za fotografije, i osoblje koje ih je žurilo da završe.
+
+"Da sam znala na što obratiti pažnju, sve bi bilo drugačije."
+
+---
+
 ## Zašto je izbor prostora najvažnija odluka
 
-Možete imati savršen catering, prelijepu dekoraciju i najbolji DJ u gradu - ako prostor ne valja, ništa od toga neće spasiti događaj.
+Možete imati savršen catering, prelijepu dekoraciju i najbolji DJ u gradu. Ako prostor ne valja, ništa od toga neće spasiti događaj.
 
-Prostor određuje:
+**Prostor određuje:**
 - Atmosferu koju gosti osjećaju čim uđu
 - Tok događaja i kako se ljudi kreću
 - Kvalitetu fotografija i videa
 - Ukupni dojam koji ostaje
 
-## 7 Pitanja koja morate postaviti prije rezervacije
+---
 
-### 1. Koja je stvarna kapacitet?
-"Prima do 50 ljudi" može značiti "50 ljudi može stati" - ne "50 ljudi može udobno proslaviti".
+## 7 pitanja koja morate postaviti prije rezervacije
 
-**Pravilo palca:** Uzmite navedeni kapacitet i smanjite za 20% za udobno druženje.
+### 1. Koja je *stvarna* kapacitet?
+
+"Prima do 50 ljudi" može značiti "50 ljudi može stati" — ne "50 ljudi može udobno proslaviti".
+
+> **Pravilo:** Navedeni kapacitet smanjite za 20% za realistično udobno druženje.
 
 ### 2. Šta je uključeno u cijenu?
+
 Jeftinija opcija često postaje skuplja kada dodate:
 - Stolove i stolice (često extra)
 - Dekoraciju (gotovo uvijek extra)
 - Audio opremu (iznenađujuće često extra)
 - Čišćenje (ponekad naplativo)
 
-**Pitajte za itemiziranu ponudu.** Usporedite jabuke s jabukama.
+**Tražite itemiziranu ponudu.** Usporedite jabuke s jabukama.
 
 ### 3. Kakva su pravila za catering?
-Neki prostori:
-- Zahtijevaju korištenje njihovog cateringa (skuplje, ali manje stresa)
-- Dozvoljavaju vanjski catering (jeftinije, ali više koordinacije)
-- Imaju "corkage fee" za donošenje vlastitog pića
+
+| Opcija | Prednosti | Nedostaci |
+|--------|-----------|-----------|
+| Interni catering | Manje koordinacije | Može biti skuplje |
+| Vanjski catering | Više izbora | Više logistike |
+| Vlastita hrana | Najjeftinije | Najviše posla |
 
 ### 4. Koliko vremena za pripremu i pospremanje?
-Ako vam treba 2 sata za postavljanje, a dobijete prostor 30 minuta prije - problem.
 
-**Tražite:** Minimalno 1-2 sata prije za pripremu, 30-60 minuta poslije za pospremanje.
+Ako vam treba 2 sata za postavljanje, a dobijete prostor 30 minuta prije — problem.
+
+**Tražite:** Minimalno 1-2 sata prije, 30-60 minuta poslije.
 
 ### 5. Kakvo je osvjetljenje?
+
 Ovo većina ljudi zaboravi pitati. A onda dobiju fotografije na kojima svi izgledaju umorno.
 
-**Idealno:**
-- Prirodno svjetlo za dnevne događaje
-- Prigušivo osvjetljenje za večernje
-- Mogućnost dodavanja dekorativnih svjetala
-
 ### 6. Kakva je akustika?
-Prostor sa previše jeke = nemoguće vođenje razgovora = nezadovoljni gosti.
 
-**Testirajte:** Prošetajte prostorom, razgovarajte normalno. Ako se morate derati - tražite dalje.
+Prostor s previše jeke = nemoguće vođenje razgovora = nezadovoljni gosti.
+
+**Test:** Prošetajte prostorom, razgovarajte normalno. Ako se morate derati — tražite dalje.
 
 ### 7. Koji je Plan B za loše vrijeme?
-Ako planirate vanjski element - šta ako pada kiša? Šta ako je prehladno?
 
-**Tražite:** Prostor s fleksibilnim opcijama ili krovnim rješenjima.
+Ako planirate vanjski element — šta ako pada kiša?
+
+---
 
 ## Crvene zastavice koje ne smijete ignorirati
 
-🚩 **"Provjerit ću i javim se"** - Ako osoblje ne zna odgovor, nešto nije u redu
+🚩 "Provjerit ću i javim se" — Ako osoblje ne zna odgovor, nešto nije u redu
 
-🚩 **Nejasni ugovori** - Sve mora biti napisano. Sve.
+🚩 Nejasni ugovori — Sve mora biti napisano
 
-🚩 **Negativne recenzije o istim problemima** - Jedan nezadovoljan gost je iznimka. Pet s istom pritužbom je obrazac.
+🚩 Negativne recenzije o istim problemima — Jedan nezadovoljan gost je iznimka; pet s istom pritužbom je obrazac
 
-🚩 **Pritisak za brzu odluku** - "Samo danas imamo ovaj termin" je često laž
+🚩 Pritisak za brzu odluku — "Samo danas imamo ovaj termin" je često taktika
 
-🚩 **Nema reference fotografija** - Prostor koji izgleda dobro prazan možda ne izgleda dobro pun
+🚩 Nema referentnih fotografija — Prostor koji izgleda dobro prazan možda ne izgleda dobro pun
 
-## Šta čini prostor zaista posebnim
+---
 
-Savršeni prostor nije nužno najveći ili najskuplji. To je prostor koji:
+## Šta čini prostor zaista posebnim?
 
-- **Priča priču** - Ima karakter i osobnost
-- **Fleksibilan je** - Može se prilagoditi vašoj viziji
-- **Ima podršku** - Osoblje koje pomaže, ne ometa
-- **Osjeća se privatno** - Vaš događaj, vaši gosti, vaš prostor
+Savršeni prostor nije nužno najveći ili najskuplji.
 
-## Zaključak: Investirajte vrijeme prije nego novac
+**To je prostor koji:**
+- Priča priču — ima karakter
+- Fleksibilan je — može se prilagoditi vašoj viziji
+- Ima podršku — osoblje koje pomaže, ne ometa
+- Osjeća se privatno — vaš događaj, vaši gosti
+
+[The Stage Sarajevo](/usluge/najam) dizajniran je upravo s ovim na umu — privatni prostor koji se transformira prema vašoj zamisli.
+
+---
+
+## Zaključak
 
 Posjetite prostor osobno. Zamislite svoje goste unutra. Pitajte sve što vas zanima.
 
-Dobra lokacija olakšava sve ostalo. Loša lokacija otežava sve, bez obzira koliko truda uložite.
+Dobra lokacija olakšava sve ostalo. Loša otežava sve, bez obzira koliko truda uložite.
 
-Vaši gosti možda neće primijetiti savršen prostor. Ali će definitivno primijetiti loš.
+Vaši gosti možda neće primijetiti savršen prostor. Ali će **definitivno** primijetiti loš.
 
-Nemojte štedjeti na temeljima.
+**[Pogledajte naš prostor →](/usluge/najam)**
     `,
     category: "Savjeti",
     author: "The Stage Tim",
@@ -713,92 +875,86 @@ Nemojte štedjeti na temeljima.
     id: "8",
     slug: "trendovi-u-proslavama-2025",
     title: "Trendovi u Proslavama 2025: Šta će Gosti Očekivati Ove Godine",
-    excerpt: "Zaboravite sve što ste znali o tradicionalnim proslavama. Nova godina donosi nove standarde - evo šta vaši gosti očekuju i kako ostati ispred krivulje.",
+    excerpt: "Zaboravite sve što ste znali o tradicionalnim proslavama. Nova godina donosi nove standarde — evo šta vaši gosti očekuju i kako ostati ispred krivulje.",
     content: `
-## Pravila igre su se promijenila
+Pandemija je promijenila sve. Uključujući način na koji ljudi proslavljaju.
 
-Pandemija je sve promijenila. Uključujući i to kako ljudi proslavljaju.
+Oni koji su preživjeli izolaciju sada žele **više** — više povezanosti, više značenja, više autentičnosti.
 
-Oni koji su preživjeli izolaciju sada žele više - više povezanosti, više značenja, više autentičnosti. Površna slavlja više nisu dovoljna.
+Površna slavlja više nisu dovoljna.
+
+---
 
 ## Trend #1: Iskustva umjesto stvari
 
 "Šta želiš za poklon?" postaje irelevantno pitanje.
 
-Ljudi žele:
-- Zajedničke aktivnosti (Sip & Paint, radionice, cooking class)
-- Uspomene koje se dijele (a ne predmeti koji skupljaju prašinu)
-- Priče za ispričati ("Sjećaš se kada smo...")
+**Ljudi žele:**
+- Zajedničke aktivnosti ([Sip & Paint](/usluge/sip-paint), radionice, cooking class)
+- Uspomene koje se dijele
+- Priče za ispričati
 
-**Za organizatore:** Planirajte interaktivne elemente. Pasivno sjedenje je prošlost.
+> Za organizatore: Planirajte interaktivne elemente. Pasivno sjedenje je prošlost.
+
+---
 
 ## Trend #2: Intimnost nad veličinom
 
 Mega svadbe sa 500 gostiju? Izlaze iz mode.
 
-Nove proslave su:
-- Manja lista gostiju (kvaliteta nad kvantitetom)
+**Nove proslave su:**
+- Manja lista gostiju (kvaliteta > kvantiteta)
 - Dublje povezivanje (vrijeme za svakog gosta)
 - Veći budžet po osobi (bolje iskustvo za manje ljudi)
 
-**Za organizatore:** Ne bojte se smanjiti listu. Boljih 20 gostiju je vrijedno više od mediokriteta za 50.
+---
 
 ## Trend #3: Održivost nije opcija
 
 Mlađe generacije to zahtijevaju, starije počinju cijeniti.
 
-Ovo nije samo o "zelenoj" priči - to je o praktičnosti:
 - Manje otpada = manje čišćenja
 - Lokalni caterers = svježija hrana
 - Digitalne pozivnice = brže i jeftinije
 
-**Za organizatore:** Pitajte se: "Mora li ovo biti jednokratno?"
+---
 
-## Trend #4: Hibridni događaji ostaju
-
-Ne možete svi uvijek biti na istom mjestu.
-
-Hibridni elementi:
-- Live stream za daleke goste
-- Digitalni guestbook
-- Online igre i interakcije
-
-**Za organizatore:** Tehnologija može poboljšati, ne zamijeniti živo iskustvo.
-
-## Trend #5: Personalizacija do ekstrema
+## Trend #4: Personalizacija do ekstrema
 
 Generic proslave osjećaju se hladno.
 
-Novi standard:
+**Novi standard:**
 - Dekoracija priča priču o slavljeniku
 - Menu reflektira ukuse, ne tradiciju
 - Aktivnosti odgovaraju grupi, ne trendu
 
-**Za organizatore:** Pitajte: "Šta je jedinstveno za OVU osobu/par/grupu?"
+[Djevojačke večeri](/usluge/djevojacke) i [rođendani](/usluge/rodjendani) na The Stage potpuno se prilagođavaju vašoj viziji.
 
-## Trend #6: Svjesnost o mentalnom zdravlju
+---
 
-Proslave ne moraju biti stresne za organizatore ili goste.
+## Trend #5: Svjesnost o mentalnom zdravlju
 
-Novi pristup:
+Proslave ne moraju biti stresne.
+
+**Novi pristup:**
 - Tihe zone za introverte
 - Jasna komunikacija očekivanja
 - Prihvaćanje da savršenstvo nije cilj
 
-**Za organizatore:** Vaše mentalno zdravlje je dio eventa. Ako ste iscrpljeni - pokazat će se.
+---
 
-## Trend #7: Fotogeničnost sa svrhom
+## Trend #6: Fotogeničnost sa svrhom
 
-Instagram moments su još uvijek važni - ali sa zaokretom.
+Instagram momenti su još uvijek važni — ali s zaokretom.
 
-Umjesto generičkih pozadina:
+**Umjesto generičkih pozadina:**
 - Personalizirane foto instalacije
 - Momenti koji se prirodno događaju
-- Kvaliteta nad kvantitetom (jedna sjajna fotka > 50 prosječnih)
+- Kvaliteta > kvantiteta
 
-**Za organizatore:** Dizajnirajte prostor za fotografije, ali ne dopustite da to upravlja cijelim eventovm.
+---
 
-## Trend #8: Povratak klasici
+## Trend #7: Povratak klasici
 
 Ironično, u doba tehnologije, ljudi žele:
 - Licem u lice razgovore
@@ -806,28 +962,33 @@ Ironično, u doba tehnologije, ljudi žele:
 - Sporo uživanje u hrani
 - Prisutnost u trenutku
 
-**Za organizatore:** Phone-free zone postaju popularne. Razmislite o tome.
+Phone-free zone postaju popularne.
 
-## Kako primijeniti ove trendove
+---
 
-Ne morate implementirati sve. Ali razmislite:
+## Kako primijeniti ove trendove?
 
-1. **Šta odgovara vašoj grupi?** Ne silite trendove koji nisu prirodni
-2. **Šta možete realistično izvesti?** Jedan trend dobro > pet loše
-3. **Šta će zaista poboljšati iskustvo?** Ne radite promjene radi promjena
+Ne morate implementirati sve.
+
+**Pitajte se:**
+1. Šta odgovara mojoj grupi?
+2. Šta mogu realistično izvesti?
+3. Šta će zaista poboljšati iskustvo?
+
+---
 
 ## Zaključak
 
-Trendovi dolaze i odlaze. Ali suština ostaje ista: okupiti ljude, stvoriti uspomene, proslaviti trenutke.
-
 2025. će biti godina autentičnosti. Godina manje pretvaranja i više povezivanja.
 
-Hoćete li biti dio tog pokreta?
+Trendovi dolaze i odlaze. Ali suština ostaje: okupiti ljude, stvoriti uspomene, proslaviti trenutke.
+
+**[Planirajte modernu proslavu →](/kontakt)**
     `,
     category: "Trendovi",
     author: "The Stage Tim",
     publishedAt: "2024-11-10",
-    readTime: 9,
+    readTime: 7,
     featured: false,
     image: "/src/assets/gallery/event-1.jpg",
     tags: ["trendovi", "proslave", "2025", "organizacija", "eventi"]
@@ -836,117 +997,124 @@ Hoćete li biti dio tog pokreta?
     id: "9",
     slug: "personalizacija-proslave-detalji-koji-cine-razliku",
     title: "Personalizacija Proslave: Sitni Detalji koji Vaše Goste Ostavljaju Bez Riječi",
-    excerpt: "Svatko može rezervirati prostor i naručiti tortu. Ali pravi čarobnjaci organizacije znaju da su najmanji detalji oni koji stvaraju najveće uspomene. Evo kako postati jedan od njih.",
+    excerpt: "Svatko može rezervirati prostor i naručiti tortu. Ali pravi čarobnjaci organizacije znaju da su najmanji detalji oni koji stvaraju najveće uspomene.",
     content: `
-## Zašto gosti pamte sitnice
-
 Zamislite dvije proslave.
 
 **Proslava A:** Lijep prostor, ukusna hrana, ugodna muzika. Sve je "u redu".
 
-**Proslava B:** Prosječan prostor, prosječna hrana. Ali - na svakom mjestu čeka ručno napisana poruka zašto je taj gost poseban. Playlist uključuje pjesme koje znače nešto slavljeniku. Fotografije iz zajedničkih uspomena ukrašavaju zidove.
+**Proslava B:** Prosječan prostor, prosječna hrana. Ali — na svakom mjestu čeka ručno napisana poruka zašto je taj gost poseban. Playlist uključuje pjesme koje znače nešto slavljeniku. Fotografije iz zajedničkih uspomena ukrašavaju zidove.
 
 Koju proslavu pamtite za godinu dana?
 
-Personalizacija nije o budžetu. Ona je o pažnji.
+---
+
+## Personalizacija nije o budžetu
+
+Ona je o **pažnji**.
+
+---
 
 ## Elementi koje možete personalizirati
 
-### 1. Pisane riječi
+### Pisane riječi
 
-- **Place cards sa značenjem** - Umjesto samo imena, dodajte kratku rečenicu: "Hvala što si bila uz mene kada..."
-- **Menu opisi** - "Ovo je recept od baka Fatime" znači više od "Tradicionalni kolač"
-- **Zahvalnice** - Personalizirane, ne generičke
+- **Place cards sa značenjem** — Umjesto samo imena, dodajte: "Hvala što si bila uz mene kada..."
+- **Menu opisi** — "Ovo je recept od baka Fatime" znači više od "Tradicionalni kolač"
+- **Zahvalnice** — Personalizirane, ne generičke
 
-### 2. Vizualni elementi
+### Vizualni elementi
 
-- **Photo journey** - Kronologija fotografija slavljenika
-- **Memory map** - Zid sa mjestima koja znače nešto
-- **Artwork gostiju** - Zamolite goste da unaprijed pošalju crtež ili poruku
+- Photo journey kroz godine slavljenika
+- Memory map sa značajnim mjestima
+- Artwork koji su gosti unaprijed pripremili
 
-### 3. Audio iskustvo
+### Audio iskustvo
 
-- **Their song playlist** - Pjesme koje znače nešto slavljeniku
-- **Voice messages** - Gosti unaprijed snime poruke za reprodukciju
-- **Osobni DJ** - Glazba koja prati priču večeri
+- Playlist sa pjesmama koje znače nešto
+- Voice poruke od gostiju koji nisu mogli doći
+- Muzika koja prati priču večeri
 
-### 4. Okusna personalizacija
+### Okusna personalizacija
 
-- **Signature cocktail** - Nazvan po slavljeniku
-- **Memory menu** - Jela iz važnih trenutaka života
-- **Allergy awareness** - Zapamtiti potrebe svakog gosta
+- Signature cocktail nazvan po slavljeniku
+- Memory menu — jela iz važnih trenutaka života
+- Zapamtiti alergije i preferencije *svakog* gosta
 
-### 5. Interaktivni elementi
-
-- **Custom quiz** - "Koliko dobro poznaješ _____?"
-- **Bucket list stanica** - Gosti dodaju željene avanture
-- **Time capsule** - Poruke za budućnost
+---
 
 ## Primjeri iz stvarnog života
 
-### Djevojačka večer za ljubiteljicu putovanja
+### Djevojačka za ljubiteljicu putovanja
+
 - Svaka dekoracija predstavlja zemlju koju je posjetila
 - Kokteli nazvani po gradovima
 - Gosti dijele priče sa zajedničkih putovanja
 
+[Organizirajte personaliziranu djevojačku →](/usluge/djevojacke)
+
 ### Rođendan za mamu koja voli vrt
-- Žive biljke umjesto rezanog cvijeća (koje odnosi kući)
+
+- Žive biljke umjesto rezanog cvijeća (odnosi kući)
 - Menu baziran na povrću iz njenog vrta
 - Svaki gost donosi sjemenku za sadnju
 
-### Baby shower za parove koji su se upoznali online
+[Planirajte jedinstven rođendan →](/usluge/rodjendani)
+
+### Baby shower za par koji se upoznao online
+
 - Dekoracija sa "matching" elementima
 - Timeline njihove online priče
-- Gosti pogađaju screenshot njihovih prvih poruka
+- Gosti pogađaju screenshot prvih poruka
 
-## Kako prikupiti informacije
+[Organizirajte kreativan baby shower →](/usluge/baby-shower)
 
-Ne možete personalizirati bez poznavanja detalja.
+---
+
+## Kako prikupiti informacije?
 
 **Tajno istraživanje:**
 - Pitajte bliske osobe za omiljene stvari
 - Pregledajte stare fotografije
-- Primijetite šta ih čini sretnima
+- Primijetite što ih čini sretnima
 
 **Direktno pitanje (za vlastitu proslavu):**
 - "Koja pjesma te vraća u sretno vrijeme?"
 - "Koje jelo te podsjeća na djetinjstvo?"
 - "Tko su ljudi bez kojih ne možeš zamisliti slavlje?"
 
+---
+
 ## Budžet nije izgovor
 
-Personalizacija ne mora koštati više:
+| Besplatno | Nisko budžet |
+|-----------|-------------|
+| Rukom pisane poruke | DIY dekoracija s osobnim značenjem |
+| Kreiranje playliste | Personalizirani printani materijali |
+| Fotografije iz prošlosti | Tematski detalji |
+| Priče i sjećanja | Potluck s pričama iza jela |
 
-**Besplatno:**
-- Rukom pisane poruke
-- Playlist kreacija
-- Fotografije iz prošlosti
-- Priče i sjećanja
-
-**Nisko budžet:**
-- DIY dekoracija s osobnim značenjem
-- Potluck style sa pričama iza jela
-- Personalizirani printani materijali
+---
 
 ## Zamke koje treba izbjeći
 
-❌ **Over-personalizacija** - Previše insiderskih referenci alienira goste koji nisu "u temi"
+❌ **Over-personalizacija** — Previše insiderskih referenci alienira goste koji nisu "u temi"
 
-❌ **Neugodne uspomene** - Provjerite da reference nisu bolne za nekoga
+❌ **Neugodne uspomene** — Provjerite da reference nisu bolne za nekoga
 
-❌ **Kompliciranost** - Ako zahtijeva objašnjenje od 5 minuta, vjerojatno je previše
+❌ **Kompliciranost** — Ako zahtijeva objašnjenje od 5 minuta, vjerojatno je previše
 
-## Zaključak: Srce svake personalizacije
+---
+
+## Zaključak
 
 Na kraju, personalizacija se svodi na jedno pitanje:
 
-"Kako mogu pokazati ovoj osobi da je viđena, cijenjena i voljena?"
+> "Kako mogu pokazati ovoj osobi da je viđena, cijenjena i voljena?"
 
 Odgovor na to pitanje vodi do detalja koji ostaju u srcu zauvijek.
 
-Ne trebate veliki budžet. Trebate veliku pažnju.
-
-I to je nešto što novac ne može kupiti - ali ljubav može stvoriti.
+**[Stvorite personaliziranu proslavu →](/kontakt)**
     `,
     category: "Savjeti",
     author: "The Stage Tim",
@@ -960,140 +1128,131 @@ I to je nešto što novac ne može kupiti - ali ljubav može stvoriti.
     id: "10",
     slug: "team-building-aktivnosti-koje-zaposlenici-zapravo-zele",
     title: "Team Building koji Zaposlenici Neće Mrziti: Aktivnosti koje Zaista Povezuju",
-    excerpt: "Priznajte - riječ 'team building' izaziva kolektivni uzdah u vašem uredu. Ali ne mora biti tako. Otkrijte kako organizirati okupljanje koje će ljudi stvarno željeti ponoviti.",
+    excerpt: "Priznajte — riječ 'team building' izaziva kolektivni uzdah u vašem uredu. Ali ne mora biti tako. Otkrijte kako organizirati okupljanje koje će ljudi stvarno željeti ponoviti.",
     content: `
-## Hajde da budemo iskreni
+Hajde da budemo iskreni.
 
 Tradicionalni team building ima lošu reputaciju. I uglavnom zasluženo.
 
-"Obvezna zabava" je oksimoron. Trust fall vježbe nisu spojile nikog osim onih koji su zajedno padali. I ne, još jedan pub quiz neće riješiti komunikacijske probleme u timu.
+"Obvezna zabava" je oksimoron. Trust fall vježbe nisu spojile nikog. I ne, još jedan pub quiz neće riješiti komunikacijske probleme u timu.
 
-Ali team building - pravi, efektivan team building - može učiniti čuda. Pod uvjetom da se radi ispravno.
+Ali **pravi** team building može učiniti čuda. Pod uvjetom da se radi ispravno.
+
+---
 
 ## Zašto većina team buildinga propada
 
-**Problem #1: Prisila**
-"Obvezno prisustvo" ubija atmosferu prije nego što je počela.
+| Problem | Posljedica |
+|---------|------------|
+| Prisila | Atmosfera je mrtva prije nego počne |
+| Nerelevantne aktivnosti | Paintball za tim računovođa? |
+| Ignoriranje introverata | Samo ekstrovertima je zabavno |
+| Fokus na zabavu bez svrhe | Trošenje budžeta bez rezultata |
 
-**Problem #2: Nerelevantne aktivnosti**
-Paintball za tim računovođa? Zašto?
-
-**Problem #3: Ignoriranje introverata**
-Glasne, natjecateljske aktivnosti pogoduju samo ekstravertima.
-
-**Problem #4: Fokus na zabavu, ne na svrhu**
-Zabava koja ne gradi ništa je samo trošenje budžeta.
+---
 
 ## Šta zapravo funkcionira
 
 ### Kreativne radionice
 
-**Sip & Paint za timove:**
-- Egalitarno iskustvo - svi su jednako (ne)sposobni
+**[Sip & Paint za timove](/usluge/sip-paint):**
+
+- Svi su jednako (ne)sposobni — egalitarno iskustvo
 - Razgovori teku prirodno dok ruke rade
-- Svačiji rezultat je drugačiji - metafora za tim
-- Opuštena atmosfera ruši hijerarhijske barijere
+- Hijerarhija nestaje kad svi pokušavaju nacrtati isto drvo
+- Svačiji rezultat je drugačiji — metafora za tim
 
-**Kulinarsko iskustvo:**
-- Zajednički cilj (napraviti jelo)
-- Prirodna podjela uloga
-- Dijeljenje rezultata (bukvalno)
+### Kulinarsko iskustvo
 
-### Rješavanje problema bez pritiska
+[Italian Night](/usluge/italian-night) za korporativne grupe:
 
-**Escape room elementi:**
-- Zahtijeva suradnju
-- Različite vještine dolaze do izražaja
-- Vremenski ograničeno ali bez pravog stresa
+- Zajednički cilj (uživati u večeri)
+- Prirodna podjela razgovora po stolovima
+- Dijeljenje hrane = dijeljenje iskustva
 
 ### Dijeljenje priča
 
-**Format "Life story":**
-- Svaki član tima dijeli 3 minute o nečemu osobnom
-- Nevjerovatno efektivno za stvaranje empatije
-- Iznenađujuće koliko malo znamo jedni o drugima
+Format "Life story" — svaki član tima dijeli 3 minute o nečemu osobnom. Nevjerovatno efektivno za stvaranje empatije.
+
+---
 
 ## Framework za planiranje
 
 ### Korak 1: Definirajte svrhu
+
 - Integracija novih članova?
 - Poboljšanje komunikacije?
 - Nagrađivanje nakon velikog projekta?
-- Svaka svrha zahtijeva drugačiji pristup.
+
+*Svaka svrha zahtijeva drugačiji pristup.*
 
 ### Korak 2: Poznajte svoj tim
+
 - Dob i interesi
 - Introvertni vs. ekstrovertni omjer
 - Fizička ograničenja
 - Kulturne osjetljivosti
 
-### Korak 3: Odaberite pravi format
-- Pola dana ili cijeli dan?
-- Radnim danom ili vikendom?
-- U radnom prostoru ili van njega?
+### Korak 3: Ostavite prostor za izbor
 
-### Korak 4: Ostavite prostor za izbor
 - Različite aktivnosti za različite tipove
 - Mogućnost povlačenja bez stigme
-- Fleksibilno vrijeme dolaska/odlaska
+- Fleksibilno vrijeme
 
-## Aktivnosti koje preporučujemo
+---
 
-### Za timove do 10 ljudi
-- **Tematska večer** (Italian Night style) - intimna, opuštena
-- **Grupni Sip & Paint** - kreativan, efikasan icebreaker
-- **Privatna kulinarska radionica** - kolaborativna, s opipljivim rezultatom
+## Preporučene aktivnosti po veličini tima
 
-### Za timove 10-25 ljudi
-- **Rotacijske radionice** - različite stanice, miješanje grupa
-- **Zajednička umjetnička instalacija** - svi doprinose jednom djelu
-- **Story slam format** - svako dijeli, svi slušaju
+| Veličina | Aktivnost |
+|----------|-----------|
+| Do 10 ljudi | Tematska večer, grupni Sip & Paint |
+| 10-25 ljudi | Rotacijske radionice, zajednička umjetnička instalacija |
+| 25+ ljudi | Festival format s različitim stanicama |
 
-### Za veće grupe
-- **Festival format** - različite aktivnosti, slobodan izbor
-- **Hibridni eventi** - kombinacija zajedničkih i opcionalnih elemenata
+---
 
 ## Mjerenje uspjeha
 
-Ne možete uvijek mjeriti "povezanost". Ali možete pratiti:
-
 **Neposredno:**
 - Anketa zadovoljstva (anonimna!)
-- Primijetite li ljude kako razgovaraju koji inače ne razgovaraju?
-- Fotografije - izgledaju li ljudi opušteno?
+- Primjećujete li ljude kako razgovaraju koji inače ne razgovaraju?
+- Fotografije — izgledaju li ljudi opušteno?
 
 **Dugoročno:**
 - Poboljšana međutimska komunikacija?
-- Manje neugodne tišine u zajedničkim prostorima?
 - Spominju li zaposlenici event pozitivno?
+
+---
 
 ## Česta pitanja
 
-**"Treba li team building biti obvezatan?"**
-Idealno ne. Ali ako mora - napravite ga toliko dobrim da će ljudi poželjeti doći.
+**Treba li biti obvezatan?**
+Idealno ne. Ali ako mora — napravite ga toliko dobrim da će ljudi *željeti* doći.
 
-**"Alkohol da ili ne?"**
-Opcija, nikad prisila. I uvijek bezalkoholne alternative.
+**Alkohol da ili ne?**
+Opcija, nikad prisila. Uvijek bezalkoholne alternative.
 
-**"Koliko često?"**
+**Koliko često?**
 Kvaliteta > kvantiteta. Jedan odličan event godišnje pobjeđuje četiri prosječna.
+
+---
 
 ## Zaključak
 
 Team building nije trošak. To je investicija u ljude koji čine vašu organizaciju.
 
-Ali kao svaka investicija - može se utrošiti pametno ili baciti u vjetar.
+Ali kao svaka investicija — može se utrošiti pametno ili baciti u vjetar.
 
-Sljedeći put kad planirate, zapitajte se: "Bih li JA želio/la ići na ovo?"
+Sljedeći put kad planirate, zapitajte se: "Bih li *ja* želio/la ići na ovo?"
 
-Ako je odgovor "ne" - radite iznova.
+Ako je odgovor "ne" — radite iznova.
 
-Ako je "da" - na pravom ste putu.
+**[Organizirajte team building koji funkcionira →](/usluge/najam)**
     `,
     category: "Korporativno",
     author: "The Stage Tim",
     publishedAt: "2024-10-28",
-    readTime: 9,
+    readTime: 8,
     featured: false,
     image: "/src/assets/services/presentations-events.jpg",
     tags: ["team building", "korporativno", "zaposlenici", "aktivnosti", "sarajevo"]

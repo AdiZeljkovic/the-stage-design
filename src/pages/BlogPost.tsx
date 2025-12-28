@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import { getPostBySlug, blogPosts } from "@/data/blogPosts";
+import ReactMarkdown from "react-markdown";
 
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -125,7 +126,7 @@ const BlogPost = () => {
           </h1>
 
           {/* Excerpt */}
-          <p className="text-lg md:text-xl text-soft-grey mb-8">
+          <p className="text-lg md:text-xl text-soft-grey mb-8 italic border-l-4 border-gold pl-4">
             {post.excerpt}
           </p>
 
@@ -184,20 +185,42 @@ const BlogPost = () => {
       {/* Content */}
       <article className="py-8">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div 
-            className="prose prose-lg max-w-none
-              prose-headings:font-serif prose-headings:text-dark-grey
-              prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4
-              prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3
-              prose-h4:text-lg prose-h4:mt-6 prose-h4:mb-2
-              prose-p:text-soft-grey prose-p:leading-relaxed prose-p:mb-4
-              prose-strong:text-dark-grey
-              prose-ul:text-soft-grey prose-ul:my-4
-              prose-li:my-1
-              prose-a:text-gold prose-a:no-underline hover:prose-a:underline
-            "
-            dangerouslySetInnerHTML={{ __html: post.content.replace(/\n/g, '<br />') }}
-          />
+          <div className="prose prose-lg max-w-none
+            prose-headings:font-serif prose-headings:text-dark-grey
+            prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-6 prose-h2:pb-2 prose-h2:border-b prose-h2:border-gold/20
+            prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-4
+            prose-h4:text-lg prose-h4:mt-6 prose-h4:mb-3
+            prose-p:text-soft-grey prose-p:leading-relaxed prose-p:mb-6
+            prose-strong:text-dark-grey prose-strong:font-semibold
+            prose-ul:text-soft-grey prose-ul:my-6 prose-ul:space-y-2
+            prose-ol:text-soft-grey prose-ol:my-6 prose-ol:space-y-2
+            prose-li:my-0
+            prose-a:text-gold prose-a:font-medium prose-a:no-underline hover:prose-a:underline
+            prose-blockquote:border-l-4 prose-blockquote:border-gold prose-blockquote:bg-cream/50 prose-blockquote:py-4 prose-blockquote:px-6 prose-blockquote:rounded-r-lg prose-blockquote:not-italic prose-blockquote:text-dark-grey
+            prose-hr:border-gold/20 prose-hr:my-10
+          ">
+            <ReactMarkdown
+              components={{
+                a: ({ href, children }) => {
+                  // Check if it's an internal link
+                  if (href?.startsWith('/')) {
+                    return (
+                      <Link to={href} className="text-gold font-medium hover:underline">
+                        {children}
+                      </Link>
+                    );
+                  }
+                  return (
+                    <a href={href} target="_blank" rel="noopener noreferrer" className="text-gold font-medium hover:underline">
+                      {children}
+                    </a>
+                  );
+                },
+              }}
+            >
+              {post.content}
+            </ReactMarkdown>
+          </div>
 
           {/* Tags */}
           <div className="mt-12 pt-8 border-t border-gold/10">
