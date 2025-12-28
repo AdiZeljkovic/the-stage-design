@@ -183,35 +183,77 @@ const BlogPost = () => {
       </section>
 
       {/* Content */}
-      <article className="py-8">
+      <article className="py-12">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="prose prose-lg max-w-none
-            prose-headings:font-serif prose-headings:text-dark-grey
-            prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-6 prose-h2:pb-2 prose-h2:border-b prose-h2:border-gold/20
-            prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-4
-            prose-h4:text-lg prose-h4:mt-6 prose-h4:mb-3
-            prose-p:text-soft-grey prose-p:leading-relaxed prose-p:mb-6
-            prose-strong:text-dark-grey prose-strong:font-semibold
-            prose-ul:text-soft-grey prose-ul:my-6 prose-ul:space-y-2
-            prose-ol:text-soft-grey prose-ol:my-6 prose-ol:space-y-2
-            prose-li:my-0
-            prose-a:text-gold prose-a:font-medium prose-a:no-underline hover:prose-a:underline
-            prose-blockquote:border-l-4 prose-blockquote:border-gold prose-blockquote:bg-cream/50 prose-blockquote:py-4 prose-blockquote:px-6 prose-blockquote:rounded-r-lg prose-blockquote:not-italic prose-blockquote:text-dark-grey
-            prose-hr:border-gold/20 prose-hr:my-10
-          ">
+          <div className="blog-content">
             <ReactMarkdown
               components={{
+                h2: ({ children }) => (
+                  <h2 className="text-2xl md:text-3xl font-serif font-bold text-dark-grey mt-16 mb-8 pb-4 border-b-2 border-gold/30 relative">
+                    <span className="absolute -left-4 top-0 text-gold text-4xl opacity-20">"</span>
+                    {children}
+                  </h2>
+                ),
+                h3: ({ children }) => (
+                  <h3 className="text-xl md:text-2xl font-serif font-semibold text-dark-grey mt-12 mb-6 flex items-center gap-3">
+                    <span className="w-8 h-0.5 bg-gold"></span>
+                    {children}
+                  </h3>
+                ),
+                h4: ({ children }) => (
+                  <h4 className="text-lg md:text-xl font-serif font-medium text-dark-grey mt-8 mb-4 text-gold/90">
+                    {children}
+                  </h4>
+                ),
+                p: ({ children }) => (
+                  <p className="text-base md:text-lg text-soft-grey leading-[1.9] mb-8 text-justify">
+                    {children}
+                  </p>
+                ),
+                strong: ({ children }) => (
+                  <strong className="text-dark-grey font-bold">{children}</strong>
+                ),
+                ul: ({ children }) => (
+                  <ul className="my-8 space-y-4 pl-2">{children}</ul>
+                ),
+                ol: ({ children }) => (
+                  <ol className="my-8 space-y-4 pl-2 list-decimal list-inside">{children}</ol>
+                ),
+                li: ({ children }) => (
+                  <li className="text-soft-grey text-base md:text-lg leading-relaxed flex items-start gap-3">
+                    <span className="text-gold mt-2 text-lg">•</span>
+                    <span className="flex-1">{children}</span>
+                  </li>
+                ),
+                blockquote: ({ children }) => (
+                  <blockquote className="my-12 py-8 px-8 bg-gradient-to-r from-cream via-cream/50 to-transparent border-l-4 border-gold rounded-r-2xl relative">
+                    <span className="absolute -top-4 left-6 text-6xl text-gold/30 font-serif">"</span>
+                    <div className="text-lg md:text-xl text-dark-grey font-serif italic leading-relaxed relative z-10">
+                      {children}
+                    </div>
+                  </blockquote>
+                ),
+                hr: () => (
+                  <hr className="my-16 border-none h-px bg-gradient-to-r from-transparent via-gold/40 to-transparent" />
+                ),
                 a: ({ href, children }) => {
-                  // Check if it's an internal link
                   if (href?.startsWith('/')) {
                     return (
-                      <Link to={href} className="text-gold font-medium hover:underline">
+                      <Link 
+                        to={href} 
+                        className="text-gold font-semibold underline decoration-gold/30 underline-offset-4 hover:decoration-gold transition-all duration-300"
+                      >
                         {children}
                       </Link>
                     );
                   }
                   return (
-                    <a href={href} target="_blank" rel="noopener noreferrer" className="text-gold font-medium hover:underline">
+                    <a 
+                      href={href} 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="text-gold font-semibold underline decoration-gold/30 underline-offset-4 hover:decoration-gold transition-all duration-300"
+                    >
                       {children}
                     </a>
                   );
