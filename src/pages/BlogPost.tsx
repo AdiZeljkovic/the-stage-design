@@ -189,52 +189,49 @@ const BlogPost = () => {
             <ReactMarkdown
               components={{
                 h2: ({ children }) => (
-                  <h2 className="text-2xl md:text-3xl font-serif font-bold text-dark-grey mt-16 mb-8 pb-4 border-b-2 border-gold/30 relative">
-                    <span className="absolute -left-4 top-0 text-gold text-4xl opacity-20">"</span>
+                  <h2 className="text-xl md:text-2xl font-serif font-bold text-dark-grey mt-8 mb-4 pb-2 border-b border-gold/20">
                     {children}
                   </h2>
                 ),
                 h3: ({ children }) => (
-                  <h3 className="text-xl md:text-2xl font-serif font-semibold text-dark-grey mt-12 mb-6 flex items-center gap-3">
-                    <span className="w-8 h-0.5 bg-gold"></span>
+                  <h3 className="text-lg md:text-xl font-serif font-semibold text-dark-grey mt-6 mb-3">
                     {children}
                   </h3>
                 ),
                 h4: ({ children }) => (
-                  <h4 className="text-lg md:text-xl font-serif font-medium text-dark-grey mt-8 mb-4 text-gold/90">
+                  <h4 className="text-base md:text-lg font-serif font-medium text-dark-grey mt-5 mb-2">
                     {children}
                   </h4>
                 ),
                 p: ({ children }) => (
-                  <p className="text-base md:text-lg text-soft-grey leading-[1.9] mb-8 text-justify">
+                  <p className="text-base text-soft-grey leading-relaxed mb-4">
                     {children}
                   </p>
                 ),
                 strong: ({ children }) => (
-                  <strong className="text-dark-grey font-bold">{children}</strong>
+                  <strong className="text-dark-grey font-semibold">{children}</strong>
                 ),
                 ul: ({ children }) => (
-                  <ul className="my-8 space-y-4 pl-2">{children}</ul>
+                  <ul className="my-4 space-y-2 pl-1">{children}</ul>
                 ),
                 ol: ({ children }) => (
-                  <ol className="my-8 space-y-4 pl-2 list-decimal list-inside">{children}</ol>
+                  <ol className="my-4 space-y-2 pl-1 list-decimal list-inside">{children}</ol>
                 ),
                 li: ({ children }) => (
-                  <li className="text-soft-grey text-base md:text-lg leading-relaxed flex items-start gap-3">
-                    <span className="text-gold mt-2 text-lg">•</span>
+                  <li className="text-soft-grey text-base leading-relaxed flex items-start gap-2">
+                    <span className="text-gold mt-1.5">•</span>
                     <span className="flex-1">{children}</span>
                   </li>
                 ),
                 blockquote: ({ children }) => (
-                  <blockquote className="my-12 py-8 px-8 bg-gradient-to-r from-cream via-cream/50 to-transparent border-l-4 border-gold rounded-r-2xl relative">
-                    <span className="absolute -top-4 left-6 text-6xl text-gold/30 font-serif">"</span>
-                    <div className="text-lg md:text-xl text-dark-grey font-serif italic leading-relaxed relative z-10">
+                  <blockquote className="my-6 py-4 px-5 bg-cream/50 border-l-3 border-gold rounded-r-lg">
+                    <div className="text-base text-dark-grey font-serif italic leading-relaxed">
                       {children}
                     </div>
                   </blockquote>
                 ),
                 hr: () => (
-                  <hr className="my-16 border-none h-px bg-gradient-to-r from-transparent via-gold/40 to-transparent" />
+                  <hr className="my-8 border-none h-px bg-gold/20" />
                 ),
                 a: ({ href, children }) => {
                   if (href?.startsWith('/')) {
