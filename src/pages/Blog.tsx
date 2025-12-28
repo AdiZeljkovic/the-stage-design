@@ -7,13 +7,11 @@ import { Badge } from "@/components/ui/badge";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
-import { blogPosts, getAllCategories, getFeaturedPosts } from "@/data/blogPosts";
+import { blogPosts, getFeaturedPosts } from "@/data/blogPosts";
 
 const Blog = () => {
   const [searchQuery, setSearchQuery] = useState("");
-  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
-  const categories = getAllCategories();
   const featuredPosts = getFeaturedPosts();
 
   const filteredPosts = useMemo(() => {
@@ -22,19 +20,17 @@ const Blog = () => {
         post.excerpt.toLowerCase().includes(searchQuery.toLowerCase()) ||
         post.tags.some(tag => tag.toLowerCase().includes(searchQuery.toLowerCase()));
       
-      const matchesCategory = !selectedCategory || post.category === selectedCategory;
-      
-      return matchesSearch && matchesCategory;
+      return matchesSearch;
     });
-  }, [searchQuery, selectedCategory]);
+  }, [searchQuery]);
 
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
-    return date.toLocaleDateString('bs-BA', { 
-      day: 'numeric', 
-      month: 'long', 
-      year: 'numeric' 
-    });
+    const day = date.getDate();
+    const months = ['jan', 'feb', 'mar', 'apr', 'maj', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec'];
+    const month = months[date.getMonth()];
+    const year = date.getFullYear();
+    return `${day}. ${month} ${year}`;
   };
 
   return (
@@ -72,39 +68,9 @@ const Blog = () => {
         </div>
       </section>
 
-      {/* Categories */}
-      <section className="py-8 border-b border-gold/10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-wrap gap-3 justify-center">
-            <Button
-              variant={selectedCategory === null ? "default" : "outline"}
-              onClick={() => setSelectedCategory(null)}
-              className={selectedCategory === null 
-                ? "bg-gold hover:bg-gold/90 text-warm-white" 
-                : "border-gold/30 text-dark-grey hover:bg-gold/10"
-              }
-            >
-              Sve
-            </Button>
-            {categories.map(category => (
-              <Button
-                key={category}
-                variant={selectedCategory === category ? "default" : "outline"}
-                onClick={() => setSelectedCategory(category)}
-                className={selectedCategory === category 
-                  ? "bg-gold hover:bg-gold/90 text-warm-white" 
-                  : "border-gold/30 text-dark-grey hover:bg-gold/10"
-                }
-              >
-                {category}
-              </Button>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Featured Posts */}
-      {!searchQuery && !selectedCategory && (
+      {!searchQuery && (
         <section className="py-16 bg-cream">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-serif font-bold text-dark-grey mb-8">
@@ -164,8 +130,7 @@ const Blog = () => {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-serif font-bold text-dark-grey mb-8">
-            {searchQuery ? `Rezultati pretrage za "${searchQuery}"` : 
-             selectedCategory ? `Članci: ${selectedCategory}` : 'Svi Članci'}
+            {searchQuery ? `Rezultati pretrage za "${searchQuery}"` : 'Svi članci'}
           </h2>
 
           {filteredPosts.length === 0 ? (
@@ -174,10 +139,7 @@ const Blog = () => {
                 Nema pronađenih članaka.
               </p>
               <Button 
-                onClick={() => {
-                  setSearchQuery("");
-                  setSelectedCategory(null);
-                }}
+                onClick={() => setSearchQuery("")}
                 className="bg-gold hover:bg-gold/90 text-warm-white"
               >
                 Prikaži sve članke
