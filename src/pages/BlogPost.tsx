@@ -6,7 +6,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
-import { getPostBySlug, blogPosts } from "@/data/blogPosts";
+import { getPostBySlug, blogPosts, getPostImage } from "@/data/blogPosts";
 import ReactMarkdown from "react-markdown";
 
 const BlogPost = () => {
@@ -70,7 +70,7 @@ const BlogPost = () => {
           "@type": "BlogPosting",
           "headline": post.title,
           "description": post.excerpt,
-          "image": post.image,
+          "image": getPostImage(post),
           "author": {
             "@type": "Organization",
             "name": post.author
@@ -174,7 +174,7 @@ const BlogPost = () => {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="aspect-video rounded-2xl overflow-hidden shadow-elegant">
             <img
-              src={post.image}
+              src={getPostImage(post)}
               alt={post.title}
               className="w-full h-full object-cover"
               loading="eager"
@@ -311,7 +311,7 @@ const BlogPost = () => {
                   <article className="bg-white rounded-xl overflow-hidden shadow-soft hover:shadow-elegant transition-all duration-300">
                     <div className="aspect-video overflow-hidden">
                       <img
-                        src={relatedPost.image}
+                        src={getPostImage(relatedPost)}
                         alt={relatedPost.title}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                         loading="lazy"

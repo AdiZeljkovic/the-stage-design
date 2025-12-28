@@ -7,7 +7,7 @@ import { Badge } from "@/components/ui/badge";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
-import { blogPosts, getFeaturedPosts } from "@/data/blogPosts";
+import { blogPosts, getFeaturedPosts, getPostImage } from "@/data/blogPosts";
 
 const Blog = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -86,7 +86,7 @@ const Blog = () => {
                   <article className="bg-white rounded-2xl overflow-hidden shadow-elegant hover:shadow-lg transition-all duration-300 h-full flex flex-col">
                     <div className="aspect-video overflow-hidden">
                       <img
-                        src={post.image}
+                        src={getPostImage(post)}
                         alt={post.title}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                         loading="lazy"
@@ -156,7 +156,7 @@ const Blog = () => {
                   <article className="bg-white rounded-xl overflow-hidden shadow-soft hover:shadow-elegant transition-all duration-300 h-full flex flex-col">
                     <div className="aspect-video overflow-hidden">
                       <img
-                        src={post.image}
+                        src={getPostImage(post)}
                         alt={post.title}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                         loading="lazy"
