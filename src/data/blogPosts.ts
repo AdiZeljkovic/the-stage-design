@@ -37,7 +37,7 @@ Tajna uspješnog budžeta nije u trošenju više novca, već u pametnijem troše
 
 Aminina djevojačka večer završila je u 2 ujutro. Nitko nije želio otići. Godinu dana kasnije, na njenom vjenčanju, svaka prijateljica u svom govoru spomenula je tu večer. To je moć dobro osmišljene proslave — nije u savršenstvu, već u stvaranju trenutaka koji ostaju. Vaša prijateljica to zaslužuje. I vi to možete stvoriti.
 
-**[Rezervirajte termin za djevojačku večer →](/kontakt)**`,
+`,
     category: "Djevojačke večeri",
     author: "The Stage Tim",
     publishedAt: "2024-12-20",
@@ -69,7 +69,7 @@ Dilema između organizacije kod kuće i profesionalnog prostora zapravo nije tak
 
 Vaše dijete neće pamtiti koliko je koštala torta. Neće pamtiti brand poklona. Pamtit će trenutak kad se osjećalo posebno, kad su svi bili tu samo za njega, kad je prostor bio čaroban. To nije moguće kupiti, ali moguće je stvoriti.
 
-**[Planirajte nezaboravan rođendan →](/kontakt)**`,
+`,
     category: "Rođendani",
     author: "The Stage Tim",
     publishedAt: "2024-12-15",
@@ -99,9 +99,7 @@ Zaboravite dosadne igre pogađanja opsega trbuha koje su svi vidjeli stotinu put
 
 Lokacija čini ogromnu razliku. Organizacija kod kuće ima svoj šarm, ali [profesionalni prostor](/usluge/najam) nudi nešto što dom jednostavno ne može: neutralan teren gdje se gosti osjećaju kao gosti a ne kao posjetitelji nečijeg doma, profesionalnu dekoraciju bez stresa dan prije, savršene fotografije zahvaljujući rasvjeti i pozadinama osmišljenima za tu svrhu, i osjećaj posebnosti — jer ona zaista jest posebna.
 
-Kada ta mala beba jednog dana pita: "Mama, jesam li bila željena?", pokazat ćete joj fotografije s baby showera. I odgovor će biti kristalno jasan.
-
-**[Organizirajte nezaboravan baby shower →](/kontakt)**`,
+Kada ta mala beba jednog dana pita: "Mama, jesam li bila željena?", pokazat ćete joj fotografije s baby showera. I odgovor će biti kristalno jasan.`,
     category: "Baby Shower",
     author: "The Stage Tim",
     publishedAt: "2024-12-10",
@@ -129,9 +127,7 @@ Za romantične večeri, parovi otkrivaju novu dimenziju zajedničkog vremena. Um
 
 Što trebate ponijeti sa sobom? Apsolutno ništa. Ozbiljno. Sav materijal je uključen: platno profesionalne kvalitete, akrilne boje i kistovi, zaštitna pregača, piće po izboru. Jedino što trebate donijeti je otvoren um i spremnost za zabavu.
 
-Skupite ekipu. Odaberite datum. Za dva sata, držat ćete u rukama vlastitu sliku i pitati se zašto ovo niste probali prije. Umjetnik ili ne — večer koju ćete pamtiti vas čeka.
-
-**[Rezervirajte Sip & Paint →](/usluge/sip-paint)**`,
+Skupite ekipu. Odaberite datum. Za dva sata, držat ćete u rukama vlastitu sliku i pitati se zašto ovo niste probali prije. Umjetnik ili ne — večer koju ćete pamtiti vas čeka.`,
     category: "Aktivnosti",
     author: "The Stage Tim",
     publishedAt: "2024-12-05",
@@ -161,9 +157,7 @@ Za vjenčanje ili veliku proslavu, planirajte da makeup bude gotov najmanje sat 
 
 "Zašto bih platila profesionalno šminkanje kad imam YouTube?" Zato što profesionalac vidi vaše lice objektivno, posjeduje kvalitetnije proizvode nego što ih možete kupiti u drogeriji, zna kako lice reagira na bljesak, suze, znoj, i oslobađa vas stresa na vaš veliki dan. Zamislite: umjesto da tri sata prije svadbe nervozno popravljate eyeliner, opušteno pijete kahvu dok stručnjak radi svoje.
 
-Profesionalno šminkanje nije luksuz. To je investicija u samopouzdanje. Zaslužujete pogledati fotografije za godinu dana i pomisliti: "Bila sam prelijepa."
-
-**[Rezervirajte profesionalno šminkanje →](/usluge/sminkanje)**`,
+Profesionalno šminkanje nije luksuz. To je investicija u samopouzdanje. Zaslužujete pogledati fotografije za godinu dana i pomisliti: "Bila sam prelijepa."`,
     category: "Ljepota",
     author: "The Stage Tim",
     publishedAt: "2024-11-28",
@@ -195,9 +189,7 @@ Za okrugle brojke poput pedesetog [rođendana](/usluge/rodjendani) ili dvadeset 
 
 Na The Stage Italian Night, sve je uključeno u paket: privatni prostor samo za vašu grupu, autentični menu kreiran za ovu priliku, piće, kompletna transformacija prostora s dekoracijom, pažljivo odabrana muzička playlista, i fotografije za uspomenu. Minimalan broj gostiju je deset osoba, a idealna veličina grupe za pravu atmosferu dugačkog stola je između petnaest i dvadeset pet. Trajanje večeri je tri do četiri sata — jer kao pravi Italijani, ne žurimo. Vegetarijanske opcije, alergije, posebni zahtjevi — sve je moguće uz prethodnu najavu.
 
-Italija nije samo mjesto na karti. To je stanje uma, način života gdje je hrana ljubav, razgovor umjetnost, a svaki obrok slavlje. Ne morate čekati odmor. Ne morate kupovati avionske karte. Italija dolazi k vama. Buon appetito!
-
-**[Rezervirajte Italian Night →](/usluge/italian-night)**`,
+Italija nije samo mjesto na karti. To je stanje uma, način života gdje je hrana ljubav, razgovor umjetnost, a svaki obrok slavlje. Ne morate čekati odmor. Ne morate kupovati avionske karte. Italija dolazi k vama. Buon appetito!`,
     category: "Tematske večeri",
     author: "The Stage Tim",
     publishedAt: "2024-11-20",
@@ -237,7 +229,7 @@ Savršeni prostor nije nužno najveći ili najskuplji. To je [prostor](/usluge/n
 
 Posjetite prostor osobno. Zamislite svoje goste unutra. Pitajte sve što vas zanima, čak i ako vam se čini glupo. Dobra lokacija olakšava sve ostalo. Loša otežava sve, bez obzira koliko truda uložite. Vaši gosti možda neće primijetiti savršen prostor. Ali će definitivno primijetiti loš.
 
-**[Pogledajte naš prostor →](/usluge/najam)**`,
+`,
     category: "Savjeti",
     author: "The Stage Tim",
     publishedAt: "2024-11-15",
@@ -267,9 +259,7 @@ Instagram momenti su još uvijek važni, ali s značajnim zaokretom. Umjesto gen
 
 Ironično, u doba najintenzivnije tehnologije koju je čovječanstvo ikad doživjelo, ljudi žele povratak klasici. Licem u lice razgovori bez pogleda u telefon. Igre bez ekrana koje uključuju smijeh i fizičku prisutnost. Sporo uživanje u hrani umjesto brzog fotografiranja jela. Prisutnost u trenutku umjesto gledanja događaja kroz ekran mobitela. Phone-free zone na proslavama postaju sve popularnije i sve traženije.
 
-Kako primijeniti ove trendove? Ne morate implementirati sve. Pitajte se što odgovara vašoj specifičnoj grupi, što možete realistično izvesti s dostupnim budžetom i vremenom, i što će zaista poboljšati iskustvo umjesto da samo prati modu. 2025. će biti godina autentičnosti. Godina manje pretvaranja i više stvarnog povezivanja. Trendovi dolaze i odlaze, ali suština ostaje nepromijenjena već tisućljećima: okupiti ljude, stvoriti uspomene, proslaviti trenutke.
-
-**[Planirajte modernu proslavu →](/kontakt)**`,
+Kako primijeniti ove trendove? Ne morate implementirati sve. Pitajte se što odgovara vašoj specifičnoj grupi, što možete realistično izvesti s dostupnim budžetom i vremenom, i što će zaista poboljšati iskustvo umjesto da samo prati modu. 2025. će biti godina autentičnosti. Godina manje pretvaranja i više stvarnog povezivanja. Trendovi dolaze i odlaze, ali suština ostaje nepromijenjena već tisućljećima: okupiti ljude, stvoriti uspomene, proslaviti trenutke.`,
     category: "Trendovi",
     author: "The Stage Tim",
     publishedAt: "2024-11-10",
@@ -303,9 +293,7 @@ Budžet nije izgovor. Rukom pisane poruke su besplatne a neprocjenjive. Kreiranj
 
 Postoje zamke koje treba svjesno izbjeći. Over-personalizacija s previše insiderskih referenci može otuđiti goste koji nisu "u temi". Neugodne uspomene koje možda nisu sretne za nekoga od prisutnih. Kompliciranost — ako nešto zahtijeva objašnjenje od pet minuta, vjerojatno je previše.
 
-Na kraju, personalizacija se svodi na jedno jednostavno pitanje: kako mogu pokazati ovoj osobi da je viđena, cijenjena i voljena? Odgovor na to pitanje vodi do detalja koji ostaju u srcu zauvijek.
-
-**[Stvorite personaliziranu proslavu →](/kontakt)**`,
+Na kraju, personalizacija se svodi na jedno jednostavno pitanje: kako mogu pokazati ovoj osobi da je viđena, cijenjena i voljena? Odgovor na to pitanje vodi do detalja koji ostaju u srcu zauvijek.`,
     category: "Savjeti",
     author: "The Stage Tim",
     publishedAt: "2024-11-05",
@@ -339,9 +327,7 @@ Mjerenje uspjeha team buildinga ima neposrednu i dugoročnu komponentu. Neposred
 
 Team building nije trošak u budžetu. To je investicija u ljude koji čine vašu organizaciju, u odnose koji određuju produktivnost, u kulturu koja privlači talente. Ali kao svaka investicija — može se utrošiti pametno ili baciti u vjetar.
 
-Sljedeći put kad planirate team building, zapitajte se iskreno: bih li ja želio ići na ovo? Ako je odgovor "ne" — radite iznova dok ne postane "da".
-
-**[Organizirajte team building koji funkcionira →](/usluge/najam)**`,
+Sljedeći put kad planirate team building, zapitajte se iskreno: bih li ja želio ići na ovo? Ako je odgovor "ne" — radite iznova dok ne postane "da".`,
     category: "Korporativno",
     author: "The Stage Tim",
     publishedAt: "2024-10-28",
