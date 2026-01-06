@@ -132,6 +132,11 @@ const Sminkanje = () => {
                 <p className="text-soft-grey text-sm">
                   Vjenčanja, mature, diplomiranja, svečane večeri i svi drugi važni trenutci u vašem životu.
                 </p>
+                <div className="mt-4 p-3 bg-cream/70 rounded border border-gold/10">
+                  <p className="text-soft-grey text-center text-xs">
+                    Ova usluga je u potpunosti prilagodljiva vašim željama i potrebama.
+                  </p>
+                </div>
               </div>
               <div className="p-6 bg-cream/50 rounded-lg">
                 <Sparkles className="w-6 h-6 text-gold mb-3" />
@@ -139,6 +144,11 @@ const Sminkanje = () => {
                 <p className="text-soft-grey text-sm">
                   Profesionalna šminka za fotografije, video produkcije, i društvene mreže.
                 </p>
+                <div className="mt-4 p-3 bg-cream/70 rounded border border-gold/10">
+                  <p className="text-soft-grey text-center text-xs">
+                    Ova usluga je u potpunosti prilagodljiva vašim željama i potrebama.
+                  </p>
+                </div>
               </div>
               <div className="p-6 bg-cream/50 rounded-lg">
                 <Sparkles className="w-6 h-6 text-gold mb-3" />
@@ -146,6 +156,11 @@ const Sminkanje = () => {
                 <p className="text-soft-grey text-sm">
                   Idealno za djevojačke večeri, rođendane i druge grupne proslave.
                 </p>
+                <div className="mt-4 p-3 bg-cream/70 rounded border border-gold/10">
+                  <p className="text-soft-grey text-center text-xs">
+                    Ova usluga je u potpunosti prilagodljiva vašim željama i potrebama.
+                  </p>
+                </div>
               </div>
               <div className="p-6 bg-cream/50 rounded-lg">
                 <Sparkles className="w-6 h-6 text-gold mb-3" />
@@ -153,17 +168,14 @@ const Sminkanje = () => {
                 <p className="text-soft-grey text-sm">
                   Naučite tajne profesionalnog šminkanja direktno od iskusnih majstora.
                 </p>
+                <div className="mt-4 p-3 bg-cream/70 rounded border border-gold/10">
+                  <p className="text-soft-grey text-center text-xs">
+                    Ova usluga je u potpunosti prilagodljiva vašim željama i potrebama.
+                  </p>
+                </div>
               </div>
             </div>
 
-            <div className="p-6 bg-gold/10 rounded-lg border border-gold/20">
-              <p className="text-dark-grey font-semibold mb-2">
-                Personalizirani pristup:
-              </p>
-              <p className="text-soft-grey">
-                Svaka usluga se u potpunosti prilagođava vašim potrebama, tipu kože, željenom stilu i prilici. Bilo da se radi o jednostavnom dnevnom looku ili glamuroznom večernjem izdanju – kreiramo ga zajedno s vama. Kontaktirajte nas za konsultaciju i ponudu.
-              </p>
-            </div>
           </div>
         </div>
 
