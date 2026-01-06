@@ -138,9 +138,9 @@ const SipPaint = () => {
               </div>
             </div>
 
-            <div className="mt-8 p-6 bg-cream/50 rounded-lg border border-gold/10">
-              <p className="text-soft-grey text-center">
-                Organizujemo i privatne Sip & Paint događaje prilagođene vašim željama – od teme slikanja do izbora pića. Kontaktirajte nas za više informacija.
+            <div className="mt-6 p-4 bg-cream/50 rounded-lg border border-gold/10">
+              <p className="text-soft-grey text-center text-sm">
+                Ovo iskustvo je u potpunosti prilagodljivo vašim željama i potrebama.
               </p>
             </div>
           </div>

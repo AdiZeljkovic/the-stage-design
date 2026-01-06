@@ -118,6 +118,11 @@ const Najam = () => {
                     <li>• Moderna i ozbiljna ili zabavna atmosfera prema potrebi</li>
                     <li>• Parking opcije u blizini</li>
                   </ul>
+                  <div className="mt-4 p-3 bg-cream/70 rounded border border-gold/10">
+                    <p className="text-soft-grey text-center text-xs">
+                      Ova usluga je u potpunosti prilagodljiva vašim željama i potrebama.
+                    </p>
+                  </div>
                 </div>
                 </div>
               </div>
@@ -149,6 +154,11 @@ const Najam = () => {
                     <li>• Audio i vizuelnu opremu</li>
                     <li>• Profesionalnu atmosferu</li>
                   </ul>
+                  <div className="mt-4 p-3 bg-cream/70 rounded border border-gold/10">
+                    <p className="text-soft-grey text-center text-xs">
+                      Ova usluga je u potpunosti prilagodljiva vašim željama i potrebama.
+                    </p>
+                  </div>
                 </div>
                 </div>
               </div>
@@ -180,6 +190,11 @@ const Najam = () => {
                     <li>• "Instagrammable" kutke</li>
                     <li>• Rekvizite prema potrebi</li>
                   </ul>
+                  <div className="mt-4 p-3 bg-cream/70 rounded border border-gold/10">
+                    <p className="text-soft-grey text-center text-xs">
+                      Ova usluga je u potpunosti prilagodljiva vašim željama i potrebama.
+                    </p>
+                  </div>
                 </div>
                 </div>
               </div>
@@ -208,18 +223,14 @@ const Najam = () => {
                     <li>• Inspirativno okruženje</li>
                     <li>• Prostor za praktične vježbe</li>
                   </ul>
+                  <div className="mt-4 p-3 bg-cream/70 rounded border border-gold/10">
+                    <p className="text-soft-grey text-center text-xs">
+                      Ova usluga je u potpunosti prilagodljiva vašim željama i potrebama.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-
-          <div className="p-6 bg-gold/10 rounded-lg border border-gold/20">
-            <p className="text-dark-grey font-semibold mb-2">
-              Prilagodimo se vašim potrebama:
-            </p>
-            <p className="text-soft-grey">
-              Svaki event je jedinstven, a naš prostor je dizajniran da se u potpunosti prilagodi vašoj viziji. Od rasporeda namještaja do tehničke opreme i dekoracije – zajedno kreiramo savršen ambijent za vaš događaj ili projekt.
-            </p>
           </div>
         </div>
 
