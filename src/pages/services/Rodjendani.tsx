@@ -114,6 +114,9 @@ const Rodjendani = () => {
               <li>• Neograničeni sokovi</li>
               <li>• Gift bag za slavljenicu</li>
             </ul>
+            <p className="text-sm text-soft-grey italic mt-6">
+              Ovaj paket je u potpunosti prilagodljiv vašim željama i potrebama.
+            </p>
           </div>
 
           {/* Package 2 */}
@@ -151,6 +154,9 @@ const Rodjendani = () => {
               <li>• Vaše umjetničko djelo za ponijeti kući</li>
               <li>• Gift bag za slavljenicu</li>
             </ul>
+            <p className="text-sm text-soft-grey italic mt-6">
+              Ovaj paket je u potpunosti prilagodljiv vašim željama i potrebama.
+            </p>
           </div>
 
           {/* Package 3 */}
@@ -177,6 +183,9 @@ const Rodjendani = () => {
               <li>• Neograničena pića (Coca-Cola, Mojito limunada, ledeni čaj)</li>
               <li>• Gift bag za slavljenika/slavljenicu</li>
             </ul>
+            <p className="text-sm text-soft-grey italic mt-6">
+              Ovaj paket je u potpunosti prilagodljiv vašim željama i potrebama.
+            </p>
           </div>
 
           <p className="text-sm text-soft-grey italic mt-8">
