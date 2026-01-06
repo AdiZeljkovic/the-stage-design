@@ -218,7 +218,7 @@ const Najam = () => {
               Prilagodimo se vašim potrebama:
             </p>
             <p className="text-soft-grey">
-              Svaki event je jedinstven. Kontaktirajte nas kako bismo zajedno kreirali savršenu konfiguraciju prostora za vaš događaj ili projekt.
+              Svaki event je jedinstven, a naš prostor je dizajniran da se u potpunosti prilagodi vašoj viziji. Od rasporeda namještaja do tehničke opreme i dekoracije – zajedno kreiramo savršen ambijent za vaš događaj ili projekt.
             </p>
           </div>
         </div>

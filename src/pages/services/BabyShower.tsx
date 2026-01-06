@@ -121,6 +121,12 @@ const BabyShower = () => {
               </p>
             </div>
           </div>
+
+          <div className="mt-8 p-6 bg-cream/50 rounded-lg border border-gold/10">
+            <p className="text-soft-grey text-center">
+              Svaki aspekt naše baby shower ponude može se prilagoditi vašim željama i viziji. Kontaktirajte nas kako bismo kreirali poseban dan za buduću mamu.
+            </p>
+          </div>
         </div>
 
         {/* CTA */}

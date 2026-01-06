@@ -5,13 +5,13 @@ import SEO from "@/components/SEO";
 import { ChevronRight } from "lucide-react";
 
 const services = [
-  { name: "Rođendani", price: "350 KM", link: "/usluge/rodjendani" },
-  { name: "Djevojačke večeri", price: "350 KM", link: "/usluge/djevojacke-veceri" },
-  { name: "Baby Shower", price: "300 KM", link: "/usluge/baby-shower" },
+  { name: "Rođendani", price: "osnovni paket 350 KM", link: "/usluge/rodjendani" },
+  { name: "Djevojačke večeri", price: "osnovni paket 350 KM", link: "/usluge/djevojacke-veceri" },
+  { name: "Baby Shower", price: "osnovni paket 300 KM", link: "/usluge/baby-shower" },
   { name: "Italian Night", price: "50 KM / osoba", link: "/usluge/italian-night" },
   { name: "Sip and Paint", price: "50 KM / osoba", link: "/usluge/sip-paint" },
-  { name: "Profesionalno šminkanje", price: "Po dogovoru", link: "/usluge/sminkanje" },
-  { name: "Najam prostora", price: "Po dogovoru", link: "/usluge/najam-prostora" },
+  { name: "Profesionalno šminkanje", price: "po dogovoru", link: "/usluge/sminkanje" },
+  { name: "Najam prostora", price: "po dogovoru", link: "/usluge/najam-prostora" },
 ];
 
 const Usluge = () => {
