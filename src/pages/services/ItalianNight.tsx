@@ -113,12 +113,18 @@ const ItalianNight = () => {
               <li>• Fotografiranje tokom cjelokupnog procesa</li>
             </ul>
 
-            <div className="p-6 bg-gold/10 rounded-lg border border-gold/20">
+            <div className="p-6 bg-gold/10 rounded-lg border border-gold/20 mb-6">
               <p className="text-dark-grey font-semibold mb-2">
                 Važna Napomena:
               </p>
               <p className="text-soft-grey">
                 Potrebno je rezervirati mjesto unaprijed. Italian Night se organizuje na zahtjev za grupe, kontaktirajte nas za dostupne termine.
+              </p>
+            </div>
+
+            <div className="p-6 bg-cream/50 rounded-lg border border-gold/10">
+              <p className="text-soft-grey text-center">
+                Naše Italian Night iskustvo može se u potpunosti prilagoditi vašim preferencijama – od izbora jela do atmosfere. Javite nam se da zajedno osmislimo savršenu večer.
               </p>
             </div>
           </div>

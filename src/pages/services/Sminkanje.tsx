@@ -161,7 +161,7 @@ const Sminkanje = () => {
                 Personalizirani pristup:
               </p>
               <p className="text-soft-grey">
-                Svaka usluga se prilagođava vašim potrebama, tipu kože, željenom stilu i prilike. Kontaktirajte nas za konsultaciju i ponudu.
+                Svaka usluga se u potpunosti prilagođava vašim potrebama, tipu kože, željenom stilu i prilici. Bilo da se radi o jednostavnom dnevnom looku ili glamuroznom večernjem izdanju – kreiramo ga zajedno s vama. Kontaktirajte nas za konsultaciju i ponudu.
               </p>
             </div>
           </div>

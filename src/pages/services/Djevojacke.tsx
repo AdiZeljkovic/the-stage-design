@@ -123,9 +123,9 @@ const Djevojacke = () => {
             </ul>
           </div>
 
-          <div className="mt-12 p-6 bg-cream/50 rounded-lg">
-            <p className="text-soft-grey text-center italic">
-              Svaka djevojačka večer je jedinstvena priča. Kontaktirajte nas kako bismo zajedno kreirali savršenu atmosferu za vas i vaše prijateljice.
+          <div className="mt-12 p-6 bg-cream/50 rounded-lg border border-gold/10">
+            <p className="text-soft-grey text-center">
+              Svaki element naše ponude može se prilagoditi vašim željama – od dekoracije do aktivnosti. Javite nam se kako bismo zajedno osmislili savršenu djevojačku večer.
             </p>
           </div>
         </div>
