@@ -6,12 +6,12 @@ import { ChevronRight } from "lucide-react";
 
 const services = [
   { name: "Rođendani", price: "osnovni paket 350 KM", link: "/usluge/rodjendani" },
-  { name: "Djevojačke večeri", price: "osnovni paket 350 KM", link: "/usluge/djevojacke-veceri" },
+  { name: "Djevojačke večeri", price: "osnovni paket 350 KM", link: "/usluge/djevojacke" },
   { name: "Baby Shower", price: "osnovni paket 300 KM", link: "/usluge/baby-shower" },
   { name: "Italian Night", price: null, link: "/usluge/italian-night" },
   { name: "Sip and Paint", price: null, link: "/usluge/sip-paint" },
   { name: "Profesionalno šminkanje", price: "po dogovoru", link: "/usluge/sminkanje" },
-  { name: "Najam prostora", price: "po dogovoru", link: "/usluge/najam-prostora" },
+  { name: "Najam prostora", price: "po dogovoru", link: "/usluge/najam" },
 ];
 
 const Usluge = () => {
