@@ -46,7 +46,7 @@ const SipPaint = () => {
           <div className="text-center animate-fadeIn">
             <Palette className="w-16 h-16 mx-auto mb-6 text-gold" />
             <h1 className="text-5xl md:text-6xl font-serif font-bold text-dark-grey mb-4">
-              Sip and Paint
+              Sip and Paint Sarajevo
             </h1>
             <p className="text-xl text-soft-grey max-w-2xl mx-auto px-4">
               Opustite se uz kist, platno i koktel
@@ -82,7 +82,7 @@ const SipPaint = () => {
 
           <div className="mb-8">
             <p className="text-soft-grey mb-6 leading-relaxed text-lg">
-              Izvedi prijateljicu, mamu ili sestru na nezaboravno kreativno iskustvo! Svakog drugog četvrtka u mjesecu (20:00 - 22:00h) pijuckamo koktele, slušamo muziku i opuštamo se uz kist i platno.
+              Tražite kreativno iskustvo u Sarajevu? Izvedi prijateljicu, mamu ili sestru na nezaboravno Sip and Paint iskustvo! Svakog drugog četvrtka u mjesecu (20:00 - 22:00h) pijuckamo koktele, slušamo muziku i opuštamo se uz kist i platno.
             </p>
 
             <div className="p-6 bg-gold/10 rounded-lg border border-gold/20 mb-8">

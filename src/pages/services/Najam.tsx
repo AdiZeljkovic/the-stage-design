@@ -51,7 +51,7 @@ const Najam = () => {
           <div className="text-center animate-fadeIn">
             <Users className="w-16 h-16 mx-auto mb-6 text-gold" />
             <h1 className="text-5xl md:text-6xl font-serif font-bold text-dark-grey mb-4">
-              Najam Prostora
+              Najam Prostora Sarajevo
             </h1>
             <p className="text-xl text-soft-grey max-w-2xl mx-auto px-4">
               Multipraktični prostor za sve vaše potrebe
@@ -87,7 +87,7 @@ const Najam = () => {
 
           <div className="mb-12">
             <p className="text-soft-grey mb-8 leading-relaxed text-lg">
-              Idealna i prepoznatljiva lokacija u centru grada s parking opcijama. Zahvaljujući multipraktičnosti, prostor se lako transformiše iz krajnje ozbiljnog u moderan i zabavan set-up.
+              Tražite prostor za najam u Sarajevu? The Stage nudi idealnu i prepoznatljivu lokaciju u centru grada s parking opcijama. Zahvaljujući multipraktičnosti, prostor se lako transformiše iz krajnje ozbiljnog u moderan i zabavan set-up.
             </p>
           </div>
 

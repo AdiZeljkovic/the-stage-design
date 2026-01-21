@@ -46,7 +46,7 @@ const ItalianNight = () => {
           <div className="text-center animate-fadeIn">
             <Wine className="w-16 h-16 mx-auto mb-6 text-gold" />
             <h1 className="text-5xl md:text-6xl font-serif font-bold text-dark-grey mb-4">
-              Italian Night
+              Italian Night Sarajevo
             </h1>
             <p className="text-xl text-soft-grey max-w-2xl mx-auto px-4">
               Pasta & Spritz - Iskustvo talijanskog glamura
@@ -82,7 +82,7 @@ const ItalianNight = () => {
 
           <div className="mb-8">
             <p className="text-soft-grey mb-6 leading-relaxed text-lg">
-              Savršen 'date night' ili izlazak s prijateljima! Doživite autentično italijansko iskustvo dok pravite pastu od nule – od brašna, jaja i soli.
+              Tražite jedinstveno iskustvo u Sarajevu? Italian Night je savršen 'date night' ili izlazak s prijateljima! Doživite autentično italijansko iskustvo dok pravite pastu od nule – od brašna, jaja i soli.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mb-8">
