@@ -47,7 +47,7 @@ const Sminkanje = () => {
           <div className="text-center animate-fadeIn">
             <Sparkles className="w-16 h-16 mx-auto mb-6 text-gold" />
             <h1 className="text-5xl md:text-6xl font-serif font-bold text-dark-grey mb-4">
-              Profesionalno Šminkanje
+              Profesionalno Šminkanje Sarajevo
             </h1>
             <p className="text-xl text-soft-grey max-w-2xl mx-auto px-4">
               Vrhunska umjetnost šminkanja za sve prilike
@@ -83,7 +83,7 @@ const Sminkanje = () => {
 
           <div className="mb-8">
             <p className="text-soft-grey mb-8 leading-relaxed text-lg">
-              Prepustite se beskrajno talentiranim rukama vrhunskih šminkerica s karijerama na TV-u, filmu i muzičkoj industriji. U The Stage-u nudimo profesionalno šminkanje za sve prilike - od vjenčanja i matura do foto sesija i specijalnih događaja.
+              Tražite profesionalno šminkanje u Sarajevu? Prepustite se beskrajno talentiranim rukama vrhunskih šminkerica s karijerama na TV-u, filmu i muzičkoj industriji. U The Stage-u nudimo profesionalno šminkanje za sve prilike - od vjenčanja i matura do foto sesija i specijalnih događaja.
             </p>
 
             <div className="p-8 bg-gradient-to-br from-gold/10 to-cream/50 rounded-lg mb-8 border border-gold/20">

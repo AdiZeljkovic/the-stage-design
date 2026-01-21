@@ -50,10 +50,10 @@ const Rodjendani = () => {
           <div className="text-center animate-fadeIn">
             <PartyPopper className="w-16 h-16 mx-auto mb-6 text-gold" />
             <h1 className="text-5xl md:text-6xl font-serif font-bold text-dark-grey mb-4">
-              Rođendani
+              Rođendani Sarajevo
             </h1>
             <p className="text-xl text-soft-grey max-w-2xl mx-auto px-4">
-              Tri jedinstvena rođendanska iskustva za nezaboravan dan
+              Tri jedinstvena rođendanska iskustva u Sarajevu za nezaboravan dan
             </p>
           </div>
         </div>

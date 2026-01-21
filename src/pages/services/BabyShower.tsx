@@ -47,7 +47,7 @@ const BabyShower = () => {
           <div className="text-center animate-fadeIn">
             <Baby className="w-16 h-16 mx-auto mb-6 text-gold" />
             <h1 className="text-5xl md:text-6xl font-serif font-bold text-dark-grey mb-4">
-              Baby Shower
+              Baby Shower Sarajevo
             </h1>
             <p className="text-xl text-soft-grey max-w-2xl mx-auto px-4">
               Savršeno okruženje da buduću mamu iznenadite poklonima
@@ -83,7 +83,7 @@ const BabyShower = () => {
 
           <div className="mb-8">
             <p className="text-soft-grey mb-6 leading-relaxed text-lg">
-              The Stage nudi savršeno okruženje za proslavu baby shower-a. U fotogeničnom i prikladno uređenom prostoru, stvorite nezaboravne trenutke sa budućom mamom i najbližima.
+              Tražite savršen prostor za baby shower u Sarajevu? The Stage nudi savršeno okruženje za proslavu baby shower-a. U fotogeničnom i prikladno uređenom prostoru, stvorite nezaboravne trenutke sa budućom mamom i najbližima.
             </p>
 
             <h4 className="font-semibold text-dark-grey mb-4 text-xl">Paket uključuje:</h4>
