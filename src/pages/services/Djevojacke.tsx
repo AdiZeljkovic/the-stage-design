@@ -47,7 +47,7 @@ const Djevojacke = () => {
           <div className="text-center animate-fadeIn">
             <Heart className="w-16 h-16 mx-auto mb-6 text-gold" />
             <h1 className="text-5xl md:text-6xl font-serif font-bold text-dark-grey mb-4">
-              Djevojačke Večeri
+              Djevojačke Večeri Sarajevo
             </h1>
             <p className="text-xl text-soft-grey max-w-2xl mx-auto px-4">
               Proslavite posljednje dane slobode sa stilom
@@ -83,7 +83,7 @@ const Djevojacke = () => {
 
           <div className="mb-8">
             <p className="text-soft-grey mb-6 leading-relaxed text-lg">
-              Kreiramo savršenu "Bride to be" atmosferu uz potpunu personalizaciju. Prepustite se zabavi i stvarajte uspomene koje će trajati zauvijek.
+              Tražite savršeno mjesto za djevojačku veče u Sarajevu? Kreiramo savršenu "Bride to be" atmosferu uz potpunu personalizaciju. Prepustite se zabavi i stvarajte uspomene koje će trajati zauvijek.
             </p>
 
             <h4 className="font-semibold text-dark-grey mb-4 text-xl">Paket uključuje:</h4>
