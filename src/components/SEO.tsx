@@ -18,7 +18,7 @@ const SEO = ({
   noindex = false,
 }: SEOProps) => {
   const siteUrl = "https://thestage.ba";
-  const fullCanonical = canonical ? `${siteUrl}${canonical}` : undefined;
+  const fullCanonical = canonical === "/" ? siteUrl : canonical ? `${siteUrl}${canonical}` : undefined;
 
   return (
     <Helmet>
