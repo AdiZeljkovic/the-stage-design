@@ -8,8 +8,8 @@ const services = [
   { name: "Rođendani", price: "osnovni paket 350 KM", link: "/usluge/rodjendani" },
   { name: "Djevojačke večeri", price: "osnovni paket 350 KM", link: "/usluge/djevojacke-veceri" },
   { name: "Baby Shower", price: "osnovni paket 300 KM", link: "/usluge/baby-shower" },
-  { name: "Italian Night", price: "50 KM / osoba", link: "/usluge/italian-night" },
-  { name: "Sip and Paint", price: "50 KM / osoba", link: "/usluge/sip-paint" },
+  { name: "Italian Night", price: null, link: "/usluge/italian-night" },
+  { name: "Sip and Paint", price: null, link: "/usluge/sip-paint" },
   { name: "Profesionalno šminkanje", price: "po dogovoru", link: "/usluge/sminkanje" },
   { name: "Najam prostora", price: "po dogovoru", link: "/usluge/najam-prostora" },
 ];
@@ -41,7 +41,7 @@ const Usluge = () => {
                 className="flex items-center justify-between bg-warm-white rounded-lg shadow-soft px-6 py-5 hover:shadow-elegant transition-shadow group"
               >
                 <span className="text-xl font-serif font-semibold text-dark-grey group-hover:text-gold transition-colors">
-                  {service.name} ({service.price})
+                  {service.name}{service.price ? ` (${service.price})` : ""}
                 </span>
                 <ChevronRight className="w-6 h-6 text-soft-grey group-hover:text-gold transition-colors" />
               </Link>
