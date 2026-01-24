@@ -43,7 +43,7 @@ const Index = () => {
               THE STAGE SARAJEVO
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-warm-white mb-8 sm:mb-10 drop-shadow-md font-light px-4">
-              Najbolji Event Prostor za Nezaboravne Trenutke
+              Back to school - Od 20 februara 20% popusta na rođendane radnim danima
             </p>
             <div className="flex flex-col gap-4 justify-center px-4">
               <Button asChild size="lg" className="bg-gold hover:bg-gold/90 text-warm-white shadow-lg w-full sm:w-auto">
