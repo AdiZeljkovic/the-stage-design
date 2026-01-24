@@ -42,9 +42,13 @@ const Index = () => {
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-warm-white mb-4 sm:mb-6 drop-shadow-lg">
               THE STAGE SARAJEVO
             </h1>
-            <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-warm-white mb-8 sm:mb-10 drop-shadow-md font-light px-4">
-              Back to school - Od 20 februara 20% popusta na rođendane radnim danima
-            </p>
+            <div className="mb-8 sm:mb-10 px-4">
+              <div className="inline-block bg-gold/90 backdrop-blur-sm rounded-full px-6 py-3 shadow-lg">
+                <p className="text-base sm:text-lg md:text-xl text-warm-white font-medium">
+                  🎒 <span className="font-bold">Back to School</span> — Od 20. februara <span className="underline decoration-2">20% popusta</span> na rođendane radnim danima
+                </p>
+              </div>
+            </div>
             <div className="flex flex-col gap-4 justify-center px-4">
               <Button asChild size="lg" className="bg-gold hover:bg-gold/90 text-warm-white shadow-lg w-full sm:w-auto">
                 <Link to="/usluge">Pogledajte usluge</Link>
