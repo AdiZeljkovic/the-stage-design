@@ -40,9 +40,12 @@ const Index = () => {
         <div className="relative h-full flex items-center justify-center px-4 sm:px-6 lg:px-8">
           <div className="text-center animate-fadeIn max-w-3xl">
             <div className="mb-6 px-4">
-              <div className="inline-block bg-gold/90 backdrop-blur-sm rounded-full px-6 py-3 shadow-lg">
-                <p className="text-base sm:text-lg md:text-xl text-warm-white font-medium">
-                  🎒 <span className="font-bold">Back to School</span> — Od 20. februara <span className="underline decoration-2">20% popusta</span> na rođendane radnim danima
+              <div className="inline-block bg-gold/90 backdrop-blur-sm rounded-2xl px-6 py-4 shadow-lg">
+                <p className="text-lg sm:text-xl md:text-2xl text-warm-white font-bold mb-1">
+                  🎒 Back to School
+                </p>
+                <p className="text-sm sm:text-base md:text-lg text-warm-white/90">
+                  Od 20. februara <span className="underline decoration-2 font-semibold">20% popusta</span> na rođendane radnim danima
                 </p>
               </div>
             </div>
