@@ -39,16 +39,16 @@ const Index = () => {
         <div className="absolute inset-0 bg-dark-grey/20" />
         <div className="relative h-full flex items-center justify-center px-4 sm:px-6 lg:px-8">
           <div className="text-center animate-fadeIn max-w-3xl">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-warm-white mb-4 sm:mb-6 drop-shadow-lg">
-              THE STAGE SARAJEVO
-            </h1>
-            <div className="mb-8 sm:mb-10 px-4">
+            <div className="mb-6 px-4">
               <div className="inline-block bg-gold/90 backdrop-blur-sm rounded-full px-6 py-3 shadow-lg">
                 <p className="text-base sm:text-lg md:text-xl text-warm-white font-medium">
                   🎒 <span className="font-bold">Back to School</span> — Od 20. februara <span className="underline decoration-2">20% popusta</span> na rođendane radnim danima
                 </p>
               </div>
             </div>
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-warm-white mb-8 sm:mb-10 drop-shadow-lg">
+              THE STAGE SARAJEVO
+            </h1>
             <div className="flex flex-col gap-4 justify-center px-4">
               <Button asChild size="lg" className="bg-gold hover:bg-gold/90 text-warm-white shadow-lg w-full sm:w-auto">
                 <Link to="/usluge">Pogledajte usluge</Link>
