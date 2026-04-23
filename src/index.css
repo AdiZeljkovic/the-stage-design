@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 30 15% 95%;
+    --foreground: 0 0% 20%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 20%;
+
+    --primary: 40 30% 62%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 100%;
+    --secondary-foreground: 0 0% 20%;
+
+    --muted: 30 15% 90%;
+    --muted-foreground: 0 0% 45%;
+
+    --accent: 40 30% 62%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 30 15% 88%;
+    --input: 30 15% 88%;
+    --ring: 40 30% 62%;
+
+    --radius: 0.5rem;
+
+    /* Custom design tokens */
+    --cream: 30 15% 95%;
+    --warm-white: 0 0% 100%;
+    --dark-grey: 0 0% 20%;
+    --soft-grey: 0 0% 29%;
+    --gold: 40 30% 62%;
+    
+    /* Gradients */
+    --gradient-subtle: linear-gradient(180deg, hsl(30 15% 95%) 0%, hsl(0 0% 100%) 100%);
+    
+    /* Shadows */
+    --shadow-elegant: 0 4px 20px -4px hsl(0 0% 0% / 0.1);
+    --shadow-soft: 0 2px 10px -2px hsl(0 0% 0% / 0.08);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer utilities {
+  .hover-scale {
+    @apply transition-transform duration-300 ease-out hover:scale-105;
+  }
+  
+  .fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+  }
+  
+  .slide-up {
+    animation: slideUp 0.6s ease-out forwards;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Performance optimizations */
+img {
+  content-visibility: auto;
+}
+
+/* Reduce CLS for images */
+img[loading="lazy"] {
+  background: linear-gradient(135deg, hsl(var(--muted)) 0%, hsl(var(--muted) / 0.5) 100%);
+}
+
+/* GPU acceleration for animations */
+.hover-scale,
+.fade-in,
+.slide-up,
+.animate-fade-in {
+  will-change: transform, opacity;
+}
+
+/* Optimize font rendering */
+body {
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,24 @@
+OG IMAGE UPUTE / INSTRUCTIONS
+==============================
+
+Za pravilno dijeljenje na društvenim mrežama (Facebook, Instagram, WhatsApp),
+molimo uploadajte sliku pod imenom "og-image.jpg" u ovaj public folder.
+
+SPECIFIKACIJE:
+- Dimenzije: 1200 x 630 piksela
+- Format: JPG ili PNG (preimenujte u .jpg)
+- Veličina: max 300KB za brže učitavanje
+- Sadržaj: Logo "The Stage Sarajevo" + kratki slogan
+
+KORACI:
+1. Kreirajte sliku 1200x630px sa vašim logom
+2. Sačuvajte kao "og-image.jpg"
+3. Uploadajte u public/ folder (zamijenite ovu datoteku)
+4. Izbrišite ovu README datoteku
+
+TESTIRANJE:
+- Facebook: https://developers.facebook.com/tools/debug/
+- LinkedIn: https://www.linkedin.com/post-inspector/
+- Twitter: https://cards-dev.twitter.com/validator
+
+NAPOMENA: Nakon uploada, očistite cache na Facebook debuggeru da vidite novu sliku.
