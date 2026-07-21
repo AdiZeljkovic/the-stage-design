@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef, DragEvent, ChangeEvent } from 'react';
 import AdminLayout from './AdminLayout';
-import { galleryApi, GalleryImage } from '@/lib/api';
+import { galleryApi, GalleryImage, resolveAssetUrl } from '@/lib/api';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -185,7 +185,7 @@ export default function AdminGallery() {
             {filtered.map((img) => (
               <div key={img.id} className="group relative aspect-square rounded-lg overflow-hidden bg-cream">
                 <img
-                  src={img.url}
+                  src={resolveAssetUrl(img.url)}
                   alt={img.alt}
                   className="w-full h-full object-cover"
                   loading="lazy"
@@ -237,7 +237,7 @@ export default function AdminGallery() {
           </DialogHeader>
           {editImage && (
             <div className="space-y-4">
-              <img src={editImage.url} alt={editImage.alt} className="w-full h-40 object-cover rounded-lg" />
+              <img src={resolveAssetUrl(editImage.url)} alt={editImage.alt} className="w-full h-40 object-cover rounded-lg" />
               <div className="space-y-2">
                 <Label className="text-dark-grey">Alt tekst (opis za SEO)</Label>
                 <Input

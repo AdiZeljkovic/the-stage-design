@@ -8,6 +8,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import ServiceSchema from "@/components/ServiceSchema";
 import StickyCTA from "@/components/StickyCTA";
 import { useServiceContent } from "@/hooks/useServiceContent";
+import { resolveAssetUrl } from "@/lib/api";
 import heroImage from "@/assets/services/rodjendani-hero.jpg";
 import makeupImage from "@/assets/services/makeup-birthday.jpg";
 import sipPaintImage from "@/assets/services/sip-paint-birthday.jpg";
@@ -43,7 +44,7 @@ const Rodjendani = () => {
       {/* Hero Section */}
       <section className="relative h-[60vh] bg-gradient-to-br from-gold/20 to-cream overflow-hidden">
         <img
-          src={svc?.hero_image_url || heroImage}
+          src={svc?.hero_image_url ? resolveAssetUrl(svc.hero_image_url) : heroImage}
           alt="Rođendani u Sarajevu - The Stage event prostor"
           className="absolute inset-0 w-full h-full object-cover"
           loading="eager"

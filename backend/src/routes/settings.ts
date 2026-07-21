@@ -28,11 +28,16 @@ router.put('/', requireAuth, (req: Request, res: Response) => {
     ON CONFLICT(key) DO UPDATE SET value = excluded.value, updated_at = CURRENT_TIMESTAMP
   `);
 
-  db.exec('BEGIN');
-  for (const [key, value] of Object.entries(updates)) {
-    if (typeof value === 'string') upsert.run(key, value);
+  try {
+    db.exec('BEGIN');
+    for (const [key, value] of Object.entries(updates)) {
+      if (typeof value === 'string') upsert.run(key, value);
+    }
+    db.exec('COMMIT');
+  } catch (e) {
+    try { db.exec('ROLLBACK'); } catch { /* no active transaction */ }
+    throw e;
   }
-  db.exec('COMMIT');
 
   const rows = db.prepare('SELECT key, value FROM site_settings').all() as {
     key: string;

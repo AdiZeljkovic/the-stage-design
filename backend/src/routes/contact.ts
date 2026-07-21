@@ -1,6 +1,7 @@
 import { Router, Request, Response } from 'express';
 import db from '../database';
 import { requireAuth } from '../middleware/auth';
+import { sendContactNotification } from '../lib/mailer';
 
 const router = Router();
 
@@ -20,6 +21,12 @@ router.post('/', (req: Request, res: Response) => {
     INSERT INTO contact_submissions (name, email, phone, service, message)
     VALUES (?, ?, ?, ?, ?)
   `).run(name, email, phone || '', service || '', message);
+
+  // Fire-and-forget: the inquiry is already saved, so a mail failure must not
+  // fail the request or make the visitor re-submit.
+  sendContactNotification({ name, email, phone, service, message }).catch((err) =>
+    console.error('Slanje email obavijesti nije uspjelo:', err?.message || err)
+  );
 
   res.status(201).json({ message: 'Upit uspješno poslan' });
 });

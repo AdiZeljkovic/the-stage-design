@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
 import { X, Image as ImageIcon } from "lucide-react";
-import { galleryApi, GalleryImage } from "@/lib/api";
+import { galleryApi, GalleryImage, resolveAssetUrl } from "@/lib/api";
 
 const CATEGORIES = ['SVE', 'ROĐENDANI', 'DJEVOJAČKE', 'EVENTI', 'PROSTOR', 'MAKEUP'];
 
@@ -95,7 +95,7 @@ const Galerija = () => {
                 >
                   <div className="rounded-lg overflow-hidden aspect-[3/4] relative">
                     <img
-                      src={image.url}
+                      src={resolveAssetUrl(image.url)}
                       alt={image.alt}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                       loading="lazy"
@@ -127,7 +127,7 @@ const Galerija = () => {
           </button>
           <div className="max-w-4xl max-h-[80vh] rounded-lg overflow-hidden mx-16">
             <img
-              src={filtered[selectedImage]?.url}
+              src={resolveAssetUrl(filtered[selectedImage]?.url)}
               alt={filtered[selectedImage]?.alt}
               className="w-full h-full object-contain"
             />

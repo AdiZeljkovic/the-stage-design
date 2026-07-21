@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import AdminLayout from './AdminLayout';
-import { servicesApi, ServiceContent, ServiceData, ServicePackage } from '@/lib/api';
+import { servicesApi, ServiceContent, ServiceData, ServicePackage, resolveAssetUrl } from '@/lib/api';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -177,7 +177,7 @@ export default function AdminServiceEditor() {
           <h3 className="font-semibold text-dark-grey text-lg">Hero slika</h3>
           {service.hero_image_url && (
             <img
-              src={service.hero_image_url}
+              src={resolveAssetUrl(service.hero_image_url)}
               alt="Hero"
               className="w-full h-40 object-cover rounded-lg"
             />

@@ -4,25 +4,21 @@ import path from 'path';
 import fs from 'fs';
 import db from '../database';
 import { requireAuth } from '../middleware/auth';
+import { processImage } from '../lib/imageProcessor';
 
 const UPLOADS_DIR = path.join(__dirname, '..', '..', 'uploads');
 
-const storage = multer.diskStorage({
-  destination: (_req, _file, cb) => cb(null, UPLOADS_DIR),
-  filename: (_req, file, cb) => {
-    const unique = `${Date.now()}-${Math.round(Math.random() * 1e6)}`;
-    cb(null, `${unique}${path.extname(file.originalname)}`);
-  },
-});
-
+// Buffer the upload in memory; sharp is the real validator (it re-encodes and
+// rejects anything that isn't a genuine image). The MIME check is only a cheap
+// early reject — it stays permissive because the client-supplied type is not
+// trustworthy and some clients send a generic octet-stream for real images.
 const upload = multer({
-  storage,
+  storage: multer.memoryStorage(),
   limits: { fileSize: 10 * 1024 * 1024 }, // 10MB
   fileFilter: (_req, file, cb) => {
-    const allowed = /jpeg|jpg|png|webp|gif/;
-    const ok = allowed.test(path.extname(file.originalname).toLowerCase()) &&
-      allowed.test(file.mimetype);
-    ok ? cb(null, true) : cb(new Error('Dozvoljen je samo upload slika'));
+    const t = file.mimetype;
+    if (/^image\//.test(t) || t === 'application/octet-stream' || !t) cb(null, true);
+    else cb(new Error('Dozvoljen je samo upload slika'));
   },
 });
 
@@ -37,19 +33,25 @@ router.get('/', (_req: Request, res: Response) => {
 });
 
 // Protected: upload image
-router.post('/upload', requireAuth, upload.single('image'), (req: Request, res: Response) => {
+router.post('/upload', requireAuth, upload.single('image'), async (req: Request, res: Response) => {
   if (!req.file) return res.status(400).json({ error: 'Slika nije uploadovana' });
 
+  let filename: string;
+  try {
+    filename = await processImage(req.file.buffer, UPLOADS_DIR);
+  } catch {
+    return res.status(400).json({ error: 'Slika nije ispravna ili je oštećena' });
+  }
+
   const { alt, category } = req.body;
-  const baseUrl = process.env.FRONTEND_URL
-    ? `http://localhost:${process.env.PORT || 3001}`
-    : 'http://localhost:3001';
-  const url = `${baseUrl}/uploads/${req.file.filename}`;
+  // Store a relative URL — the frontend resolves it against the current origin,
+  // so images work on any domain (dev, prod, or a future server migration).
+  const url = `/uploads/${filename}`;
 
   const result = db.prepare(`
     INSERT INTO gallery_images (filename, alt, category, url)
     VALUES (?, ?, ?, ?)
-  `).run(req.file.filename, alt || req.file.originalname, category || 'OSTALO', url);
+  `).run(filename, alt || req.file.originalname, category || 'OSTALO', url);
 
   const image = db.prepare('SELECT * FROM gallery_images WHERE id = ?').get(Number(result.lastInsertRowid));
   res.status(201).json(image);

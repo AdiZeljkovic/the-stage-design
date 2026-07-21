@@ -8,6 +8,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import ServiceSchema from "@/components/ServiceSchema";
 import StickyCTA from "@/components/StickyCTA";
 import { useServiceContent } from "@/hooks/useServiceContent";
+import { resolveAssetUrl } from "@/lib/api";
 import heroImage from "@/assets/services/italian-night-hero.jpg";
 
 const ItalianNight = () => {
@@ -39,7 +40,7 @@ const ItalianNight = () => {
       {/* Hero Section */}
       <section className="relative h-[60vh] bg-gradient-to-br from-gold/20 to-cream overflow-hidden">
         <img
-          src={svc?.hero_image_url || heroImage}
+          src={svc?.hero_image_url ? resolveAssetUrl(svc.hero_image_url) : heroImage}
           alt="Italian Night u Sarajevu - pasta i kokteli The Stage"
           className="absolute inset-0 w-full h-full object-cover"
           loading="eager"

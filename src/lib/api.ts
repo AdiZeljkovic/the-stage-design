@@ -1,5 +1,27 @@
 const BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
 
+// Origin that serves static assets (/uploads, /gallery-assets) — the API base
+// without the trailing "/api". e.g. https://thestage.ba/api → https://thestage.ba
+const ASSET_ORIGIN = BASE_URL.replace(/\/api\/?$/, '');
+
+/**
+ * Resolves an image URL stored in the DB to a full, loadable URL for the
+ * current environment. Handles relative paths ("/uploads/x.webp") and rewrites
+ * any legacy absolute "http://localhost:PORT/..." URLs to the current origin,
+ * so old data keeps working without a manual migration.
+ */
+export function resolveAssetUrl(url?: string | null): string {
+  if (!url) return '';
+  try {
+    // Resolve against ASSET_ORIGIN (handles relative paths), then always pin the
+    // host to ASSET_ORIGIN so stale localhost URLs are corrected too.
+    const parsed = new URL(url, ASSET_ORIGIN || window.location.origin);
+    return `${ASSET_ORIGIN}${parsed.pathname}${parsed.search}`;
+  } catch {
+    return url;
+  }
+}
+
 function getToken(): string | null {
   return localStorage.getItem('admin_token');
 }

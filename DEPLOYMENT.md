@@ -65,6 +65,10 @@ cd /var/www/the-stage/backend
 npm install
 ```
 
+> Backend koristi `sharp` (validacija + optimizacija slika u WebP), `helmet`
+> (sigurnosni HTTP headeri) i `compression` (gzip). `npm install` ih povlači
+> automatski — `sharp` ima gotove binarne fajlove za Linux, nema native kompilacije.
+
 ### Konfiguracija environment varijabli
 
 ```bash
@@ -85,6 +89,41 @@ FRONTEND_URL=https://thestage.ba
 **Generisanje JWT_SECRET:**
 ```bash
 node -e "console.log(require('crypto').randomBytes(64).toString('hex'))"
+```
+
+### Email obavijesti o upitima (kontakt forma)
+
+Kada posjetilac pošalje upit, sistem ga sprema u bazu **i** šalje email vlasnici.
+Email ima postavljen `Reply-To` na adresu klijenta — dovoljno je kliknuti
+**Odgovori** i odgovor ide direktno klijentu.
+
+Za Gmail je potrebna **App Password** (obična lozinka ne radi):
+
+1. Na Google nalogu `thestagesarajevo@gmail.com` uključi **2-Step Verification**
+   (myaccount.google.com → Security)
+2. Idi na myaccount.google.com/apppasswords
+3. Kreiraj app password (naziv npr. "The Stage web") → dobiješ 16 znakova
+4. Upiši ga u `.env` kao `SMTP_PASS` (bez razmaka)
+
+```env
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=thestagesarajevo@gmail.com
+SMTP_PASS=<16-znamenkasta app password>
+SMTP_FROM="The Stage web" <thestagesarajevo@gmail.com>
+```
+
+Primalac je email iz admin panela (Postavke → Email). Ako želiš drugu adresu,
+postavi `SMTP_TO` u `.env`.
+
+> Ako SMTP varijable nisu postavljene, forma i dalje radi normalno — upiti se
+> spremaju u bazu i vide u admin panelu, samo nema email obavijesti.
+
+**Test nakon podešavanja:**
+```bash
+curl -X POST http://localhost:3001/api/contact \
+  -H "Content-Type: application/json" \
+  -d '{"name":"Test","email":"test@example.com","message":"Probni upit"}'
 ```
 
 ### Pokretanje sa PM2
@@ -203,12 +242,22 @@ server {
         proxy_pass http://localhost:3001/uploads/;
     }
 
+    # Statičke slike galerije (seed slike iz backend/src/assets/gallery)
+    location /gallery-assets/ {
+        proxy_pass http://localhost:3001/gallery-assets/;
+    }
+
     # SPA fallback
     location / {
         try_files $uri $uri/ /index.html;
     }
 }
 ```
+
+> **VAŽNO**: `location /gallery-assets/` je obavezan — bez njega seed slike galerije
+> neće raditi. Ako backend radi na drugom portu (npr. 3003), zamijeni `3001` posvuda.
+> Na HestiaCP dodaj oba bloka (`/uploads/` i `/gallery-assets/`) u
+> `/home/<user>/conf/web/<domena>/nginx.ssl.conf_locations`.
 
 ### Aktiviraj konfiguraciju
 
@@ -298,10 +347,12 @@ cd /var/www/the-stage
 git pull origin master
 
 # Rebuild frontend
-npm run build   # ili VITE_API_URL=... npm run build
+# API URL se čita iz .env.production (VITE_API_URL). Provjeri da je ispravan
+# za tvoj nginx setup prije builda, pa:
+npm run build
 
 # Restart backend (ako se nešto promijenilo u backend/)
-cd backend && npm install  # samo ako su se promijenile dependencies
+cd backend && npm install  # obavezno nakon dodavanja sharp/helmet/compression
 pm2 restart the-stage-backend
 ```
 

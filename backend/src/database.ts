@@ -463,16 +463,30 @@ const staticImages = [
   { filename: 'space-3.jpg', alt: 'The Stage ambijent', category: 'PROSTOR' },
 ];
 
-const BASE_PORT = process.env.PORT || 3001;
 for (const img of staticImages) {
   const existing = db.prepare("SELECT id FROM gallery_images WHERE filename = ? AND source = 'static'").get(img.filename);
   if (!existing) {
-    const url = `http://localhost:${BASE_PORT}/gallery-assets/${img.filename}`;
+    // Relative URL — resolved against the current origin on the frontend.
+    const url = `/gallery-assets/${img.filename}`;
     db.prepare(
       "INSERT INTO gallery_images (filename, alt, category, url, source) VALUES (?, ?, ?, ?, 'static')"
     ).run(img.filename, img.alt, img.category, url);
   }
 }
+
+// One-time migration: rewrite any previously-seeded absolute localhost URLs to
+// relative paths so old databases display images correctly after this update.
+db.exec(`
+  UPDATE gallery_images
+  SET url = '/' || substr(url, instr(url, '/uploads/') + 1)
+  WHERE url LIKE 'http://localhost%/uploads/%';
+  UPDATE gallery_images
+  SET url = '/' || substr(url, instr(url, '/gallery-assets/') + 1)
+  WHERE url LIKE 'http://localhost%/gallery-assets/%';
+  UPDATE service_content
+  SET hero_image_url = '/' || substr(hero_image_url, instr(hero_image_url, '/uploads/') + 1)
+  WHERE hero_image_url LIKE 'http://localhost%/uploads/%';
+`);
 
 export default db;
 
