@@ -41,11 +41,11 @@ const Index = () => {
           <div className="text-center animate-fadeIn max-w-3xl">
             <div className="mb-6 px-4">
               <div className="inline-block bg-gold/90 backdrop-blur-sm rounded-2xl px-6 py-4 shadow-lg">
-                <p className="text-lg sm:text-xl md:text-2xl text-warm-white font-bold mb-1">
-                  🎒 Back to School
-                </p>
-                <p className="text-sm sm:text-base md:text-lg text-warm-white/90">
-                  U februaru <span className="underline decoration-2 font-semibold">20% popusta</span> na rođendane radnim danima
+                <p className="text-base sm:text-lg md:text-xl text-warm-white/90">
+                  Sve informacije možete dobiti na broj telefona{" "}
+                  <a href="tel:062897227" className="underline decoration-2 font-semibold whitespace-nowrap">
+                    062 897 227
+                  </a>
                 </p>
               </div>
             </div>
